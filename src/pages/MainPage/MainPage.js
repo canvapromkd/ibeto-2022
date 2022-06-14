@@ -1,9 +1,11 @@
 import React from 'react'
-
+import Landing from '../../sections/Landing/Landing'
+import About from '../../sections/About/About'
 function MainPage() {
   return (
     <div>
-        <h1>Ibeto Website!</h1>
+        <Landing/>
+        <About/>
     </div>
   )
 }
