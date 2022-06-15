@@ -1,0 +1,39 @@
+
+.container {
+    width: 100%;
+    padding-right: 20%;
+    padding-left: 33%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.heading{
+    position: relative;
+   
+    width: 80%;
+height: 20%;
+
+
+
+    color: #000000;
+    font-family: 'Space Mono';
+    font-style: normal;
+    
+    
+  
+}
+
+.rowformat{
+
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+}
+
+.phase{}
+
+.textcenter {
+    text-align: center!important;
+}
