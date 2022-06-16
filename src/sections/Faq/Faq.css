@@ -28,7 +28,7 @@
 
 }
 .accordion .accordion-item{
-   border-bottom: 1px solid #e5e5e5;
+   /* border-bottom: 1px solid #e5e5e5; */
 }
 .accordion .accordion-item button[aria-expanded='true']{
    border-bottom: 1px solid  #195AC7;
@@ -36,7 +36,7 @@
 }
 .accordion button{
    position: relative;
-   display: block;
+   display: flex;
    text-align: left;
    width: 100%;
    padding: 1em 0;
@@ -62,8 +62,9 @@
 }
 .accordion button .icon{
    display: inline-block;
-   position: absolute;
-   top:18px;
+   position: relative;
+   top:25px;
+   margin-left: auto;
    width: 22px;
    height: 22px;
    border: 1px solid;
