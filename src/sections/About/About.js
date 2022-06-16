@@ -6,7 +6,7 @@ const About = () => {
         Aos.init({ duration: 1500 });
     },[])
   return (
-    <div>
+    <div className={about.main_div}>
         <p data-aos="fade-right" className={about.title}>About</p>
         <div data-aos="fade-left" className={about.desc}>
         Lorem ipsum dolor sit amet, consectetur 
