@@ -1,17 +1,23 @@
 
 .container {
-    width: 100%;
-    padding-right: 20%;
+    width: 80%;
+    /*padding-right: 20%;
     padding-left: 33%;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: auto;*/
+    margin:0 auto;
+    margin-top: 5%;
+    
 }
 .heading{
     position: relative;
    
     width: 80%;
 height: 20%;
+text-transform: capitalize;
 
+margin:0 auto;
+margin-bottom: 12%;
 
 
     color: #000000;
@@ -24,15 +30,73 @@ height: 20%;
 
 .rowformat{
 
-    display: -webkit-flex;
+    
     display: flex;
-    -webkit-flex-direction: row;
-    flex-direction: row;
-    -webkit-justify-content: space-around;
-    justify-content: space-around;
+    
+    
+   
 }
 
-.phase{}
+.phase{
+
+    margin: 1%;
+    background: #fff;
+    border-radius: 13px;
+    padding: 3%;
+    color: #1a1a1a;
+    box-shadow: 3px 3px 10px rgb(143 129 119 / 20%);
+    transition: 2s ease-in-out;
+}
+
+.phasenumber{
+position: relative;
+width:34%;
+height:6%;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 19.1277px;
+line-height: 23px;
+font-variant: small-caps;
+border-radius: 12%;
+
+color: #28A4E8;
+background-color: lightblue;
+
+
+}
+
+.phasetitle{
+    position: relative;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 43px;
+margin-top: 56%;
+margin-bottom: 14%;
+
+
+letter-spacing: 2px;
+font-variant: small-caps;
+
+color: #000000;
+}
+
+.eventcontent{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 15px;
+line-height: 133.52%;
+text-align: center;
+/* or 20px */
+
+letter-spacing: 0.5px;
+font-variant: small-caps;
+
+color: rgba(0, 0, 0, 0.9);
+}
 
 .textcenter {
     text-align: center!important;
