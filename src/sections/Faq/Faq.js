@@ -16,7 +16,7 @@ export default function Faq() {
     <div className="faq__maindiv">
       <div className="faqtitle" data-aos="fade-up">FAQ</div>
       <div className="accordion-content">
-      <Accordion data-aos="fade-up" data-aos-delay='50'>
+      <Accordion>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
@@ -31,7 +31,7 @@ export default function Faq() {
           </Typography>
         </AccordionDetails>
       </Accordion >
-      <Accordion data-aos="fade-up" data-aos-delay='100'>
+      <Accordion  >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
