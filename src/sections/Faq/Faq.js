@@ -14,11 +14,11 @@ export default function Faq() {
    },[])
   return (
     <div className="faq__maindiv">
-      <div className="faqtitle" data-aos="fade-up">FAQ</div>
+      <div className="faqtitle" data-aos="fade-right">FAQ</div>
       <div className="accordion-content" data-aos="fade-up">
       <Accordion data-aos="fade-up" sx={{marginTop:"2%",border:null}}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -37,7 +37,7 @@ export default function Faq() {
       </Accordion >
       <Accordion data-aos="fade-up" sx={{marginTop:"2%",border:null}} >
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
@@ -58,7 +58,7 @@ export default function Faq() {
       </Accordion>
       <Accordion data-aos="fade-up" sx={{marginTop:"2%",border:null}}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -79,7 +79,7 @@ export default function Faq() {
       </Accordion >
       <Accordion data-aos="fade-up" sx={{marginTop:"2%",border:null}}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -99,7 +99,7 @@ export default function Faq() {
       </Accordion >
       <Accordion data-aos="fade-up" sx={{marginTop:"2%",border:null}}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
@@ -117,9 +117,9 @@ export default function Faq() {
           </Typography>
         </AccordionDetails>
       </Accordion >
-      <Accordion data-aos="fade-up" sx={{marginTop:"2%",border:null}}>
+      <Accordion data-aos="fade-up" sx={{marginTop:"2%",}}>
         <AccordionSummary
-          expandIcon={<ExpandMoreIcon />}
+          expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
