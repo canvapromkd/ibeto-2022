@@ -16,13 +16,17 @@ export default function Faq() {
     <div className="faq__maindiv">
       <div className="faqtitle" data-aos="fade-up">FAQ</div>
       <div className="accordion-content" data-aos="fade-up">
-      <Accordion sx={{marginTop:"2%",border:null}}>
+      <Accordion data-aos="fade-up" sx={{marginTop:"2%",border:null}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Accordion 1</Typography>
+          <Typography sx={{
+            color:"#195AC7",
+            fontStyle:"Poppins",
+            fontSize:"130%"
+          }}>1.   Lorem ipsum dolor sit amet, consectetur ?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -31,13 +35,19 @@ export default function Faq() {
           </Typography>
         </AccordionDetails>
       </Accordion >
-      <Accordion sx={{marginTop:"2%",border:null}} >
+      <Accordion data-aos="fade-up" sx={{marginTop:"2%",border:null}} >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>Accordion 2</Typography>
+          <Typography
+          sx={{
+            color:"#195AC7",
+            fontStyle:"Poppins",
+            fontSize:"130%"
+          }}
+          >2.   Lorem ipsum dolor sit amet ?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -46,13 +56,19 @@ export default function Faq() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion sx={{marginTop:"2%",border:null}}>
+      <Accordion data-aos="fade-up" sx={{marginTop:"2%",border:null}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Accordion 1</Typography>
+          <Typography 
+          sx={{
+            color:"#195AC7",
+            fontStyle:"Poppins",
+            fontSize:"130%"
+          }}
+          >3.   Lorem ipsum consectetur ?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -61,13 +77,18 @@ export default function Faq() {
           </Typography>
         </AccordionDetails>
       </Accordion >
-      <Accordion sx={{marginTop:"2%",border:null}}>
+      <Accordion data-aos="fade-up" sx={{marginTop:"2%",border:null}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Accordion 1</Typography>
+          <Typography
+          sx={{
+            color:"#195AC7",
+            fontStyle:"Poppins",
+            fontSize:"130%"
+          }}>4.   Lorem ipsum consectetur ?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -76,13 +97,18 @@ export default function Faq() {
           </Typography>
         </AccordionDetails>
       </Accordion >
-      <Accordion sx={{marginTop:"2%",border:null}}>
+      <Accordion data-aos="fade-up" sx={{marginTop:"2%",border:null}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Accordion 1</Typography>
+          <Typography
+          sx={{
+            color:"#195AC7",
+            fontStyle:"Poppins",
+            fontSize:"130%"
+          }}>5.   Lorem ipsum dolor sit amet, consectetur ?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
@@ -91,13 +117,17 @@ export default function Faq() {
           </Typography>
         </AccordionDetails>
       </Accordion >
-      <Accordion sx={{marginTop:"2%",border:null}}>
+      <Accordion data-aos="fade-up" sx={{marginTop:"2%",border:null}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Accordion 1</Typography>
+          <Typography sx={{
+            color:"#195AC7",
+            fontStyle:"Poppins",
+            fontSize:"130%"
+          }}>6.   Lorem ipsum dolor sit amet, cour ?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
