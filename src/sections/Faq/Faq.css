@@ -13,3 +13,18 @@
 .faq__maindiv{
     margin-top: 5%;
 }
+.accordionQue{
+    /* color:"#195AC7",
+    
+    fontSize:"130%" */
+    color: #195AC7;
+    font-family:"Poppins" ;
+    font-size: 130%;
+
+}
+.accordionAns{
+    color: #195AC7;
+    font-family:"Blender Pro" ;
+    font-size: 100%;
+   margin-left: 3%;
+}

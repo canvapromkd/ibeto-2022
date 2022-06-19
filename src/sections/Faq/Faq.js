@@ -22,17 +22,16 @@ export default function Faq() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography sx={{
+          {/* <Typography sx={{
             color:"#195AC7",
             fontStyle:"Poppins",
             fontSize:"130%"
-          }}>1.   Lorem ipsum dolor sit amet, consectetur ?</Typography>
+          }}>1.   Lorem ipsum dolor sit amet, consectetur ?</Typography> */}
+          <h1 className='accordionQue'>1.   Lorem ipsum dolor sit amet, consectetur ?</h1>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
+        <h1 className='accordionAns'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.</h1>
         </AccordionDetails>
       </Accordion >
       <Accordion  sx={{marginTop:"2%",border:null}} >
@@ -41,19 +40,11 @@ export default function Faq() {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography
-          sx={{
-            color:"#195AC7",
-            fontStyle:"Poppins",
-            fontSize:"130%"
-          }}
-          >2.   Lorem ipsum dolor sit amet ?</Typography>
+          <h1 className='accordionQue'>1.   Lorem ipsum dolor sit amet, consectetur ?</h1>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
+        <h1 className='accordionAns'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.</h1>
         </AccordionDetails>
       </Accordion>
       <Accordion  sx={{marginTop:"2%",border:null}}>
@@ -62,19 +53,11 @@ export default function Faq() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography 
-          sx={{
-            color:"#195AC7",
-            fontStyle:"Poppins",
-            fontSize:"130%"
-          }}
-          >3.   Lorem ipsum consectetur ?</Typography>
+          <h1 className='accordionQue'>1.   Lorem ipsum dolor sit amet, consectetur ?</h1>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
+        <h1 className='accordionAns'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.</h1>
         </AccordionDetails>
       </Accordion >
       <Accordion  sx={{marginTop:"2%",border:null}}>
@@ -83,18 +66,12 @@ export default function Faq() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography
-          sx={{
-            color:"#195AC7",
-            fontStyle:"Poppins",
-            fontSize:"130%"
-          }}>4.   Lorem ipsum consectetur ?</Typography>
+          <h1 className='accordionQue'>1.   Lorem ipsum dolor sit amet, consectetur ?</h1>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
+          
+          <h1 className='accordionAns'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.</h1>
         </AccordionDetails>
       </Accordion >
       <Accordion  sx={{marginTop:"2%",border:null}}>
@@ -103,18 +80,11 @@ export default function Faq() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography
-          sx={{
-            color:"#195AC7",
-            fontStyle:"Poppins",
-            fontSize:"130%"
-          }}>5.   Lorem ipsum dolor sit amet, consectetur ?</Typography>
+          <h1 className='accordionQue'>1.   Lorem ipsum dolor sit amet, consectetur ?</h1>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
+        <h1 className='accordionAns'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.</h1>
         </AccordionDetails>
       </Accordion >
       <Accordion  sx={{marginTop:"2%",}}>
@@ -123,17 +93,11 @@ export default function Faq() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography sx={{
-            color:"#195AC7",
-            fontStyle:"Poppins",
-            fontSize:"130%"
-          }}>6.   Lorem ipsum dolor sit amet, cour ?</Typography>
+         <h1 className='accordionQue'>1.   Lorem ipsum dolor sit amet, consectetur ?</h1>
         </AccordionSummary>
         <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
-          </Typography>
+        <h1 className='accordionAns'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.</h1>
         </AccordionDetails>
       </Accordion >
      
