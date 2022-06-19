@@ -19,7 +19,7 @@ const Landing = () => {
         height={400}
         marginLeft={12}
         marginTop={12}
-        width={700}
+        width={400}
       />
     </div>
   )
