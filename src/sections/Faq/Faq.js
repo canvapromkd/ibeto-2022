@@ -80,7 +80,7 @@ export default function Faq() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <h1 className='accordionQue'>1.   Lorem ipsum dolor sit amet, consectetur ?</h1>
+          <h1 className='accordionQue'>5.   Lorem ipsum dolor sit amet, consectetur ?</h1>
         </AccordionSummary>
         <AccordionDetails>
         <h1 className='accordionAns'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -93,7 +93,7 @@ export default function Faq() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-         <h1 className='accordionQue'>1.   Lorem ipsum dolor sit amet, consectetur ?</h1>
+         <h1 className='accordionQue'>6.   Lorem ipsum dolor sit amet, consectetur ?</h1>
         </AccordionSummary>
         <AccordionDetails>
         <h1 className='accordionAns'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
