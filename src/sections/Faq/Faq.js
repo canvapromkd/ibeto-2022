@@ -16,7 +16,7 @@ export default function Faq() {
     <div className="faq__maindiv">
       <div className="faqtitle" data-aos="fade-right">FAQ</div>
       <div className="accordion-content" data-aos="fade-up">
-      <Accordion data-aos="fade-up" sx={{marginTop:"2%",border:null}}>
+      <Accordion  sx={{marginTop:"2%",border:null}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
@@ -35,7 +35,7 @@ export default function Faq() {
           </Typography>
         </AccordionDetails>
       </Accordion >
-      <Accordion data-aos="fade-up" sx={{marginTop:"2%",border:null}} >
+      <Accordion  sx={{marginTop:"2%",border:null}} >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel2a-content"
@@ -56,7 +56,7 @@ export default function Faq() {
           </Typography>
         </AccordionDetails>
       </Accordion>
-      <Accordion data-aos="fade-up" sx={{marginTop:"2%",border:null}}>
+      <Accordion  sx={{marginTop:"2%",border:null}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
@@ -77,7 +77,7 @@ export default function Faq() {
           </Typography>
         </AccordionDetails>
       </Accordion >
-      <Accordion data-aos="fade-up" sx={{marginTop:"2%",border:null}}>
+      <Accordion  sx={{marginTop:"2%",border:null}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
@@ -97,7 +97,7 @@ export default function Faq() {
           </Typography>
         </AccordionDetails>
       </Accordion >
-      <Accordion data-aos="fade-up" sx={{marginTop:"2%",border:null}}>
+      <Accordion  sx={{marginTop:"2%",border:null}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
@@ -117,7 +117,7 @@ export default function Faq() {
           </Typography>
         </AccordionDetails>
       </Accordion >
-      <Accordion data-aos="fade-up" sx={{marginTop:"2%",}}>
+      <Accordion  sx={{marginTop:"2%",}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
