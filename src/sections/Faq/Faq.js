@@ -15,8 +15,8 @@ export default function Faq() {
   return (
     <div className="faq__maindiv">
       <div className="faqtitle" data-aos="fade-right">FAQ</div>
-      <div className="accordion-content" data-aos="fade-up">
-      <Accordion  sx={{marginTop:"2%",border:null}}>
+      <div className="accordion-content" data-aos="fade-left">
+      <Accordion sx={{marginTop:"2%",border:null}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
@@ -34,13 +34,13 @@ export default function Faq() {
             malesuada lacus ex, sit amet blandit leo lobortis eget.</h1>
         </AccordionDetails>
       </Accordion >
-      <Accordion  sx={{marginTop:"2%",border:null}} >
+      <Accordion   sx={{marginTop:"2%",border:null}} >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <h1 className='accordionQue'>1.   Lorem ipsum dolor sit amet, consectetur ?</h1>
+          <h1 className='accordionQue'>2.   Lorem ipsum dolor sit amet, consectetur ?</h1>
         </AccordionSummary>
         <AccordionDetails>
         <h1 className='accordionAns'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -53,7 +53,7 @@ export default function Faq() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <h1 className='accordionQue'>1.   Lorem ipsum dolor sit amet, consectetur ?</h1>
+          <h1 className='accordionQue'>3.   Lorem ipsum dolor sit amet, consectetur ?</h1>
         </AccordionSummary>
         <AccordionDetails>
         <h1 className='accordionAns'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -66,7 +66,7 @@ export default function Faq() {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <h1 className='accordionQue'>1.   Lorem ipsum dolor sit amet, consectetur ?</h1>
+          <h1 className='accordionQue'>4.   Lorem ipsum dolor sit amet, consectetur ?</h1>
         </AccordionSummary>
         <AccordionDetails>
           
