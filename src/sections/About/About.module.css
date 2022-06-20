@@ -1,5 +1,7 @@
 /* DESKTOP */
-
+.main_div{
+    margin-top: -7%;
+}
 .title{
     width: 154px;
     height: 74px;
@@ -29,6 +31,8 @@
     background-color: #59BA89;
     width: 364px;
     height: 65px;
+    color: #FFFF;
+    padding:2%;
     position: relative;
     margin-top: 2%;
     border-radius: 10px;
@@ -40,3 +44,17 @@
 
 
 /* MOBILE */
+@media only screen and (max-width: 600px) {
+    .desc{
+        width: 90%;
+        display: flex;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 39px;
+        position: relative;
+        text-align: center;
+        margin: 0 auto;    
+    }
+}

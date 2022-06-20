@@ -1,0 +1,39 @@
+.faqtitle{
+    width: 154px;
+    height: 74px;
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 74px;
+    text-transform: capitalize;
+}
+.accordion-contebt{
+    /* margin-top: 12%; */
+    margin: 0 auto;
+    /* width: 50%; */
+}
+.faq__maindiv{
+    margin-top: 5%;
+    /* background-color: #195AC7; */
+    /* width: 80%; */
+    margin-left: 12%;
+    /* display: flex; */
+}
+.accordionQue{
+    /* color:"#195AC7",
+    
+    fontSize:"130%" */
+    color: #195AC7;
+    font-family:"Poppins" ;
+    font-size: 22px;
+
+}
+.accordionAns{
+    color: #195AC7;
+    font-family:"Blender Pro" ;
+    font-size: 18px;
+   margin-left: 3%;
+}
