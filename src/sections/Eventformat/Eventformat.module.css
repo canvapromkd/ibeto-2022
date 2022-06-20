@@ -32,6 +32,9 @@ margin-bottom: 12%;
 
     
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
     
     
    
@@ -50,7 +53,7 @@ margin-bottom: 12%;
 
 .phasenumber{
 position: relative;
-width:34%;
+width: 26%;
 height:6%;
     font-family: 'Montserrat';
 font-style: normal;
@@ -100,4 +103,27 @@ color: rgba(0, 0, 0, 0.9);
 
 .textcenter {
     text-align: center!important;
+}
+
+
+@media (min-device-width: 800px) and (max-device-width: 1800px) {
+.rowformat {
+    margin-left: 5%;
+    margin-right: 5%;
+    
+    
+}
+}
+
+@media (min-device-width: 20px) and (max-device-width: 500px){
+.phase {
+    margin: 5% 12%;
+    padding: 5%;
+}
+}
+
+@media (min-device-width: 501px) and (max-device-width: 800px){
+.phase {
+    margin: 5% 5% 4%;
+}
 }
