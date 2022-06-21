@@ -11,21 +11,21 @@
 }
 .heading{
     position: relative;
-   
     width: 80%;
-height: 20%;
-text-transform: capitalize;
-
-margin:0 auto;
-margin-bottom: 12%;
-
-
+    height: 20%;
+    text-transform: capitalize;
+    font-size: 50;
+    margin:0 auto;
+    margin-bottom: 12%;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 74px;
+    text-transform: capitalize;
     color: #000000;
     font-family: 'Space Mono';
     font-style: normal;
-    
-    
-  
 }
 
 .rowformat{
@@ -119,6 +119,7 @@ color: rgba(0, 0, 0, 0.9);
 .phase {
     margin: 5% 12%;
     padding: 5%;
+    /* width: 12%; */
 }
 }
 

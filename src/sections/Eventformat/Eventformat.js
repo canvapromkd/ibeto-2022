@@ -1,13 +1,13 @@
 import React, {useEffect} from 'react'
 import EventformatCSS from './Eventformat.module.css'
 import AOS from 'aos'
-import {Col} from 'react-bootstrap'
+// import {Col} from 'react-bootstrap'
 
 
 function Eventformat() {
 
     useEffect(() => {
-        AOS.init({ duration: 500 });
+        AOS.init({ duration: 1500 });
       }, []);
 
   return (
