@@ -1,10 +1,28 @@
 import React, {useEffect} from 'react'
 import EventformatCSS from './Eventformat.module.css'
 import AOS from 'aos'
-// import {Col} from 'react-bootstrap'
-
+import Lottie from 'react-lottie';
+import ideateAnimation from '../../animations/ideate.json'
+import createAnimation from '../../animations/create.json'
 
 function Eventformat() {
+  const ideateOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: ideateAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
+  const createOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: createAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
 
     useEffect(() => {
         AOS.init({ duration: 1500 });
@@ -21,11 +39,16 @@ function Eventformat() {
       
         <div data-aos="fade-in" className={`col-md-4 col-sm-12 ${EventformatCSS.phase}`} >
         <div className={EventformatCSS.phasenumber}>Phase 1</div>
-          <img
+          {/* <img
             className="event-format-img img-fluid"
             src=""
             width="200"
             alt=""
+          /> */}
+          <Lottie
+          options={ideateOptions}
+          width={150}
+          height={150}
           />
          
           <h3 className={`${EventformatCSS.phasetitle} ${EventformatCSS.textcenter}`}>Ideate</h3>
@@ -47,11 +70,10 @@ function Eventformat() {
 
           <div className={EventformatCSS.phasenumber}>Phase 2</div>
         
-          <img
-            className="event-format-img img-fluid"
-            src=""
-            width="250"
-            alt=""
+          <Lottie
+          options={createOptions}
+          width={150}
+          height={150}
           />
           
           <h3 className={`${EventformatCSS.phasetitle} ${EventformatCSS.textcenter}`}>Create</h3>
