@@ -15,8 +15,8 @@ export default function Faq() {
   return (
     <div className="faq__maindiv">
       <div className="faqtitle" data-aos="fade-right">FAQ</div>
-      <div  data-aos="fade-left">
-      <Accordion sx={{marginTop:"2%",border:null,width:"80%",marginLeft:"8%",}}>
+      <div  data-aos="fade-left" className='accordion-container'>
+      <Accordion >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
@@ -25,11 +25,14 @@ export default function Faq() {
           <h1 className='accordionQue'>1.   Lorem ipsum dolor sit amet, consectetur ?</h1>
         </AccordionSummary>
         <AccordionDetails >
-        <h1 className='accordionAns'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.</h1>
+        {/* <h1 className='accordionAns'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.</h1> */}
+            <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.</Typography>
         </AccordionDetails>
       </Accordion >
-      <Accordion  sx={{marginTop:"2%",border:null,width:"80%",marginLeft:"8%"}}>
+      <br />
+      <Accordion  >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel2a-content"
@@ -42,7 +45,8 @@ export default function Faq() {
             malesuada lacus ex, sit amet blandit leo lobortis eget.</h1>
         </AccordionDetails>
       </Accordion>
-      <Accordion sx={{marginTop:"2%",border:null,width:"80%",marginLeft:"8%"}}>
+      <br />
+      <Accordion >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
@@ -55,7 +59,8 @@ export default function Faq() {
             malesuada lacus ex, sit amet blandit leo lobortis eget.</h1>
         </AccordionDetails>
       </Accordion >
-      <Accordion sx={{marginTop:"2%",border:null,width:"80%",marginLeft:"8%"}}>
+      <br />
+      <Accordion >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
@@ -69,7 +74,8 @@ export default function Faq() {
             malesuada lacus ex, sit amet blandit leo lobortis eget.</h1>
         </AccordionDetails>
       </Accordion >
-      <Accordion  sx={{marginTop:"2%",border:null,width:"80%",marginLeft:"8%"}}>
+      <br />
+      <Accordion  >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
@@ -82,7 +88,8 @@ export default function Faq() {
             malesuada lacus ex, sit amet blandit leo lobortis eget.</h1>
         </AccordionDetails>
       </Accordion >
-      <Accordion  sx={{marginTop:"2%",border:null,width:"80%",marginLeft:"8%"}}>
+      <br />
+      <Accordion  >
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
