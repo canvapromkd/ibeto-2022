@@ -26,6 +26,14 @@ export default function Faq() {
         >
           <h1 className='accordionQue'>1.Lorem ipsum dolor sit amet, consectetur ?</h1>
         </AccordionSummary>
+        {/* <AccordionSummary
+                  expandIcon={expanded === `${faq.id}` ? <FiMinus className='acc_icon  bg-acc' /> : <FiPlus className='acc_icon' />}
+                  aria-controls={`panel${faq.id}bh-content`}
+                  id={`panel${faq.id}bh-header`}
+                  sx={{
+                    padding: 0,
+                  }}
+                ><h1 className='accordionQue'>1.Lorem ipsum dolor sit amet, consectetur ?</h1></AccordionSummary> */}
         <AccordionDetails >
         <h1 className='accordionAns'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
             malesuada lacus ex, sit amet blandit leo lobortis eget.</h1>
