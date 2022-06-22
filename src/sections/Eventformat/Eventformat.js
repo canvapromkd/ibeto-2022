@@ -4,7 +4,7 @@ import AOS from 'aos'
 import Lottie from 'react-lottie';
 import ideateAnimation from '../../animations/ideate.json'
 import createAnimation from '../../animations/create.json'
-
+import '../commonStyles.css'
 function Eventformat() {
   const ideateOptions = {
     loop: true,
@@ -32,6 +32,7 @@ function Eventformat() {
     <div className={EventformatCSS.container}>
 
       <h2 className={`${EventformatCSS.heading} ${EventformatCSS.textcenter}`}>Event Format</h2>
+      {/* <h2 className='sectionTitle'>Event Format</h2> */}
 
       <div className={EventformatCSS.rowformat}>
 
