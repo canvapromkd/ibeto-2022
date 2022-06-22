@@ -13,6 +13,7 @@
 .accordion-container{
      width:80%;
      margin: 0 auto;
+     /* display: flex; */
      margin-top: 6%;
      /* margin-top: 12% */
     
@@ -26,7 +27,9 @@
     margin-top: 5%;
     /* background-color: #195AC7; */
     /* width: 80%; */
-    margin-left: 5%;
+    /* margin-left: 5%; */
+    margin: 0 auto;
+    /* display: flex; */
     /* display: flex; */
 }
 .accordionQue{
