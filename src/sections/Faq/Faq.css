@@ -13,6 +13,7 @@
 .accordion-container{
      width:80%;
      margin: 0 auto;
+     margin-top: 6%;
      /* margin-top: 12% */
     
 }
@@ -46,10 +47,9 @@
 
 @media only screen and (max-width: 600px) {
    .accordion-container{
-   width: 108%;
-     /* height: 12%; */
-    margin-left: -8%;
-    /* display: flex; */
+   width: 95%;
+    
    }
    
 }
+

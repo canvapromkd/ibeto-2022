@@ -6,7 +6,7 @@
     margin-right: auto;
     margin-left: auto;*/
     margin:0 auto;
-    margin-top: 5%;
+    margin-top: 6%;
     
 }
 .heading{
@@ -121,10 +121,20 @@ color: rgba(0, 0, 0, 0.9);
     padding: 5%;
     /* width: 12%; */
 }
+.rowformat{
+    margin-top: 35%;
+}
+.heading{
+    width: 12%;
+    font-size: 200;
+}
 }
 
 @media (min-device-width: 501px) and (max-device-width: 800px){
 .phase {
     margin: 5% 5% 4%;
+}
+.rowformat{
+    margin-top: 35%;
 }
 }

@@ -16,23 +16,26 @@ export default function Faq() {
     <div className="faq__maindiv">
       <div className="faqtitle" data-aos="fade-right">FAQ</div>
       <div  data-aos="fade-left" className='accordion-container'>
-      <Accordion >
+
+        <div className="singleAccordion">
+        <Accordion sx={{boxShadow:"none"}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <h1 className='accordionQue'>1.   Lorem ipsum dolor sit amet, consectetur ?</h1>
+          <h1 className='accordionQue'>1.Lorem ipsum dolor sit amet, consectetur ?</h1>
         </AccordionSummary>
         <AccordionDetails >
-        {/* <h1 className='accordionAns'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.</h1> */}
-            <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.</Typography>
+        <h1 className='accordionAns'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.</h1>
+            {/* <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+            malesuada lacus ex, sit amet blandit leo lobortis eget.</Typography> */}
         </AccordionDetails>
       </Accordion >
+      </div>
       <br />
-      <Accordion  >
+      <Accordion  sx={{boxShadow:"none"}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel2a-content"
@@ -46,7 +49,7 @@ export default function Faq() {
         </AccordionDetails>
       </Accordion>
       <br />
-      <Accordion >
+      <Accordion sx={{boxShadow:"none"}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
@@ -59,8 +62,10 @@ export default function Faq() {
             malesuada lacus ex, sit amet blandit leo lobortis eget.</h1>
         </AccordionDetails>
       </Accordion >
+        
+      
       <br />
-      <Accordion >
+      <Accordion sx={{boxShadow:"none"}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
@@ -75,7 +80,7 @@ export default function Faq() {
         </AccordionDetails>
       </Accordion >
       <br />
-      <Accordion  >
+      <Accordion  sx={{boxShadow:"none"}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
@@ -89,7 +94,7 @@ export default function Faq() {
         </AccordionDetails>
       </Accordion >
       <br />
-      <Accordion  >
+      <Accordion  sx={{boxShadow:"none"}}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon sx={{color:"#195AC7"}} />}
           aria-controls="panel1a-content"
@@ -108,3 +113,5 @@ export default function Faq() {
     </div>
   );
 }
+
+
