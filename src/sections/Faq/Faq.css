@@ -47,5 +47,8 @@
         font-size: 245%;
         font-weight: 700;
     }
+    .accordion-container{
+        line-height: 7%;
+    }
 }
 
