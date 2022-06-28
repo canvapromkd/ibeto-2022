@@ -8,7 +8,8 @@ const About = () => {
     },[])
   return (
     <div className={about.main_div}>
-        <p data-aos="fade-right" className="sectionTitle">About</p>
+        <p data-aos="fade-right" className={about.title}>About</p>
+        {/* <p data-aos="fade-right" className="sectionTitle">About</p> */}
         <div data-aos="fade-left" className={about.desc}>
         Lorem ipsum dolor sit amet, consectetur 
 adipiscing elit. Arcu suspendisse nisi commodo, posuere quis cras natoque. At est ultricies vestibulum porttitor at magna mi volutpat dis. Pretium ornare cras rhoncus, feugiat nisi nec. Semper eget elementum venenatis faucibus. Id sit morbi senectus sed turpis ut. Turpis sollicitudin pellentesque sem feugiat sed.
