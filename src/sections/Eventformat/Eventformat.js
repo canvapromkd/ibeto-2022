@@ -32,7 +32,7 @@ function Eventformat() {
     <div className={EventformatCSS.container}>
 
       <h2 className={`${EventformatCSS.heading} ${EventformatCSS.textcenter}`}>Event Format</h2>
-      {/* <h2 className='sectionTitle'>Event Format</h2> */}
+      
 
       <div className={EventformatCSS.rowformat}>
 
