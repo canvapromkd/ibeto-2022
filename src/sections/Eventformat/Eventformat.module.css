@@ -48,7 +48,8 @@
 
 .phasenumber{
 position: relative;
-width: 26%;
+width: fit-content;
+display: flex;
 height:6%;
     font-family: 'Montserrat';
 font-style: normal;
