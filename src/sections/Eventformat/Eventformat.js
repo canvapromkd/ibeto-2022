@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import EventformatCSS from './Eventformat.module.css'
-import AOS from 'aos'
+import Aos from 'aos'
 import Lottie from 'react-lottie';
 import ideateAnimation from '../../animations/ideate.json'
 import createAnimation from '../../animations/create.json'
@@ -35,20 +35,20 @@ function Eventformat() {
   };
 
     useEffect(() => {
-        AOS.init({ duration: 1500 });
+        Aos.init({ duration: 1500 });
       }, []);
 
   return (
     <div className={EventformatCSS.container}>
 
-      <h2 className={`${EventformatCSS.heading} ${EventformatCSS.textcenter}`}>Event Format</h2>
+      <h2 data-aos="fade-right" className={`${EventformatCSS.heading} ${EventformatCSS.textcenter}`}>Event Format</h2>
       
 
-      <div className={EventformatCSS.rowformat}>
+      <div data-aos="fade-left" className={EventformatCSS.rowformat}>
 
 
       
-        <div data-aos="fade-in" className={`col-md-4 col-sm-12 ${EventformatCSS.phase}`} >
+        <div data-aos="fade-in" data-aos-delay='200' className={`col-md-4 col-sm-12 ${EventformatCSS.phase}`} >
         <div className={EventformatCSS.phasenumber}>Phase 1</div>
           
           <Lottie
@@ -93,7 +93,7 @@ function Eventformat() {
         
         <div
           data-aos="fade-in"
-          data-aos-delay="500"
+          data-aos-delay="300"
           className={`col-md-4 col-sm-12 ${EventformatCSS.phase}`}
         >
         <div className={EventformatCSS.phasenumber}>Phase 3</div>
