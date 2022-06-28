@@ -40,12 +40,7 @@ function Eventformat() {
       
         <div data-aos="fade-in" className={`col-md-4 col-sm-12 ${EventformatCSS.phase}`} >
         <div className={EventformatCSS.phasenumber}>Phase 1</div>
-          {/* <img
-            className="event-format-img img-fluid"
-            src=""
-            width="200"
-            alt=""
-          /> */}
+          
           <Lottie
           options={ideateOptions}
           width={150}
