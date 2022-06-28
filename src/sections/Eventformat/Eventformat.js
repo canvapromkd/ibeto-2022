@@ -4,12 +4,22 @@ import AOS from 'aos'
 import Lottie from 'react-lottie';
 import ideateAnimation from '../../animations/ideate.json'
 import createAnimation from '../../animations/create.json'
+import showcaseAnimation from '../../animations/showcase.json'
 import '../commonStyles.css'
 function Eventformat() {
   const ideateOptions = {
     loop: true,
     autoplay: true,
     animationData: ideateAnimation,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
+  const showcaseOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: showcaseAnimation,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice"
     }
@@ -87,11 +97,10 @@ function Eventformat() {
           className={`col-md-4 col-sm-12 ${EventformatCSS.phase}`}
         >
         <div className={EventformatCSS.phasenumber}>Phase 3</div>
-          <img
-            className="event-format-img img-fluid"
-            src=""
-            width="250"
-            alt=""
+        <Lottie
+          options={showcaseOptions}
+          width={150}
+          height={150}
           />
           
           <h3 className={`${EventformatCSS.phasetitle} ${EventformatCSS.textcenter}`}>Showcase</h3>
