@@ -75,6 +75,7 @@ export default function Faq() {
         </AccordionDetails>
       </Accordion >
       <br />
+      <div className={faq.line}></div>
         </div>
       )
      })}
@@ -87,5 +88,4 @@ export default function Faq() {
     </div>
   );
 }
-
 

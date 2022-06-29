@@ -30,15 +30,25 @@
 }
 .accordionQue{
     color: #195AC7;
-    font-family:"Poppins" ;
+    font-family:"montserrat" ;
     font-size: 22px;
+    font-weight: 400;
 
+}
+.line{
+    position: absolute;
+    width: 1099px;
+    height: 0px;
+    left: 417.5px;
+    top: 439.91px;
+    
+    border: 1px solid rgba(25, 90, 199, 0.2);
+    transform: rotate(0.05deg);
 }
 .accordionAns{
     color: #195AC7;
     font-family:"Blender Pro" ;
-    font-size: 18px;
-   margin-left: 3%;
+   font-size: 18px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -58,10 +68,12 @@
     }
 
     .accordionQue{
-        font-size: 1rem;
+        font-size: 16px;
+        font-weight: 400;
     }
     .accordionAns{
-        font-size: 0.8rem;
+        font-size: 14px;
+        margin-left: 3%;
+        font-weight: 400;
     }
 }
-
