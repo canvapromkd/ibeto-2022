@@ -18,3 +18,12 @@
     font-family: 'Space Mono';
     font-style: normal;
 }
+
+/* Mobile View */
+
+@media (min-device-width: 20px) and (max-device-width: 500px) {
+   .title{
+    font-size: 245%;
+    font-weight: 700;
+   } 
+}

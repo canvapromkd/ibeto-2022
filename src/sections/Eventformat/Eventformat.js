@@ -41,7 +41,7 @@ function Eventformat() {
   return (
     <div className={EventformatCSS.container}>
 
-      <h2 data-aos="fade-right" className={`${EventformatCSS.heading} ${EventformatCSS.textcenter}`}>Event Format</h2>
+      <h2 data-aos="fade-right" className={`${EventformatCSS.heading}`}>Event Format</h2>
       
 
       <div data-aos="fade-left" className={EventformatCSS.rowformat}>
