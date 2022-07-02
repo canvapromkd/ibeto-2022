@@ -1,15 +1,79 @@
 .faqtitle{
-    width: 154px;
-    height: 74px;
     position: relative;
-    margin: 0 auto;
+    text-transform: capitalize;
+    font-size: 50;
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 700;
     font-size: 50px;
     line-height: 74px;
     text-transform: capitalize;
+    color: #000000;
+    font-family: 'Space Mono';
+    font-style: normal;
+}
+.accordion-container{
+     width:80%;
+     margin-top: 6%;
+     
+}
+.accordion-contebt{
+   
+    align-items: center;
 }
 .faq__maindiv{
-    margin-top: 5%;
+    margin-top: 6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.accordionQue{
+    color: #195AC7;
+    font-family:"montserrat" ;
+    font-size: 22px;
+    font-weight: 400;
+
+}
+.line{
+    position: absolute;
+    width: 1099px;
+    height: 0px;
+    left: 417.5px;
+    top: 439.91px;
+    
+    border: 1px solid rgba(25, 90, 199, 0.2);
+    transform: rotate(0.05deg);
+}
+.accordionAns{
+    color: #195AC7;
+    font-family:"Blender Pro" ;
+   font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+   .accordion-container{
+   width: 95%;
+    
+   }
+   
+}
+@media (min-device-width: 20px) and (max-device-width: 500px){
+    .faqtitle{
+        font-size: 245%;
+        font-weight: 700;
+    }
+    .accordion-container{
+        line-height: 7%;
+    }
+
+    .accordionQue{
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .accordionAns{
+        font-size: 14px;
+        margin-left: 3%;
+        font-weight: 400;
+    }
 }
