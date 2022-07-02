@@ -1,10 +1,8 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar'
 import timeline from './Timeline.module.css'
 import Container from '@mui/material/Container'
 import Box from '@mui/material/Box'
-import Lottie from 'react-lottie';
-import Aos from 'aos'
+// import Aos from 'aos'
 
 const TimeStamp = () => {
 return(
