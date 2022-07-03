@@ -2,9 +2,12 @@ import React from 'react'
 import timeline from './Timeline.module.css'
 import Container from '@mui/material/Container'
 import Box from '@mui/material/Box'
-// import Aos from 'aos'
-
+import Aos from 'aos'
+import { useEffect } from 'react'
 const TimeStamp = () => {
+   useEffect(()=>{
+      Aos.init({duration:1500})
+   },[])
 return(
    
    <Box
@@ -32,19 +35,19 @@ const Landing = () => {
       <div className={timeline.main_div}>
           <p className={timeline.title} data-aos="fade-right">Timeline</p>
           <Container maxWidth="lg" data-aos="fade-left">
-             <Box sx={{m:2, flexGrow:1, bgcolor:'rgba(176, 176, 176, 0.1)', p: 3}} style={{borderRadius:15, display:"flex"}}>
+             <Box data-aos='fade-left' sx={{m:2, flexGrow:1, bgcolor:'rgba(176, 176, 176, 0.1)', p: 3}} style={{borderRadius:15, display:"flex"}}>
              <TimeStamp />
               <h4>Ibeto Registration started</h4>
             </Box>
-            <Box sx={{m:2, flexGrow:1, bgcolor:'rgba(176, 176, 176, 0.1)', p: 3}} style={{borderRadius:15, display:"flex"}}>
+            <Box data-aos='fade-left' sx={{m:2, flexGrow:1, bgcolor:'rgba(176, 176, 176, 0.1)', p: 3}} style={{borderRadius:15, display:"flex"}}>
             <TimeStamp />
-               <h4>Ibeto Registration Closes</h4>
+               <h4 data-aos>Ibeto Registration Closes</h4>
             </Box>
-            <Box sx={{m:2, flexGrow:1, bgcolor:'rgba(176, 176, 176, 0.1)', p: 3}} style={{borderRadius:15, display:"flex"}}>
+            <Box data-aos='fade-left' sx={{m:2, flexGrow:1, bgcolor:'rgba(176, 176, 176, 0.1)', p: 3}} style={{borderRadius:15, display:"flex"}}>
             <TimeStamp />
                <h4>Idea Submission deadline</h4>
             </Box>
-            <Box sx={{m:2, flexGrow:1, bgcolor:'rgba(176, 176, 176, 0.1)', p: 3}} style={{borderRadius:15, display:"flex"}}>
+            <Box data-aos='fade-left' sx={{m:2, flexGrow:1, bgcolor:'rgba(176, 176, 176, 0.1)', p: 3}} style={{borderRadius:15, display:"flex"}}>
             <TimeStamp />
                <h4>Announcement of Shortlisted Teams</h4>
             </Box>

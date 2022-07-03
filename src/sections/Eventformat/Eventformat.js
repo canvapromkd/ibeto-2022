@@ -48,7 +48,7 @@ function Eventformat() {
 
 
       
-        <div data-aos="fade-in" data-aos-delay='200' className={`col-md-4 col-sm-12 ${EventformatCSS.phase}`} >
+        <div data-aos="fade-in" data-aos-delay='100' className={`col-md-4 col-sm-12 ${EventformatCSS.phase}`} >
         <div className={EventformatCSS.phasenumber}>Phase 1</div>
           
           <Lottie
@@ -71,7 +71,7 @@ function Eventformat() {
         
         <div
           data-aos="fade-in"
-          data-aos-delay="250"
+          data-aos-delay="150"
           className={`col-md-4 col-sm-12 ${EventformatCSS.phase}`}>
 
           <div className={EventformatCSS.phasenumber}>Phase 2</div>
@@ -93,7 +93,7 @@ function Eventformat() {
         
         <div
           data-aos="fade-in"
-          data-aos-delay="300"
+          data-aos-delay="200"
           className={`col-md-4 col-sm-12 ${EventformatCSS.phase}`}
         >
         <div className={EventformatCSS.phasenumber}>Phase 3</div>
