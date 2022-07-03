@@ -1,12 +1,15 @@
 /* DESKTOP */
 .main_div{
-    margin-top: 12%;
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .title{
-    width: 154px;
+    display: flex;
+    width: fit-content;
     height: 74px;
     position: relative;
-    margin: 0 auto;
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 700;
@@ -26,12 +29,10 @@
     text-align: center;
     margin: 0 auto;
 }
-.greenBar{
-    margin: 0 auto;
-    background-color: #59BA89;
-    width: 364px;
-    height: 65px;
-    position: relative;
-    margin-top: 2%;
-    border-radius: 10px;
+@media (min-device-width: 20px) and (max-device-width: 500px){
+   
+    .title{
+        font-size: 245%;
+        font-weight: 700;
+    }
 }

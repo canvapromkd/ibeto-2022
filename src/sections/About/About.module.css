@@ -6,10 +6,12 @@
     align-items: center;
 }
 .title{
-    width: 154px;
+    /* width: 154px; */
+    display: flex;
+    width: fit-content;
     height: 74px;
     position: relative;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 700;
@@ -61,7 +63,7 @@
         text-align: center;
         margin: 0 auto;    
     }
-    .sectionTitle{
+    .title{
         font-size: 245%;
         font-weight: 700;
     }

@@ -28,8 +28,8 @@ return(
 
 const Landing = () => {
   return (
-    <div style={{width:"100%", marginTop:"2%", marginBottom:"2%"}}>
-      <div>
+    
+      <div className={timeline.main_div}>
           <p className={timeline.title} data-aos="fade-right">Timeline</p>
           <Container maxWidth="lg" data-aos="fade-left">
              <Box sx={{m:2, flexGrow:1, bgcolor:'rgba(176, 176, 176, 0.1)', p: 3}} style={{borderRadius:15, display:"flex"}}>
@@ -50,7 +50,7 @@ const Landing = () => {
             </Box>
          </Container>
       </div>
-    </div>
+    
   )
 }
 
