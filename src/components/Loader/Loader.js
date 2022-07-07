@@ -1,26 +1,20 @@
 import React from 'react'
 import Lottie from 'react-lottie'
 import animation from '../../animations/landing.json'
-import './Landing.css'
-const Landing = () => {
-  const defaultOptions = {
-    loop: true,
+const Loader = () => {
+    const loaderAnimation={
+        loop: true,
     autoplay: true,
     animationData: animation,
     rendererSettings: {
       preserveAspectRatio: "xMidYMid slice"
     }
-  };
+};
   return (
     <div>
-      <div className="landAnime">
-      <Lottie 
-	    options={defaultOptions}
-      />
-      </div>
-      
+        <Lottie options={loaderAnimation}/>
     </div>
   )
 }
 
-export default Landing
+export default Loader
