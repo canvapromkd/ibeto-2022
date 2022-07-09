@@ -21,7 +21,6 @@ footer div {
 }
 svg {
   width:100%;
-  /* overflow:visible; */
 }
 
 .wave {
@@ -31,7 +30,6 @@ svg {
 }
 .drop {
   fill: var(--col-deepblue);
-  /* xfill: #99000055; */
   animation: drop 8.2s linear infinite normal;
   stroke: var(--col-deepblue);
   stroke-width:0.5;

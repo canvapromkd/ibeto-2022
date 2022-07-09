@@ -1,12 +1,26 @@
 .sectionTitle{
-    width: 154px;
-    height: 74px;
-    position: relative;
-    margin: 0 auto;
-    font-family: 'Space Mono';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 74px;
-    text-transform: capitalize;
+  /* width: 154px; */
+  display: flex;
+  width: fit-content;
+  height: 74px;
+  position: relative;
+  /* margin: 0 auto; */
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 74px;
+  text-transform: capitalize;
+}
+
+.box{
+    background-color: grey;
+    width: 1000px;
+    height: 500px;
+}
+@media (min-device-width: 20px) and (max-device-width: 500px){
+    .sectionTitle{
+        font-size: 245%;
+        font-weight: 700;
+    }
 }

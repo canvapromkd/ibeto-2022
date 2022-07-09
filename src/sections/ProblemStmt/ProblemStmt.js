@@ -3,7 +3,8 @@ import ps from './ProblemStmt.module.css'
 const ProblemStmt = () => {
   return (
     <div className={ps.main}>
-    <p className={ps.title}>ProblemStmt</p>
+    <p className="sectionTitle">Problem Statement</p>
+    <div className="box"></div>
     </div>
   )
 }

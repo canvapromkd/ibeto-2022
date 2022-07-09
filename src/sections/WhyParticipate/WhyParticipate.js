@@ -3,7 +3,8 @@ import wp from './WhyParticipate.module.css'
 const WhyParticipate = () => {
   return (
     <div className={wp.main}>
-        <p className={wp.title}>Why Participate</p>
+        <p className="sectionTitle">Why Participate</p>
+        <div className="box"></div>
     </div>
   )
 }

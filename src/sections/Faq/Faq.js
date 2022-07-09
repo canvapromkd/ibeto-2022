@@ -57,7 +57,7 @@ export default function Faq() {
    },[])
   return (
     <div className="faq__maindiv">
-      <div className="faqtitle" data-aos="fade-right">FAQ</div>
+      <div className="sectionTitle" data-aos="fade-right">FAQ</div>
       <div  data-aos="fade-left" className='accordion-container'>
 
      {Faqs.map((faq)=>{

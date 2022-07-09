@@ -33,7 +33,7 @@ const Landing = () => {
   return (
     
       <div className={timeline.main_div}>
-          <p className={timeline.title} data-aos="fade-right">Timeline</p>
+          <p className="sectionTitle" data-aos="fade-right">Timeline</p>
           <Container maxWidth="lg" data-aos="fade-left">
              <Box data-aos='fade-left' sx={{m:2, flexGrow:1, bgcolor:'rgba(176, 176, 176, 0.1)', p: 3}} style={{borderRadius:15, display:"flex"}}>
              <TimeStamp />
