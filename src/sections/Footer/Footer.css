@@ -2,10 +2,43 @@
 
 body {
   font-family: Lato, sans-serif;
-  --col-deepblue: #01E1BD;
+  --col-deepblue: #05B7B1;
 }
+.footer_content{
+  padding-bottom: 1.5%;
+ 
+}
+
 .footer_main{
   position: relative;
+}
+.footer_icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.mec_logo{
+  float: left;
+  width: 200px;
+  height: 89px;
+}
+.instaIcon{
+  float: left;
+  width: 60px;
+}
+.social_icons{
+  display: flex;
+  justify-content: space-around;
+}
+.excel_logo{
+  width: 200px;
+  height: 89px;
+}
+.social_icon{
+   width: 45px;
+  height: 45px;
+  /*color: '#FFFF'; */
+
 }
 footer {
   width:100vw;
@@ -87,6 +120,27 @@ svg {
 }
 @keyframes wave {
   to {transform: translateX(-100%);}
+}
+@media (min-device-width: 20px) and (max-device-width: 500px){
+  .mec_logo{
+    width: 100px;
+    height: 44px;
+  }
+  .footer_icons{
+    flex-direction: column;
+    align-items: center;
+  }
+  .instaIcon{
+    width: 20px;
+  }
+  .social_icons{
+    margin-top: 2%;
+    /* margin-bottom: 2%; */
+  }
+  .excel_logo{
+    width: 100px;
+    height: 44px;
+  }
 }
 
 

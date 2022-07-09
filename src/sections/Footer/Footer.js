@@ -1,5 +1,11 @@
 import React from 'react'
 import './Footer.css'
+import mec_logo from '../../assets/logos/mec_logo.a06dac18.png'
+// import insta from '../../assets/logos/Instagram_icon.png.webp'
+import {AiFillLinkedin,AiFillMail} from 'react-icons/ai'
+// import FiPhoneCall from 'react-icons/fi'
+// import BiPhoneCall from 'react-icons/bi'
+// import linkedin from '../../assets/logos/linkedin-modified.png'
 const Footer = () => {
   return (
     <div className='footer_main'>
@@ -22,6 +28,7 @@ const Footer = () => {
     
     <path id="wave" d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
   </defs> 
+  
 
    <use id="wave3" class="wave" xlinkHref="#wave" x="0" y="-2" ></use> 
    <use id="wave2" class="wave" xlinkHref="#wave" x="0" y="0" ></use>
@@ -36,6 +43,21 @@ const Footer = () => {
   
   <use id="wave1" class="wave" xlinkHref="#wave" x="0" y="1" />
 </svg> 
+<div className='footer_content'>
+  <div className="footer_icons">
+  <img className="mec_logo" src={mec_logo} alt="mec logo" />
+    <div className="social_icons">
+      <div className="social_icon"><AiFillLinkedin/></div>
+      <div className="social_icon"><AiFillMail /></div>
+      <div className="social_icon"><AiFillMail /></div>
+      <div className="social_icon"><AiFillMail /></div>
+      <div className="social_icon"><AiFillMail /></div>
+    </div>
+    <img className='excel_logo' src="https://excel2021.pages.dev/static/media/logo.ee29f767.svg" alt="" />
+  </div>
+<p>Made with ❤️ Excel 2022</p>
+    
+</div>
   
 </footer>
     </div>

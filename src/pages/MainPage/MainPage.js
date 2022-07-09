@@ -10,7 +10,7 @@ import WhatsNew from '../../sections/Whatsnew/WhatsNew'
 import Rewards from '../../sections/Rewards/Rewards'
 import ProblemStmt from '../../sections/ProblemStmt/ProblemStmt'
 import WhyParticipate from '../../sections/WhyParticipate/WhyParticipate'
-
+import FooterExport from '../../sections/Footer/FooterExport'
 function MainPage() {
   return (
     <div>
@@ -24,7 +24,7 @@ function MainPage() {
         <Timeline />
         <Faq/>
         <Contact/>
-        <Footer/>
+        <FooterExport/>
     </div>
   )
 }
