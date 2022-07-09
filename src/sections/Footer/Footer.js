@@ -34,7 +34,7 @@ const Footer = () => {
    <use id="wave2" class="wave" xlinkHref="#wave" x="0" y="0" ></use>
   
   <div class="topball">
-    <img class="ball" src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/arrow_up_alt1-512.png" width="50"/>
+    <img alt="" class="ball" src="https://cdn3.iconfinder.com/data/icons/iconic-1/32/arrow_up_alt1-512.png" width="50"/>
   </div> 
   
   <circle class="drop drop1" cx="20" cy="2" r="1.8"  />
