@@ -22,21 +22,19 @@ body {
   width: 200px;
   height: 89px;
 }
-.instaIcon{
-  float: left;
-  width: 60px;
-}
 .social_icons{
   display: flex;
   justify-content: space-around;
+  margin-top: 2%;
 }
 .excel_logo{
   width: 200px;
   height: 89px;
 }
 .social_icon{
-   width: 45px;
-  height: 45px;
+   width: 60px;
+  height: 35px;
+  padding-left: 32%;
   /*color: '#FFFF'; */
 
 }
@@ -123,8 +121,8 @@ svg {
 }
 @media (min-device-width: 20px) and (max-device-width: 500px){
   .mec_logo{
-    width: 100px;
-    height: 44px;
+    width: 112px;
+    height: 51px;
   }
   .footer_icons{
     flex-direction: column;
@@ -134,12 +132,17 @@ svg {
     width: 20px;
   }
   .social_icons{
-    margin-top: 2%;
-    /* margin-bottom: 2%; */
+    margin-top: 10%;
+    align-items: center;
+    margin-bottom: 8%;
   }
   .excel_logo{
-    width: 100px;
-    height: 44px;
+    width: 112px;
+    height: 51px;
+  }
+  .social_icon{
+    width: 63%;
+    height: 63%;
   }
 }
 

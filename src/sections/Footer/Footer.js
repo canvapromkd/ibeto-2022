@@ -1,11 +1,10 @@
 import React from 'react'
 import './Footer.css'
 import mec_logo from '../../assets/logos/mec_logo.a06dac18.png'
-// import insta from '../../assets/logos/Instagram_icon.png.webp'
-import {AiFillLinkedin,AiFillMail} from 'react-icons/ai'
-// import FiPhoneCall from 'react-icons/fi'
-// import BiPhoneCall from 'react-icons/bi'
-// import linkedin from '../../assets/logos/linkedin-modified.png'
+import insta from '../../assets/logos/instagram (3).png'
+import twitter from '../../assets/logos/twitter (1).png'
+import gmail from '../../assets/logos/gmail.png'
+import linkedin from '../../assets/logos/linkedin (2).png'
 const Footer = () => {
   return (
     <div className='footer_main'>
@@ -45,15 +44,14 @@ const Footer = () => {
 </svg> 
 <div className='footer_content'>
   <div className="footer_icons">
-  <img className="mec_logo" src={mec_logo} alt="mec logo" />
+  <a href="https://www.mec.ac.in/"><img className="mec_logo" src={mec_logo} alt="mec logo" /></a>
     <div className="social_icons">
-      <div className="social_icon"><AiFillLinkedin/></div>
-      <div className="social_icon"><AiFillMail /></div>
-      <div className="social_icon"><AiFillMail /></div>
-      <div className="social_icon"><AiFillMail /></div>
-      <div className="social_icon"><AiFillMail /></div>
+      <div ><a href='https://www.instagram.com/excelmec/'><img className="social_icon" src={insta} alt="" /></a></div>
+      <div ><a href="https://twitter.com/excelmec/"><img className="social_icon" src={twitter} alt="" /></a></div>
+      <div ><img className="social_icon" src={gmail} alt="" /></div>
+      <div ><a href="https://www.linkedin.com/company/excelmec/"><img className="social_icon" src={linkedin} alt="" /></a></div>
     </div>
-    <img className='excel_logo' src="https://excel2021.pages.dev/static/media/logo.ee29f767.svg" alt="" />
+    <a href="https://www.excelmec.org/"><img className='excel_logo' src="https://excel2021.pages.dev/static/media/logo.ee29f767.svg" alt="" /></a>
   </div>
 <p>Made with ❤️ Excel 2022</p>
     

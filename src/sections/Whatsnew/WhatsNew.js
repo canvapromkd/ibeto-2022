@@ -4,6 +4,7 @@ const WhatsNew = () => {
   return (
     <div className={wn.main}>
         <p className="sectionTitle">What's New</p>
+        <div className="box"></div>
     </div>
   )
 }

@@ -12,7 +12,8 @@ const handleClick=()=>{
 }
   return (
     <div className={about.main_div}>
-        <p data-aos="fade-right" className="sectionTitle">About</p>
+      <p data-aos="fade-right"  className="sectionTitle">About</p>
+        
         <div data-aos="fade-left" className={about.desc}>
         Innovations for a Better Tomorrow (IBeTo) is a technical innovations competition hosted by Govt. Model Engineering College, Kochi as part of their annual national-level technical symposium, Excel 2021. It is a national-level pursuit for socially relevant and technologically innovative ideas with the potential to trigger the next big social change. IBeTo gives the right platform and mentorship to launch the most technically innovative and revolutionary ideas and to develop them into a final product. IBeTo bridges the gap between innovators and society.
 <br />
