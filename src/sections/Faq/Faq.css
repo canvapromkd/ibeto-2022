@@ -5,12 +5,10 @@
 }
 .faq__child1{
     width: 686px;
-    /* padding-top: 5%; */
     padding-left: 5%;
     height: 804.49px;
     display: flex;
     flex-direction: column;
-    /* background-color: aqua; */
 }
 .faq__question{
     padding-top: 2.5%;
@@ -25,15 +23,20 @@
     border: 1px solid rgba(23, 201, 172, 0.4);
     border-radius: 10px;
 }
+.faq__question:hover {
+    color: #ffff;
+    background-color:  #17C9AC;
+}
 .faq__child2{
-    width: 500px;
+    background-image: url('../../assets/images/Group\ 193\ \(2\).png');
+    width: 30rem;
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 20%;
-    height: 650px;
+    height: 40rem;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(180deg, rgba(23, 201, 172, 0.08) 29.92%, rgba(23, 201, 172, 0.31) 100%);
+    
     border-radius: 25px;
 }
 .faq__answer__title{
@@ -48,9 +51,11 @@
     font-size: 20px;
 }
 .faq__title{
-    font-weight: 500;
+    font-family: 'THICCCBOI';
+    font-style: normal;
+    font-weight: 600;
     font-size: 45px;
     line-height: 52px;
-    font-family: 'Montserrat';
+    font-family: 'Roboto' ;
     
 }

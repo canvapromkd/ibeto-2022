@@ -28,10 +28,5 @@ export const faqs_data=[
         "qno":6,
         "question":"6. Lorem ipsum dolor sit amet, consectetur ?",
         "answer":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor fringilla viverra consectetur turpis purus dictum integer cras enim. Sed aliquam velit egestas volutpat molestie eget id. Nullam tristique semper." 
-     },
-     {
-        "qno":7,
-        "question":"7. Lorem ipsum dolor sit amet, consectetur ?",
-        "answer":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor fringilla viverra consectetur turpis purus dictum integer cras enim. Sed aliquam velit egestas volutpat molestie eget id. Nullam tristique semper." 
      }
 ]

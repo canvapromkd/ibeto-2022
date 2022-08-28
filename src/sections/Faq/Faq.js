@@ -16,7 +16,7 @@ const Faq = () => {
     <>
       <div className="faq__parent">
         <div className="faq__child1">
-            <div className="faq__title"><p>FAQ</p></div>
+            <div className="faq__title">FAQ</div>
             <div  className="faq__questions">
               {faqs.map((faq)=>{
                 return(
