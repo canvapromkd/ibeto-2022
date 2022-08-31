@@ -2,13 +2,15 @@
     display: flex;
     flex-direction: row;
     padding-top: 7%;
+    /* background-color: antiquewhite; */
 }
 .faq__child1{
-    width: 686px;
+    width: 45rem;
     padding-left: 5%;
     height: 804.49px;
     display: flex;
     flex-direction: column;
+    /* background-color: #17C9AC; */
 }
 .faq__question{
     padding-top: 2.5%;
@@ -16,9 +18,9 @@
     font-weight: 500;
     cursor: pointer;
     font-size: 20px;
-    font-family: 'Montserrat';
+    font-family: 'Stroke';
     padding-left: 1.75%;
-    width: 500px;
+    width: 35rem;
     height: 60px;
     border: 1px solid rgba(23, 201, 172, 0.4);
     border-radius: 10px;
@@ -51,11 +53,10 @@
     font-size: 20px;
 }
 .faq__title{
-    font-family: 'THICCCBOI';
+    /* font-family: 'Ubuntu'; */
     font-style: normal;
     font-weight: 600;
     font-size: 45px;
     line-height: 52px;
-    font-family: 'Roboto' ;
     
 }

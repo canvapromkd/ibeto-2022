@@ -6,6 +6,7 @@ const AnswerBox = ({currentAnswer}) => {
     useEffect(()=>{
         Aos.init({ duration: 800 });
     },[])
+    
   return (
     <>
         <div data-aos="zoom-in" className="faq__child2">
