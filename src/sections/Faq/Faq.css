@@ -28,8 +28,9 @@
     background-color:  #17C9AC;
 }
 .faq__child2{
-    background-image: url('../../assets/images/Group\ 193\ \(2\).png');
+    background-color:#d2f0ec;
     width: 30rem;
+    position: relative;
     padding-top: 5%;
     padding-left: 5%;
     padding-right: 20%;
@@ -51,11 +52,257 @@
     font-size: 20px;
 }
 .faq__title{
-    font-family: 'THICCCBOI';
     font-style: normal;
     font-weight: 600;
     font-size: 45px;
     line-height: 52px;
-    font-family: 'Roboto' ;
     
 }
+
+
+/* bubbles */
+
+
+/* Main bubbles */
+
+.bubble-holder{
+    width:100%;
+    height: 1000px;
+    position: relative;
+    overflow:hidden;
+  }
+  
+  .bubble-1 {
+    left: 8%;
+    animation-delay: 1s;
+  }
+  .bubble-1 .bubble-animation-y{
+    animation-duration: 7s;
+    animation-delay: 0s;
+  }
+  
+  .bubble-2 {
+    left: 40%;
+    animation-delay: 2s;
+  }
+  .bubble-2 .bubble-animation-y{
+    animation-duration: 6s;
+    animation-delay: 2s;
+  }
+  
+  .bubble-3 {
+    right: 15%;
+    animation-delay: 1s;
+  }
+  .bubble-3 .bubble-animation-y{
+    animation-duration: 5s;
+    animation-delay: 1.5s;
+  }
+  
+  .bubble-4 {
+    left: 8%; 
+    animation-delay: 2s;
+  }
+  .bubble-4 .bubble-animation-y{
+    animation-duration: 6s;
+    animation-delay: 3s;
+  }
+  
+  .bubble-5 {
+    left: 40%; 
+    animation-delay: 1s;
+  }
+  .bubble-5 .bubble-animation-y{
+    animation-duration: 5s;
+    animation-delay: 0;
+  }
+  
+  .bubble-6 {
+    left: 45%;
+    animation-delay: 2s;
+  }
+  .bubble-6 .bubble-animation-y{
+    animation-duration: 7s;
+    animation-delay: 3.5s;
+  }
+  
+  .bubble-7 {
+    right: 15%;
+    animation-delay: 1s;
+  }
+  .bubble-7 .bubble-animation-y{
+    animation-duration: 5.5s;
+    animation-delay: 3s;
+  }
+  
+  .bubble-8 {
+    right: 5%;
+    animation-delay: 2s;
+  }
+  .bubble-8 .bubble-animation-y{
+    animation-duration: 7s;
+    animation-delay: 3s;
+  }
+  
+  
+  /* Static Circles */
+  
+  
+  
+  .bubble-9 {
+    top: -375px;
+    left: 14%;  
+  }
+  
+  .bubble-10 {
+    bottom: -350px;
+    right: -50px;	
+  }
+  
+  .bubble-container{
+    position: absolute;
+    bottom: -250px; 
+  }
+  
+  .bubble-large, .bubble-small {
+    border-radius: 100%;  
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1), 
+    inset 0px 10px 30px 5px rgba(96, 147, 195, 1);
+  }
+  
+  .bubble-large {
+    /* //border: 7px solid #055E8F;   */
+    width: 10px;
+    height: 10px;
+  }
+  
+  .bubble-small {
+    /* //border: 5px solid #055E8F; */
+    width: 10px;
+    height: 10px;
+  }
+  
+  .bubble-animation-x { 
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: bubbleXAnimFrames;
+    animation-timing-function: ease;
+    animation-direction: alternate;
+  }
+  
+  .bubble-animation-y { 
+    animation-iteration-count: infinite;
+    animation-name: bubbleYAnimFrames;
+    animation-timing-function: linear;
+  }
+  
+  
+   @keyframes bubbleXAnimFrames {
+    0% {
+      transform: translateX(0);
+     }
+    100% {
+      transform: translateX(50px);
+     }
+  }
+  
+   @keyframes bubbleYAnimFrames {
+    0% {
+      transform: translateY(0);
+     }
+    50% {
+      opacity: 85%;
+     }
+    100% {
+      transform: translateY(-1250px);
+      opacity: 0;
+     }
+  }
+  /* bubble ends */
+
+  /* wave starts */
+  .faq__ocean{
+    position: relative;
+    width: 135%;
+    margin-left: -7%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  .faq__ocean .faq__wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url('../../assets/png/wave.png');
+    background-size: 100% 100%;
+
+
+  }
+  .faq__ocean .faq__wave1{
+    animation: animate 30s linear infinite;
+    z-index: 20;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+
+  }
+  .faq__ocean .faq__wave2{
+    animation: animate2 15s linear infinite;
+    z-index: 19;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+
+  }
+  .faq__ocean .faq__wave3{
+    animation: animate3 7.5s linear infinite;
+    z-index: 18;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom: 15px;
+
+  }
+  .faq__ocean .faq__wave4{
+    animation: animate2 5s linear infinite;
+    z-index: 17;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 20px;
+
+  }
+  /* .faq__ocean .faq__wave3{
+    animation: animate3 30s linear infinite;
+    z-index: 20;
+    opacity: 1;
+    animation-delay: 0s;
+    bottom: 0;
+
+  } */
+  @keyframes animate{
+    0%{
+      background-position-x: 0;
+    }
+    100%{
+      background-position-x:100px ;
+    }
+  }
+  @keyframes animate2{
+    0%{
+      background-position-x: 0;
+    }
+    100%{
+      background-position-x: -100px ;
+    }
+  }
+  @keyframes animate3{
+    0%{
+      background-position-x: 0;
+    }
+    100%{
+      background-position-x:100px ;
+    }
+  }
+
+
+  /* wave ends */
