@@ -28,7 +28,7 @@
     background-color:  #17C9AC;
 }
 .faq__child2{
-    background-color:#d2f0ec;
+    background: linear-gradient(180deg, rgba(23, 201, 172, 0.08) 29.92%, rgba(23, 201, 172, 0.31) 100%);
     width: 30rem;
     position: relative;
     padding-top: 5%;
@@ -223,9 +223,9 @@
   /* wave starts */
   .faq__ocean{
     position: relative;
-    width: 135%;
+    width: 134%;
     margin-left: -7%;
-    height: 100vh;
+    height: 49%;
     overflow: hidden;
   }
   .faq__ocean .faq__wave{
@@ -234,13 +234,13 @@
     left: 0;
     width: 100%;
     height: 100px;
-    background: url('../../assets/png/wave.png');
+    background: url('../../assets/png/green\ wave.png');
     background-size: 100% 100%;
 
 
   }
   .faq__ocean .faq__wave1{
-    animation: animate 30s linear infinite;
+    animation: animate 3s linear infinite;
     z-index: 20;
     opacity: 1;
     animation-delay: 0s;
@@ -248,37 +248,14 @@
 
   }
   .faq__ocean .faq__wave2{
-    animation: animate2 15s linear infinite;
+    animation: animate2 1s linear infinite;
     z-index: 19;
     opacity: 0.5;
-    animation-delay: -5s;
+    animation-delay: 1s;
     bottom: 10px;
 
   }
-  .faq__ocean .faq__wave3{
-    animation: animate3 7.5s linear infinite;
-    z-index: 18;
-    opacity: 0.2;
-    animation-delay: -2s;
-    bottom: 15px;
-
-  }
-  .faq__ocean .faq__wave4{
-    animation: animate2 5s linear infinite;
-    z-index: 17;
-    opacity: 0.7;
-    animation-delay: -5s;
-    bottom: 20px;
-
-  }
-  /* .faq__ocean .faq__wave3{
-    animation: animate3 30s linear infinite;
-    z-index: 20;
-    opacity: 1;
-    animation-delay: 0s;
-    bottom: 0;
-
-  } */
+ 
   @keyframes animate{
     0%{
       background-position-x: 0;
@@ -295,14 +272,7 @@
       background-position-x: -100px ;
     }
   }
-  @keyframes animate3{
-    0%{
-      background-position-x: 0;
-    }
-    100%{
-      background-position-x:100px ;
-    }
-  }
+ 
 
 
   /* wave ends */

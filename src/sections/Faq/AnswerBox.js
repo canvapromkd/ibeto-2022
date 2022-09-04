@@ -56,8 +56,8 @@ const AnswerBox = ({currentAnswer}) => {
 <div class="faq__ocean">
   <div class="faq__wave faq__wave1 "></div>
   <div class="faq__wave faq__wave2"></div>
-  <div class="faq__wave faq__wave3"></div>
-  <div class="faq__wave faq__wave4"></div>
+  {/* <div class="faq__wave faq__wave3"></div>
+  <div class="faq__wave faq__wave4"></div> */}
 </div>
 {/* wave ends */}
 
