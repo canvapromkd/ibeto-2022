@@ -1,11 +1,8 @@
 import React from 'react'
-import wn from './WhatsNew.module.css'
+import './WhatsNew.css'
 const WhatsNew = () => {
   return (
-    <div className={wn.main}>
-        <p className="sectionTitle">What's New</p>
-        <div className="box"></div>
-    </div>
+    <div>WhatsNew</div>
   )
 }
 

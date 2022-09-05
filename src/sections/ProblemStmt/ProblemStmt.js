@@ -1,11 +1,8 @@
 import React from 'react'
-import ps from './ProblemStmt.module.css'
+import './ProblemStmt.css'
 const ProblemStmt = () => {
   return (
-    <div className={ps.main}>
-    <p className="sectionTitle">Problem Statement</p>
-    <div className="box"></div>
-    </div>
+    <div>ProblemStmt</div>
   )
 }
 
