@@ -1,0 +1,90 @@
+.eventformat {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(1, 196, 203, 0.54) 0%, rgba(70, 206, 205, 0.52) 100%);
+    /* padding-bottom: 4rem; */
+}
+
+.eventformat__container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    backdrop-filter: blur(1px);
+    background-image: url("../../assets/svg/noise.svg");
+}
+
+.eventformat__cards {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 3rem;
+    width: 100%;
+    padding: 1.5rem;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.line1, .line2 {
+    position: absolute;
+    width: 220px;
+    pointer-events: none;
+}
+
+.line1 {
+    left: 15%;
+    top: -8%;
+}
+.line2 {
+    left: 50%;
+    top: 15%;
+}
+
+.eventFormatCard {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    font-family: var(--primary-font);
+}
+
+.efc1 {
+    transform: translateY(-30%);
+}
+.efc3 {
+    transform: translateY(30%);
+}
+
+.efc_icon_div {
+    background: #00A5FF;
+    border-radius: 8px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.efc_icon {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.45rem;
+}
+
+.eventFormatCard h2 {
+    font-weight: 600;
+    font-size: 1.65rem;
+    text-transform: capitalize;
+    color: rgba(30, 30, 30, 0.85);
+}
+
+.eventFormatCard p {
+    font-weight: 400;
+    font-size: 1.15rem;
+    color: rgba(30, 30, 30, 0.65);
+    width: 90%;
+}

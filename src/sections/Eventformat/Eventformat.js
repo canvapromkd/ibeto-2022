@@ -1,122 +1,57 @@
-import React, {useEffect} from 'react'
-import EventformatCSS from './Eventformat.module.css'
-import Aos from 'aos'
-import Lottie from 'react-lottie';
-import ideateAnimation from '../../animations/ideate.json'
-import createAnimation from '../../animations/create.json'
-import showcaseAnimation from '../../animations/showcase.json'
-import '../commonStyles.css'
-function Eventformat() {
-  const ideateOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: ideateAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
+import React from 'react'
+import { IoBulbOutline } from "react-icons/io5";
+import { HiOutlineVideoCamera } from "react-icons/hi";
+import { RiBallPenLine } from "react-icons/ri";
 
-  const showcaseOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: showcaseAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
+import './Eventformat.css'
 
-  const createOptions = {
-    loop: true,
-    autoplay: true,
-    animationData: createAnimation,
-    rendererSettings: {
-      preserveAspectRatio: "xMidYMid slice"
-    }
-  };
+import line1 from '../../assets/svg/line1.svg'
+import line2 from '../../assets/svg/line2.svg'
 
-    useEffect(() => {
-        Aos.init({ duration: 1500 });
-      }, []);
-
+const Eventformat = () => {
   return (
-    <div className={EventformatCSS.container}>
+    <div className='eventformat'>
+      <div className='eventformat__container'>
+        <h1 className='section__header'>Event  format</h1>
 
-      <h2 data-aos="fade-right" className="sectionTitle">Event Format</h2>
-      
+        <div className='eventformat__cards'>
+            <div className='eventFormatCard efc1'>
+              <div className='efc_icon_div'>
+                <IoBulbOutline className='efc_icon'/>
+              </div>
+              <h2>Ideate</h2>
+              <p>
+                The participating teams will 
+                be shortlisted in a sequence 
+                of two rounds based on the following criteria <br />
 
-      <div data-aos="fade-left" className={EventformatCSS.rowformat}>
-
-
-      
-        <div data-aos="fade-in" data-aos-delay='100' className={`col-md-4 col-sm-12 ${EventformatCSS.phase}`} >
-        <div className={EventformatCSS.phasenumber}>Phase 1</div>
-          
-          <Lottie
-          options={ideateOptions}
-          width={150}
-          height={150}
-          />
-         
-          <h3 className={`${EventformatCSS.phasetitle} ${EventformatCSS.textcenter}`}>Ideate</h3>
-          <p className={EventformatCSS.eventcontent}>
-            The participating teams will be shortlisted in a sequence of two
-            rounds based on the following criteria<br/>
-            Round 1: Idea Submission<br/>
-            
-              Round 2: Submission of detailed abstract of the project
-        
-          </p>
-          
+                Round 1: Idea Submission <br />
+                Round 2: Submission of detailed abstract of the project
+              </p>
+            </div>
+            <img src={line1} alt="" className='line1'/>
+            <div className='eventFormatCard'>
+              <div className='efc_icon_div'>
+                <RiBallPenLine className='efc_icon'/>
+              </div>
+              <h2>Create</h2>
+              <p>
+              The top 25 teams selected from the Ideate phase would build their project during this phase and will be continuously evaluated through project reports. 
+              </p>
+            </div>
+            <img src={line2} alt="" className='line2'/>
+            <div className='eventFormatCard efc3'>
+              <div className='efc_icon_div'>
+                <HiOutlineVideoCamera className='efc_icon'/>
+              </div>
+              <h2>Showcase</h2>
+              <p>
+              The teams have to submit a video presentation of the project along with a demonstration of their working prototype in front of the judges on Day 0 of Excel 2021
+              </p>
+            </div>
         </div>
-        
-        <div
-          data-aos="fade-in"
-          data-aos-delay="150"
-          className={`col-md-4 col-sm-12 ${EventformatCSS.phase}`}>
-
-          <div className={EventformatCSS.phasenumber}>Phase 2</div>
-        
-          <Lottie
-          options={createOptions}
-          width={150}
-          height={150}
-          />
-          
-          <h3 className={`${EventformatCSS.phasetitle} ${EventformatCSS.textcenter}`}>Create</h3>
-          <p className={EventformatCSS.eventcontent}>
-            The top 25 teams selected from the Ideate phase would build their
-            project during this phase and will be continuously evaluated through
-            project reports. A panel of experts will be available to seek
-            assistance from.
-          </p>
-        </div>
-        
-        <div
-          data-aos="fade-in"
-          data-aos-delay="200"
-          className={`col-md-4 col-sm-12 ${EventformatCSS.phase}`}
-        >
-        <div className={EventformatCSS.phasenumber}>Phase 3</div>
-        <Lottie
-          options={showcaseOptions}
-          width={150}
-          height={150}
-          />
-          
-          <h3 className={`${EventformatCSS.phasetitle} ${EventformatCSS.textcenter}`}>Showcase</h3>
-          <p className={EventformatCSS.eventcontent}>
-            The teams have to submit a video presentation of the project along
-            with a demonstration of their working prototype in front of the
-            judges on Day 0 of Excel 2021, which will be the final judgement of
-            the event.
-          </p>
-        </div>
-        
       </div>
-    
-    
     </div>
-
   )
 }
 
