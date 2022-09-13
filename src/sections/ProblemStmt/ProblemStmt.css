@@ -3,7 +3,7 @@
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(90deg, rgba(203, 176, 1, 0.54) 0%, rgba(206, 188, 70, 0.52) 100%);
+    background: rgba(0, 153, 255, 0.51);
     /* padding-bottom: 4rem; */
 }
 
@@ -11,6 +11,64 @@
     width: 80%;
     margin: auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
     padding: 2rem 0;
+}
+
+.problemStmt__cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 3rem;
+    width: 100%;
+    padding: 1.5rem;
+    margin-top: 5rem;
+    position: relative;
+}
+
+.problemStmtCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(0deg, #00A5FF, #00A5FF), #EFFFEC;
+    box-shadow: 0.8px 0.8px 4px 0.5px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    gap: 1rem;
+}
+
+.problemStmtCard h2 {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.problemStmtCard button {
+    margin-top: auto;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #ffffffd7;
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.1px solid #ffffff27;
+    backdrop-filter: blur(200px);
+    border-radius: 8px;
+    font-family: var(--primary-font);
+    padding: 0.55rem 1.5rem;
+    cursor: pointer;
+}
+.problemStmtCard button:hover {
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.1px solid #ffffffe7;
 }
