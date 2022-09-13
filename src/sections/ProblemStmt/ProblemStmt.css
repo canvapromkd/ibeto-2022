@@ -1,0 +1,16 @@
+.problemStmt {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(203, 176, 1, 0.54) 0%, rgba(206, 188, 70, 0.52) 100%);
+    /* padding-bottom: 4rem; */
+}
+
+.problemStmt__container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+}
