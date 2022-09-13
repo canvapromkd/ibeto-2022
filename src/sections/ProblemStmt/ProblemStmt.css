@@ -72,3 +72,63 @@
     background: rgba(255, 255, 255, 0.1);
     border: 0.1px solid #ffffffe7;
 }
+
+.psDialog {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    min-height: 70vh;
+    font-family: var(--secondary-font);
+}
+
+.dialog_vector1 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.dialog_vector2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+
+.psDialog__header {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1.5rem;
+}
+
+.psDialog__header h2 {
+    color: #00A5FF;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 1.75rem;
+}
+
+.psDialog__content {
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.psDialog__content h4 {
+    font-size: 1.15rem;
+    color: #00A5FF;
+    font-weight: 500;
+}
+.psDialog__content p {
+    font-size: 1rem;
+    color: #1E1E1E;
+}
+
+.psDialog__content ul li {
+    font-size: 1rem;
+    color: #1E1E1E;
+}

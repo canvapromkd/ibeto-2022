@@ -1,13 +1,5 @@
-.landAnime{
-    width: 61%;
+.landing {
+    height: 100vh;
+    background-color: #9ee7cffc;
     display: flex;
-    margin: 0 auto;
-}
-
-/* Mobile */
-@media only screen and (max-width: 600px) {
-    .landAnime{
-        width: 89%;
-        /* height: 61%; */
-    }
 }

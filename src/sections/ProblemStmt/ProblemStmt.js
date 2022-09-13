@@ -3,34 +3,7 @@ import React from 'react'
 import ProblemStmtCard from './ProblemStmtCard'
 
 import './ProblemStmt.css'
-
-
-const problemStatements = [
-  {
-    id: 1,
-  },
-  {
-    id: 2,
-  },
-  {
-    id: 3,
-  },
-  {
-    id: 4,
-  },
-  {
-    id: 5,
-  },
-  {
-    id: 6,
-  },
-  {
-    id: 7,
-  },
-  {
-    id: 8,
-  },
-]
+import { problemStatements } from '../../data/problemStatement'
 
 const ProblemStmt = () => {
   return (
@@ -42,6 +15,9 @@ const ProblemStmt = () => {
           {problemStatements.map((ps) => (
             <ProblemStmtCard 
               key={ps.id} 
+              name={ps.name}
+              image={ps.name}
+              statements={ps.statements}
             />
           ))}
         </div>
