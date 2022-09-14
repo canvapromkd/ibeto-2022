@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Landing, About, Eventformat, Faq, Timeline, Contact, Footer, Rewards, ProblemStmt, WhyParticipate } from '../../sections'
+import { Landing, About, Eventformat, Faq, TimelineComponent, Contact, Footer, Rewards, ProblemStmt, WhyParticipate } from '../../sections'
 
 function MainPage() {
   return (
@@ -11,7 +11,7 @@ function MainPage() {
       <Rewards/>
       <ProblemStmt/>
       <WhyParticipate/>
-      <Timeline />
+      <TimelineComponent />
       <Faq/>
       <Contact/>
       <Footer/>
