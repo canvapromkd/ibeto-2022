@@ -1,0 +1,76 @@
+.whatsNew {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(85, 240, 193, 0.51);
+
+}
+
+.whatsNew__comntainer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2rem 0;
+}
+
+.whatsNew__cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+    padding: 1.5rem;
+    position: relative;
+    margin-top: 180px;
+}
+
+.whatsNewCard {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    background: rgba(23, 201, 172, 0.4);
+    border-radius: 10px;
+}
+
+.ty {
+    transform: translateY(-50%);
+}
+
+.wnc_icon {
+    width: 125px;
+    height: 125px;
+    background: rgba(39, 138, 140, 0.8);
+    border-radius: 5px;
+    transform: translate(-50%, 50%) rotate(-45deg);
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+
+.wn__icon {
+    transform: rotate(45deg);
+    font-size: 3rem;
+    background-color: #ffffff;
+    padding: 1rem;
+    box-sizing: content-box;
+    border-radius: 100px;
+}
+
+.wnc_content {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    font-family: var(--secondary-font);
+    margin-left: -2rem;
+    font-size: 1.15rem;
+    line-height: 110%;
+    font-weight: 500;
+    text-align: right;
+}
