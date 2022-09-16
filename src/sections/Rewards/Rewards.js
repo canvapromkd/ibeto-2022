@@ -2,7 +2,9 @@ import React from 'react'
 import './Rewards.css'
 const Rewards = () => {
   return (
-    <div>Rewards</div>
+    <div>
+      
+    </div>
   )
 }
 
