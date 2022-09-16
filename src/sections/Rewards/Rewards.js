@@ -11,8 +11,8 @@ const Rewards = () => {
         <div className="reward_title">Rewards</div>
         <div className="reward_price_box">
           
-          <div><p>Prizes Worth</p></div>
-          <div><span className='reward_money'>₹1,00,000</span></div>
+          <p>Prizes Worth</p>
+          <span className='reward_money'>₹1,00,000</span>
           <div><p>for the first three teams</p></div>
         </div>
         <div className="rewards_list">
