@@ -3,14 +3,17 @@
   width: 100%;
   align-items: center;
   justify-content: center;
-  padding: 2.5rem;
+  padding: 1rem;
   flex-direction: column;
   background-image:url('../../assets/images/footer\ bg.jpeg') ;
+  
 }
 .footer__logos{
   display: flex;
   flex-direction: row;
-  gap: 17rem;
+  justify-content: space-between;
+  width: 100%;
+  
 }
 .mec__logo{
   width: 14rem;
@@ -30,8 +33,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 39px;
-    height: 39px;
+    width: 30px;
+    height: 30px;
     color: #ffff;
 }
 .footer_contact_social a:hover{
