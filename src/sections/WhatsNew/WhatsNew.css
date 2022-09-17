@@ -3,8 +3,6 @@
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    background: rgba(85, 240, 193, 0.51);
-
 }
 
 .whatsNew__comntainer {
@@ -19,7 +17,8 @@
 
 .whatsNew__cards {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
     gap: 1rem;
@@ -39,6 +38,12 @@
 
 .ty {
     transform: translateY(-50%);
+}
+.wnc__svg{
+    position: fixed;
+    right: 0;
+    width: 6rem;
+    height: 6rem;
 }
 
 .wnc_icon {
@@ -67,10 +72,25 @@
     display: flex;
     align-items: center;
     padding: 1rem;
-    font-family: var(--secondary-font);
+    font-family: 'Poppins';
     margin-left: -2rem;
-    font-size: 1.15rem;
+    font-size: 1rem;
     line-height: 110%;
     font-weight: 500;
     text-align: right;
+}
+@media (min-device-width: 20px) and (max-device-width: 500px) {
+  .whatsNew__cards{
+    flex-direction: column;
+    align-items: center;
+    padding-left: 5rem;
+    margin-top: 1rem;
+  }  
+  .whatsNewCard{
+    margin-top: 2rem;
+  }
+  .ty{
+    transform: translateY(0%);
+  }
+  
 }

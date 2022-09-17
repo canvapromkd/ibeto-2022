@@ -13,6 +13,9 @@
     
     font-weight: 400;
 }
+.dialog_closer{
+    cursor: pointer;
+}
 
 .problemStmt__container {
     width: 80%;
