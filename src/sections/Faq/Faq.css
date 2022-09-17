@@ -1,6 +1,7 @@
+
 .faq__parent {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   min-height: 100vh;
   gap: 4rem;
   width: 80%;
@@ -31,14 +32,31 @@
     color: #ffff;
     background-color:  #17C9AC;
 }
-.faq__child2{
+/* .faq__child2{
+  background-image: url('../../assets/png/answerboxanim.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  
     background: linear-gradient(180deg, rgba(23, 201, 172, 0.08) 29.92%, rgba(23, 201, 172, 0.31) 100%);
     flex: 0.5;
     position: relative;
     display: flex;
     flex-direction: column;
     border-radius: 25px;
-    height: 80vh;
+    height: 59vh;
+   
+} */
+.faq__ansbox__container{
+  background-image: url('../../assets/png/answerboxanim.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  flex: 0.5;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  height: 59vh;
 }
 .faq__answer__title{
     font-weight: 500;
@@ -48,6 +66,7 @@
 }
 .faq__answer__content{
     margin-top: 2%;
+   
     color: rgba(39, 138, 140, 0.8);
     font-weight: 400;
     font-size: 16px;
@@ -58,6 +77,15 @@
     font-weight: 600;
     font-size: 45px;
     line-height: 52px;
+   
+}
+.faq__child__container{
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  width: 100%;
+  justify-content: space-around;
+  
 }
 
 
@@ -66,7 +94,7 @@
 
 /* Main bubbles */
 
-.bubble-holder{
+ .bubble-holder{
     width:100%;
     height: 1000px;
     position: relative;
@@ -144,7 +172,7 @@
     animation-duration: 7s;
     animation-delay: 3s;
   }
-  
+   
   
   /* Static Circles */
   
@@ -276,3 +304,19 @@
 
 
   /* wave ends */
+
+  /*mobile view*/
+  @media (min-device-width: 20px) and (max-device-width: 500px){
+
+    .faq__child__container{
+      display: flex;
+      flex-direction: column-reverse;
+      
+      
+      width: 100%;
+      justify-content: flex-start;
+      
+    }
+
+
+  }
