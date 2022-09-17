@@ -8,29 +8,40 @@
   margin: auto;
   padding: 2rem 0;
 }
+.faq__title{
+  color: #094C83;
+  font-size: 2rem;
+  font-family: 'Poppins';
+  font-weight: 400;
+}
 
 .faq__child1{
   display: flex;
   flex-direction: column;
   /* background-color: #17C9AC; */
+  align-items: center;
+  justify-content: space-around;
   flex: 0.5;
 }
 
 .faq__question{
-    padding-top: 2.5%;
-    margin-top: 3%;
-    font-weight: 500;
-    cursor: pointer;
-    font-size: 20px;
-    font-family: 'Stroke';
-    padding-left: 1.75%;
-    height: 60px;
+    display: flex;
+    width: 50vw;
     border: 1px solid rgba(23, 201, 172, 0.4);
+    padding: 1rem;
+    font-family: 'Inter';
+    font-size: 1rem;
     border-radius: 10px;
+    cursor: pointer;
 }
 .faq__question:hover {
     color: #ffff;
-    background-color:  #17C9AC;
+    background-color:  #21B8CBCC;
+}
+.faq__questions{
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
 }
 /* .faq__child2{
   background-image: url('../../assets/png/answerboxanim.png');
@@ -47,8 +58,18 @@
     height: 59vh;
    
 } */
+.faq__child2{
+  background: linear-gradient(180deg, rgba(23, 201, 172, 0.08) 29.92%, rgba(23, 201, 172, 0.31) 100%);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  height: 50vh;
+  width: 40vw;
+  border-radius: 2rem;
+}
 .faq__ansbox__container{
-  background-image: url('../../assets/png/answerboxanim.png');
+  /* background-image: url('../../assets/png/answerboxanim.png'); */
+  background-color: #17C9AC;
   background-size: 100%;
   background-repeat: no-repeat;
   flex: 0.5;
@@ -56,7 +77,7 @@
   display: flex;
   flex-direction: column;
   border-radius: 25px;
-  height: 59vh;
+  height: 50vh;
 }
 .faq__answer__title{
     font-weight: 500;
@@ -82,6 +103,7 @@
 .faq__child__container{
   display: flex;
   flex-direction: row;
+  align-items: center;
   gap: 4rem;
   width: 100%;
   justify-content: space-around;
@@ -317,6 +339,14 @@
       justify-content: flex-start;
       
     }
-
+    .faq__question{
+      width: 85vw;
+      padding: 0.5rem;
+    }
+    .faq__child2{
+      width: 90vw;
+      height: 33vh;
+      padding: 0.15rem;
+    }
 
   }

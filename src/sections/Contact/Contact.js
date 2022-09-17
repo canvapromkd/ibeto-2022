@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div className='contact'>
       <div className='contact__container'>
-        <h1 className='section__header'>Contact us</h1>
+        <h1 className='ps__header'>Contact us</h1>
 
         <div className='contact__cards'>
           {contactsData.map((contact) => (

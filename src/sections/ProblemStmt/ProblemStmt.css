@@ -3,8 +3,6 @@
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    /* background: rgba(0, 153, 255, 0.51); */
-    /* padding-bottom: 4rem; */
 }
 .ps__header{
     color: #094C83;

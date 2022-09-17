@@ -12,7 +12,7 @@ const Eventformat = () => {
   return (
     <div className='eventformat'>
       <div className='eventformat__container'>
-        <h1 className='section__header'>Event  format</h1>
+        <h1 className='ps__header'>Event  format</h1>
 
         <div className='eventformat__cards'>
             <div className='eventFormatCard efc1'>
