@@ -31,13 +31,13 @@ const Navbar = () => {
             About
           </Link>
           <Link data-aos="zoom-in" to="/developers" className="nav_item">
-            Speakers
+            Event Format
           </Link>
           <Link data-aos="zoom-in" to="/developers" className="nav_item">
-            Schedule
+            What's New
           </Link>
           <Link data-aos="zoom-in" to="/developers" className="nav_item">
-            Sponsors
+            rewards
           </Link>
           <Link data-aos="zoom-in" to="/developers" className="nav_item">
             FAQ

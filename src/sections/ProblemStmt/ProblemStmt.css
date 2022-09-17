@@ -3,8 +3,15 @@
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    background: rgba(0, 153, 255, 0.51);
+    /* background: rgba(0, 153, 255, 0.51); */
     /* padding-bottom: 4rem; */
+}
+.ps__header{
+    color: #094C83;
+    font-size: 2rem;
+    font-family: 'Poppins';
+    
+    font-weight: 400;
 }
 
 .problemStmt__container {
@@ -36,7 +43,9 @@
     padding: 1rem;
     width: 250px;
     height: 300px;
-    background: linear-gradient(0deg, #00A5FF, #00A5FF), #EFFFEC;
+    /* background: linear-gradient(90deg, #094C83, #B1D89F), #EFFFEC; */
+    background: linear-gradient(180deg, rgba(9, 76, 131, 0.75) 0%, #21B8CB 100%), #EFFFEC;
+    /* filter: blur(2.5px); */
     box-shadow: 0.8px 0.8px 4px 0.5px rgba(0, 0, 0, 0.25);
     border-radius: 8px;
     gap: 1rem;
@@ -81,6 +90,10 @@
     height: 100%;
     min-height: 70vh;
     font-family: var(--secondary-font);
+}
+.ps_main_vector{
+    position: absolute;
+    width: 100%;
 }
 
 .dialog_vector1 {
@@ -131,4 +144,10 @@
 .psDialog__content ul li {
     font-size: 1rem;
     color: #1E1E1E;
+}
+
+@media (min-device-width: 20px) and (max-device-width: 500px){
+    .ps_main_vector{
+        visibility: hidden;
+    }
 }
