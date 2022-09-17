@@ -1,134 +1,61 @@
-import Aos from 'aos';
-import './Navbar.css'
-import { useState, React } from "react";
-import { Drawer } from "@mui/material";
-import { HiOutlineMenuAlt3 } from "react-icons/hi";
-import { Link } from "react-router-dom";
-import { useEffect } from 'react';
+import React, { useState } from "react";
+import "./Navbar.css";
 const Navbar = () => {
-  useEffect(()=>{
-    Aos.init({duration:1100})
-  })
-  const [open, setOpen] = useState(false);
-  const handleDrawerOpen = () => {
-    setOpen(true);
-  };
-  const handleDrawerClose = () => {
-    setOpen(false);
-  };
+  const [checked, setChecked] = useState(false);
+  const handleClick = () => setChecked(!checked);
+
   return (
-    <div className="navbar_1">
-      <div className="nav__desktop">
-      
-        <Link data-aos="zoom-in" to="/" className="nav_title__logo" >
-              <img src="https://ibeto.excelmec.org/static/media/ibetologo.89112a3a.svg" alt="" />
-        </Link>
-        <div className="navbar_items">
-          <Link data-aos="zoom-in" to="/ideas" className="nav_item">
-            Home
-          </Link>
-          <Link data-aos="zoom-in" to="/projects" className="nav_item">
-            About
-          </Link>
-          <Link data-aos="zoom-in" to="/developers" className="nav_item">
-            Event Format
-          </Link>
-          <Link data-aos="zoom-in" to="/developers" className="nav_item">
-            What's New
-          </Link>
-          <Link data-aos="zoom-in" to="/developers" className="nav_item">
-            rewards
-          </Link>
-          <Link data-aos="zoom-in" to="/developers" className="nav_item">
-            FAQ
-          </Link>
-        </div>
-        
+    <div className="menu-wrap">
+      {/* onChange={e => {}} is added to avoid an error msg in the console: ' You provided a `checked` prop to a form field without ........' */}
+      <input
+        type="checkbox"
+        className="toggler"
+        onClick={handleClick}
+        checked={checked}
+        onChange={(e) => {}}
+      />
+      <div className="hamburger">
+        <div></div>
       </div>
-
-      <div className="nav__mob">
-        <div className="nav__mob_container">
-          
-          <button className="nav_btn" onClick={handleDrawerOpen}>
-            <HiOutlineMenuAlt3 className="hamburger" />
-          </button>
-        </div>
-      </div>
-      <Drawer
-        open={open}
-        onClick={handleDrawerClose}
-        onClose={(event, reason) => {
-          if (reason !== "backdropClick") {
-            handleDrawerClose();
-          } else if (reason !== "escapeKeyDown") {
-            handleDrawerClose();
-          }
-        }}
-        anchor="left"
-      >
-        <div className="nav__drawer">
-          <div className="nav__drawer_header">
-            
-            <div className="navbar_items_mob"  data-aos="fade-right"
-              data-aos-duration="600">
-                
-              <Link to="/" className="nav_item_mob" onClick={handleDrawerClose}>
-                Home
-              </Link>
-              <Link
-                to="/projects"
-                className="nav_item_mob"
-                spy={true}
-                smooth={true}
-                onClick={handleDrawerClose}
-              >
-                About
-              </Link>
-              <Link
-                to="/"
-                className="nav_item_mob"
-                spy={true}
-                smooth={true}
-                onClick={handleDrawerClose}
-              >
-                Speakers
-              </Link>
-              <Link
-                to="/"
-                className="nav_item_mob"
-                spy={true}
-                smooth={true}
-                onClick={handleDrawerClose}
-              >
-                Schedule
-              </Link>
-              <Link
-                to="/"
-                className="nav_item_mob"
-                spy={true}
-                smooth={true}
-                onClick={handleDrawerClose}
-              >
-                Sponsors
-              </Link>
-              <Link
-                to="/"
-                className="nav_item_mob"
-                spy={true}
-                smooth={true}
-                onClick={handleDrawerClose}
-              >
-                FAQ
-              </Link>
-            </div>
+      <div className="menu">
+        <div>
+          <div>
+            <ul style={{ padding: "0" }} className="overlay-content pt-2">
+              <li onClick={handleClick}>
+                <a href="#Home">Home</a>
+              </li>
+              <li onClick={handleClick}>
+                <a href="#About">About</a>
+              </li>
+              <li onClick={handleClick}>
+                <a href="#EventFormat">Event Format</a>
+              </li>
+              <li onClick={handleClick}>
+                <a href="#ProblemStatement">Problem Statements</a>
+              </li>
+              <li onClick={handleClick}>
+                <a href="#Rewards">Rewards</a>
+              </li>
+              <li onClick={handleClick}>
+                <a href="#Timeline">Timeline</a>
+              </li>
+              <li onClick={handleClick}>
+                <a href="#Contact">Contact Us</a>
+              </li>
+              <li onClick={handleClick}>
+                <a href="#FAQ">FAQ</a>
+              </li>
+            </ul>
+            <img
+              src="https://ibeto.excelmec.org/static/media/ibetologo.89112a3a.svg"
+              alt="ibeto-logo"
+              style={{ height: "50%", width: "50%" }}
+            />
           </div>
-          <a href="/" target="_blank" rel="noreferrer" >
-            <img src='https://ibeto.excelmec.org/static/media/ibetologo.89112a3a.svg' alt="" className="ibetologo__mob" />
-          </a>
         </div>
-      </Drawer>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
