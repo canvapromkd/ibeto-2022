@@ -28,7 +28,7 @@ const Faq = () => {
               })}
               </div>
         </div>
-        <AnswerBox currentAnswer={currentAnswer}/>
+        <div className='faq__ansbox__container'><AnswerBox currentAnswer={currentAnswer}/></div>
         </div>
       </div>
     </>

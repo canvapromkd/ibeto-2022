@@ -32,19 +32,31 @@
     color: #ffff;
     background-color:  #17C9AC;
 }
-.faq__child2{
+/* .faq__child2{
   background-image: url('../../assets/png/answerboxanim.png');
   background-size: 100%;
   background-repeat: no-repeat;
 
   
-   /* background: linear-gradient(180deg, rgba(23, 201, 172, 0.08) 29.92%, rgba(23, 201, 172, 0.31) 100%);*/
+    background: linear-gradient(180deg, rgba(23, 201, 172, 0.08) 29.92%, rgba(23, 201, 172, 0.31) 100%);
     flex: 0.5;
     position: relative;
     display: flex;
     flex-direction: column;
     border-radius: 25px;
     height: 59vh;
+   
+} */
+.faq__ansbox__container{
+  background-image: url('../../assets/png/answerboxanim.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  flex: 0.5;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  border-radius: 25px;
+  height: 59vh;
 }
 .faq__answer__title{
     font-weight: 500;
@@ -299,10 +311,12 @@
     .faq__child__container{
       display: flex;
       flex-direction: column-reverse;
-      gap: 4rem;
+      
+      
       width: 100%;
-      justify-content: space-around;
+      justify-content: flex-start;
       
     }
+
 
   }
