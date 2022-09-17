@@ -1,99 +1,223 @@
-* {
-    box-sizing: border-box;
+.navbar_1 {
+  height: 90px;
+  background-color: #ffffff;
+  display: flex;
+  width: 100%;
+  padding: 0.5rem ;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+
+.nav__desktop {
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 3rem ;
+  width: 100%;
+}
+
+.meclogo {
+  height: 75px;pointer-events: none;
+}
+.ibetologo__mob {
+  padding-top: auto;
+  padding-bottom: 2rem;
+  width: 120px;
+  flex-shrink: 0;
+  pointer-events: none;
+}
+
+
+.navbar_items {
+  display: flex;
+  gap:10rem;
+  padding :0.75rem 1.75rem;
+
+}
+
+.nav_item {
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'Inter';
+  padding: 1rem;
+  color: #060606;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.nav_item:hover{
+  text-decoration: none;
+  color: #ffff;
+  border-radius: 10px;
+  background-color: #060606;
+  
+}
+.nav_item_mob:hover{
+  text-decoration: none;
+}
+.hamburger {
+  font-size: 1.9rem;
+  color: #094C83;
+  
+}
+
+.nav_btn {
+  outline: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 50px;
+  z-index: 999;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: -2px -2px 4px rgba(25, 106, 178, 0.459), 2px 2px 4px rgba(0, 0, 0, 0.3);
+  padding-left: auto;
+}
+.nav_title__logo{
+  width: 6rem;
+  height: 3rem;
+  /* padding: 3rem; */
+}
+
+.nav__mob {
+  display: none;
+  width: 100%;}
+
+.nav__mob_container {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+ 
+}
+
+.nav__drawer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 330px;
+  padding: 1.5rem;
+}
+
+.nav__drawer_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar_items_mob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  /* padding: 2rem; */
+  z-index: 9;
+}
+
+.nav_item_mob {
+  cursor: pointer;
+  text-decoration: none;
+  color: #060606;
+  font-size: 1.5rem;
+  font-family: 'Inter';
+  display: flex;
+  font-weight: 400;
+  flex-direction: column;
+}
+.nav__title_mob
+{
+  font-weight: 700;
+  font-size: 25px;
+  color: #9E0000;
+  cursor: pointer;
   }
-  
-  /* body {
-    margin: 0px;
-    font-family: 'segoe ui';
-  } */
-  
-  .nav {
-    height: 50px;
-    width: 100%;
-    background-color: #FFFF;
-    position: relative;
+  .title_mob_1
+{
+  padding-left:9%;
+  font-weight: 700;
+  font-size: 25px;
+  justify-content: center;
+  color: #9E0000;
+  cursor: pointer;
   }
-  
-  .nav > .nav-header {
-    display: inline;
+@media (min-width: 992px) and (max-width: 1380px) {
+  .navbar_items {
+      gap: 1.75rem;
   }
-  
-  .nav > .nav-header > .nav-title {
-    display: inline-block;
-    font-size: 22px;
-    color: #0000;
-    padding: 10px 10px 10px 10px;
+}
+
+
+@media screen and (max-width: 992px) {
+  .navbar_items {
+      gap: 1rem;
   }
-  
-  .nav > .nav-btn {
-    display: none;
+
+  .nav_item {
+      font-size: 15px;
+      padding: 0.75rem 1.1rem;
   }
-  
-  .nav > .nav-links {
-    display: inline;
-    float: right;
-    color: #0000;
-    margin-left: 38%;
-    font-size: 18px;
+}
+
+@media screen and (max-width: 882px) {
+  .navbar {
+      background-color: transparent;
+      box-shadow: none;
   }
-  
-  .nav > .nav-links > a {
-    display: inline-block;
-    padding: 13px 10px 13px 10px;
-    text-decoration: none;
-    color:black;
-  }
-  
-  .nav > .nav-links > a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  
-  .nav > #nav-check {
-    display: none;
-  }
-  
-  @media (max-width:600px) {
-    .nav > .nav-btn {
-      display: inline-block;
-      position: absolute;
-      right: 0px;
-      top: 0px;
-    }
-    .nav > .nav-btn > label {
-      display: inline-block;
-      width: 50px;
-      height: 50px;
-      padding: 13px;
-    }
-    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-      background-color: rgba(0, 0, 0, 0.3);
-    }
-    .nav > .nav-btn > label > span {
+
+  .nav__mob {
       display: block;
-      width: 25px;
-      height: 10px;
-      border-top: 2px solid #eee;
-    }
-    .nav > .nav-links {
-      position: absolute;
-      display: block;
-      width: 100%;
-      background-color: #333;
-      height: 0px;
-      transition: all 0.3s ease-in;
-      overflow-y: hidden;
-      top: 50px;
-      left: 0px;
-    }
-    .nav > .nav-links > a {
-      display: block;
-      width: 100%;
-    }
-    .nav > #nav-check:not(:checked) ~ .nav-links {
-      height: 0px;
-    }
-    .nav > #nav-check:checked ~ .nav-links {
-      height: calc(100vh - 50px);
-      overflow-y: auto;
-    }
+      background-color: white;
+  }
+
+  .nav__desktop {
+      display: none;
+  }
+
+  .nav__drawer {
+      width: 300px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .meclogo__mob {
+      padding-bottom: 3.25rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .meclogo__mob {
+      padding-bottom: 2.25rem;
+  }
+}
+
+.home_logo
+{
+  background-color: #9E0000;
+  width: 48px;
+  height:45px;
+  justify-content: center;
+  padding: 7px;
+  border-radius: 9px;
+  pointer-events: none;
+  cursor: pointer;
+
+}
+.logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  }
+  .nav__title{
+  padding-left: 20px; 
+   padding-top: 10px;
+  width: fit-content;
+  /* color: #9E0000; */
+  cursor: pointer;
   }
