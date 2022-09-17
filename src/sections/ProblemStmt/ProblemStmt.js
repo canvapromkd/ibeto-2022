@@ -21,6 +21,7 @@ const ProblemStmt = () => {
             <ProblemStmtCard 
               key={ps.id} 
               name={ps.name}
+              description={ps.description}
               image={ps.name}
               statements={ps.statements}
             />
