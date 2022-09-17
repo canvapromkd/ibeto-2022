@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { RiLightbulbFlashLine } from "react-icons/ri";
-
 import WhatsNewCard from './WhatsNewCard'
 import './WhatsNew.css'
+import Aos from 'aos';
 
 const whatsNewData = [
     {
@@ -28,12 +28,16 @@ const whatsNewData = [
 ]
 
 function WhatsNew() {
+    useEffect(()=>{
+        Aos.init({duration:1100})
+    })
   return (
     <div className='whatsNew'>
-        <div className='whatsNew__comntainer'>
-            <h1 className='section__header'>What's New</h1>
+        
+        <div className='whatsNew__comntainer' >
+            <h1 className='ps__header'>What's New</h1>
 
-            <div className='whatsNew__cards'>
+            <div className='whatsNew__cards' data-aos="zoom-out">
                 {whatsNewData.map((wn) => (
                     <WhatsNewCard 
                         key={wn.id}
@@ -44,6 +48,7 @@ function WhatsNew() {
                 ))}
             </div>
         </div>
+
     </div>
   )
 }
