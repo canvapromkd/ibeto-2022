@@ -24,7 +24,7 @@ function ProblemStmtCard({ name, image, description, statements }) {
 
   return (
     <div className='problemStmtCard'>
-        <h2>{name}</h2>
+        <h2 >{name}</h2>
         <img src='' alt='' />
         <button onClick={handleClickOpen}>View Details</button>
 
