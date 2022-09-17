@@ -8,7 +8,7 @@ const TimelineComponent = () => {
   return (
     <div className="timeline">
       <div className="timeline__container">
-        <h2 className='section__header'>Timeline</h2>
+        <h2 className='ps__header'>Timeline</h2>
 
         <div className='timeline__section'>
         <VerticalTimeline>
