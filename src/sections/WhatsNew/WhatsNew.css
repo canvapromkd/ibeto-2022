@@ -19,7 +19,8 @@
 
 .whatsNew__cards {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
     gap: 1rem;
@@ -69,7 +70,7 @@
     padding: 1rem;
     font-family: var(--secondary-font);
     margin-left: -2rem;
-    font-size: 1.15rem;
+    font-size: 1rem;
     line-height: 110%;
     font-weight: 500;
     text-align: right;

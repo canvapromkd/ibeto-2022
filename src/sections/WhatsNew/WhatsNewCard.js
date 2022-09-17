@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './WhatsNew.css'
 function WhatsNewCard({ id, text, icon }) {
   return (
     <div className={`${id%2 === 0 ? 'whatsNewCard ty' : 'whatsNewCard'}`}>

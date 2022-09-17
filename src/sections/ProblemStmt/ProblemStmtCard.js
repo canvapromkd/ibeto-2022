@@ -2,15 +2,20 @@ import React, { useState } from 'react'
 import Dialog from '@mui/material/Dialog';
 import DialogContent from '@mui/material/DialogContent';
 import Slide from '@mui/material/Slide';
-
+import { Button } from '@mui/material';
 import dialog_vector1 from '../../assets/svg/dialog_vector1.svg'
 import dialog_vector2 from '../../assets/svg/dialog_vector2.svg'
+import Aos from 'aos';
+import { useEffect } from 'react';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
 function ProblemStmtCard({ name, image, description, statements }) {
+  useEffect(()=>{
+    Aos.init({duration:1100})
+  })
 
   const [open, setOpen] = useState(false);
 
@@ -23,7 +28,7 @@ function ProblemStmtCard({ name, image, description, statements }) {
   };
 
   return (
-    <div className='problemStmtCard'>
+    <div data-aos="fade-up" className='problemStmtCard'>
         <h2 >{name}</h2>
         <img src='' alt='' />
         <button onClick={handleClickOpen}>View Details</button>
@@ -58,8 +63,11 @@ function ProblemStmtCard({ name, image, description, statements }) {
                     <li>{st}</li>
                   ))}
                 </ul>
+                
               </div>
+              <Button variant="outlined" onClick={handleClose}>Close</Button>
             </div>
+            
           </DialogContent>
       </Dialog>
     </div>
