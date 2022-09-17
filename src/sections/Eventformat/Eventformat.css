@@ -3,7 +3,8 @@
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(90deg, rgba(1, 196, 203, 0.54) 0%, rgba(70, 206, 205, 0.52) 100%);
+    background: linear-gradient(180deg, #ebf6ff 0%, rgb(1 196 203 / 54%) 100%), url('../../assets/images/eventbckg.png');
+    background-size: 100%;
     /* padding-bottom: 4rem; */
 }
 
@@ -15,7 +16,7 @@
     align-items: center;
     padding: 2rem 0;
     backdrop-filter: blur(1px);
-    background-image: url("../../assets/svg/noise.svg");
+    background: url("../../assets/svg/noise.svg"), 50%;
 }
 
 .eventformat__cards {
@@ -29,7 +30,8 @@
     position: relative;
 }
 
-.line1, .line2 {
+.line1,
+.line2 {
     position: absolute;
     width: 220px;
     pointer-events: none;
@@ -39,6 +41,7 @@
     left: 15%;
     top: -8%;
 }
+
 .line2 {
     left: 50%;
     top: 15%;
@@ -56,6 +59,7 @@
 .efc1 {
     transform: translateY(-30%);
 }
+
 .efc3 {
     transform: translateY(30%);
 }
@@ -87,4 +91,22 @@
     font-size: 1.15rem;
     color: rgba(30, 30, 30, 0.65);
     width: 90%;
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+    .eventformat {
+        background: linear-gradient(180deg, #ebf6ff 0%, rgb(1 196 203 / 54%) 100%);
+    }
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+
+    .eventformat {
+        background: linear-gradient(180deg, #ebf6ff 0%, rgb(1 196 203 / 54%) 100%);
+    }
+
 }
