@@ -15,7 +15,7 @@ const AnswerBox = ({currentAnswer}) => {
 
 
           {/* bubbles */}
-          <div class="bubble-holder"> 
+       {/*   <div class="bubble-holder"> 
   <div class="bubble-1 bubble-container bubble-animation-x">
     <div class="bubble-large bubble-animation-y"></div>
   </div>
@@ -51,12 +51,14 @@ const AnswerBox = ({currentAnswer}) => {
    
    
 </div>
+  */}
 {/* bubble ends */}
 
 {/* wave starts */}
+
 <div class="faq__ocean">
-  <div class="faq__wave faq__wave1 "></div>
-  <div class="faq__wave faq__wave2"></div>
+  {/*<div class="faq__wave faq__wave1 "></div>
+<div class="faq__wave faq__wave2"></div>*/}
   {/* <div class="faq__wave faq__wave3"></div>
   <div class="faq__wave faq__wave4"></div> */}
 </div>
