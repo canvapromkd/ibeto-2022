@@ -2,17 +2,21 @@ import React from 'react'
 import { IoBulbOutline } from "react-icons/io5";
 import { HiOutlineVideoCamera } from "react-icons/hi";
 import { RiBallPenLine } from "react-icons/ri";
-
+import Aos from 'aos';
 import './Eventformat.css'
 
 import line1 from '../../assets/svg/line1.svg'
 import line2 from '../../assets/svg/line2.svg'
+import { useEffect } from 'react';
 
 const Eventformat = () => {
+  useEffect(()=>{
+    Aos.init({duration:1100})
+  },[])
   return (
-    <div className='eventformat'>
+    <div data-aos="zoom-out" className='eventformat'>
       <div className='eventformat__container'>
-        <h1 className='ps__header'>Event  format</h1>
+        <h1 data-aos="zoom-in" className='ps__header'>Event  format</h1>
 
         <div className='eventformat__cards'>
             <div className='eventFormatCard efc1'>
