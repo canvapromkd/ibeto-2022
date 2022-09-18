@@ -44,9 +44,9 @@ const WhyParticipate = () => {
           <div className='wpc_mobile_animation'>
           <img src="https://avatars.githubusercontent.com/u/43471295?v=4" alt="" />
           </div>}
-          <img className='ellipse el_1' src={ellipse1}/>
-          <img className='ellipse el_2' src={ellipse2}/>
-          <img className='ellipse el_3' src={ellipse2}/>
+          <img className='ellipse el_1' src={ellipse1} alt=""/>
+          <img className='ellipse el_2' src={ellipse2} alt=""/>
+          <img className='ellipse el_3' src={ellipse2} alt=""/>
           <div className='wpC_slider'>
           <IoIosArrowUp className='slider__arrow' onClick={gotoNext}/>
           <Slider {...settings} ref={sliderRef}>

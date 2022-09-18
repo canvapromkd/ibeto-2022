@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from 'react'
+import React from 'react'
 import { FiPhoneCall, FiLinkedin, FiMail } from "react-icons/fi";
 
 
