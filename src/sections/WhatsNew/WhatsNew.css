@@ -30,6 +30,7 @@
 
 .whatsNewCard {
     display: flex;
+    font-size: 1rem;
     width: 250px;
     height: 250px;
     background: rgba(23, 201, 172, 0.4);

@@ -37,7 +37,7 @@ function ProblemStmtCard({name, image, description, statements }) {
 
   return (
     <div data-aos="fade-up" className='problemStmtCard'>
-        <h2 >{name}</h2>
+        <h2 className='ps__card_title'>{name}</h2>
         <Lottie 
             animationData={fin_anim}
             loop={true}

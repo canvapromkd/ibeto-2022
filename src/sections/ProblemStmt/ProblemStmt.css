@@ -4,6 +4,9 @@
     width: 100%;
     min-height: 100vh;
 }
+.ps__card_title{
+    font-size: 1.5rem;
+}
 .ps__header{
     color: #094C83;
     font-size: 2rem;
