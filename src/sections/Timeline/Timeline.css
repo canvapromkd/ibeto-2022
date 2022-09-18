@@ -3,13 +3,19 @@
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    background: rgba(57, 205, 172, 0.51);
+    
+   /* background: rgba(57, 205, 172, 0.51); */
     /* padding-bottom: 4rem; */
 }
 .custom__time__line{
     color:#08599b;
 }
-
+.vertical-timeline::before{
+    background:  radial-gradient(#224646,#182828)
+}
+.vertical-timeline-element-date{
+    color: #212539;
+}
 .timeline__container {
     width: 80%;
     margin: auto;
