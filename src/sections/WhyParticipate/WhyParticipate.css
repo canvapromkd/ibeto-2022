@@ -133,9 +133,11 @@
 
 @media  only screen and (max-width:1000px) {
     .wpC__left{
-        width:100vw;
+        width:100vw !important;
         flex:0;
-      
+        position:relative;
+        left:-5vw;
+        right:0;
 
 
     }
@@ -145,12 +147,13 @@
     }
     .whyParticipateCard {
         width:90vw;
+        margin: 5px;
+        padding:2px;
         
-        padding:7.5px;
-        word-break: break-all;
     }
     .whyParticipate {
         min-height: fit-content;
+      
         padding-top: 10px;
         padding-bottom: 10px;
     }
@@ -160,6 +163,14 @@
     }
     .wpc__content p {
         padding:0;
+       
+    }
+}
 
+
+@media  only screen and (max-width:450px) {
+    .wpc__content p {
+        font-size: 0.9rem;
+        margin-right: 3px;
     }
 }
