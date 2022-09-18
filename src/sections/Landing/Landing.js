@@ -1,23 +1,19 @@
 import React from 'react'
 import './Landing.css'
-import Lottie from 'react-lottie'
-import landanim from '../../animations/Sunflowers.json'
+import ibeto_21 from '../../assets/video/ibeto 21.mp4'
+import Aos from 'aos'
+import { useEffect } from 'react'
 const Landing = () => {
-  const landAnimation = {
-    loop: true,
-    autoplay: true,
-    animationData: landanim,
-    rendererSettings: { preserveAspectRatio: "xMidYMid slice" },
-  };
-
+  useEffect(()=>{
+    Aos.init({duration:1100})
+  },[])
   return (
-    <div className='landing'>
-      <Lottie 
-            animationData={landanim}
-            loop={true}
-            autoPlay={true}
-            options={landAnimation} 
-          /> 
+    <div className='landing_main'>
+      <div data-aos="zoom-in" className="video_container">
+        <video autoPlay loop muted playsInline>
+          <source src={ibeto_21} type='video/Mp4'/>
+        </video>
+      </div>
     </div>
   )
 }

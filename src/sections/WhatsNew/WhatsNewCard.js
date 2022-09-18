@@ -20,7 +20,7 @@ function WhatsNewCard({id, text, icon }) {
     else{
       setBgColor('rgba(49, 196, 203, 0.27)')
     }
-  },[])
+  },[id])
   
   return (
     <div style={{backgroundColor:`${bgColor}`}} className={`${id%2 === 0 ? 'whatsNewCard ty' : 'whatsNewCard'} `}>

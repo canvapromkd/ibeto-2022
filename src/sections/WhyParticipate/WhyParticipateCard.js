@@ -9,7 +9,7 @@ function WhyParticipateCard() {
             <img src={temp_svg} alt="" />
         </div>
         <div className='wpc__content'>
-            <p>Carefully set project development structure that spans over 5-months.</p>
+          <p>  Carefully set project development structure that spans over 5-months. </p>
         </div>
     </div>
   )
