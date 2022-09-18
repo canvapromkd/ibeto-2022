@@ -56,7 +56,7 @@ function ProblemStmtCard({ name, image, description, statements }) {
               </div>
               <div className='psDialog__content'>
                 <h4>Description</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dolor fringilla viverra consectetur turpis purus dictum integer cras enim. Sed aliquam velit egestas volutpat molestie eget id. Nullam tristique semper.</p>
+                <p>{description}</p>
                 <h4>Statements</h4>
                 <ul>
                   {statements.map((st, id) => (

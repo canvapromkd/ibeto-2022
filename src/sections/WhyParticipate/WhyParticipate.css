@@ -3,16 +3,38 @@
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(90deg, rgba(92, 203, 1, 0.54) 0%, rgba(86, 206, 70, 0.52) 100%);
+    z-index: 100;
+      
+    /* background: linear-gradient(90deg, rgba(92, 203, 1, 0.54) 0%, rgba(86, 206, 70, 0.52) 100%); */
     /* padding-bottom: 4rem; */
 }
 
+.el_1{
+    z-index:-100;
+    position:absolute;
+    left:-15px;
+    margin-top: -12.5%;
+    
+}
+.el_2{
+    z-index:-100;
+    position:absolute;
+    left:40%;
+    margin-top: -25%;
+    
+}
+.el_3{
+    z-index:-1;
+    position:absolute;
+    left:40%;
+    margin-top: 19%;
+}
 .whyParticipate__container {
     width: 80%;
     margin: auto;
     display: flex;
     align-items: center;
-    padding: 2rem 0;
+    /*padding: 2rem 0;*/
 }
 
 .wpC__left {
@@ -67,6 +89,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    height:100%;
+    width:100%;
 }
 
 .whyParticipateCard {
@@ -104,4 +129,28 @@
     font-size: 1.05rem;
     color: #1D293F;
     padding: 0.75rem;
+}
+
+@media  only screen and (max-width:1000px) {
+    .wpC__left{
+        width:100%;
+        flex:0;
+
+    }
+    .wpC_slider {
+        height:fit-content;
+        
+    }
+    .whyParticipateCard {
+        width:90vw;
+    }
+    .whyParticipate {
+        min-height: fit-content;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .ellipse{
+        display: none;
+        
+    }
 }
