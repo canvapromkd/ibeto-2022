@@ -20,7 +20,7 @@ const TimelineComponent = () => {
             className="vertical-timeline-element--work "
             
             contentStyle={{color:'#ffff', background: 'linear-gradient(to right, #2980b9, #2c3e50)'}}
-            contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+            contentArrowStyle={{ borderRight: '7px solid  #2c3e50' }}
             date="2011 - present"
           >
             <h3 className="vertical-timeline-element-title">Creative Director</h3>
@@ -35,7 +35,7 @@ const TimelineComponent = () => {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
            contentStyle={{background:'linear-gradient(to right,#11774b,#62e9af'}}
-           contentArrowStyle={{borderRight:'7px solid #72e6b4'}}
+           contentArrowStyle={{borderRight:'7px solid #11774b'}}
             date="2010 - 2011"
           >
             <h3 className="vertical-timeline-element-title">Art Director</h3>
