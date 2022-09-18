@@ -3,7 +3,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
+ 
+.about__logotitle{
+    width: 60%;
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-height: 13vh;
+    
+}
+
 .about__title{
     position: relative;
     text-transform: capitalize;
@@ -73,4 +86,21 @@
         width: 10rem;
         height: 4rem;
     }
+    .about__logotitle{
+        width: 40%;
+       
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        max-height: 6vh;
+        
+    }
+}
+@media (min-device-width: 500px) and (max-device-width: 800px){
+
+    .about__logotitle{
+        max-height: 7vh;
+    }
+
 }
