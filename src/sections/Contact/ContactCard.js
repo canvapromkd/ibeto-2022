@@ -6,7 +6,7 @@ function ContactCard({ name, designation, image, email, phone, linkedIn }) {
   return (
     <div data-aos="zoom-in" data-aos-delay='150' className='contactCard'>
       <div className='contact_img'>
-        <img src={image} alt="" />
+        <img src={image} alt="contactimg" />
       </div>
       <h2>{name}</h2>
       <h3>{designation}</h3>

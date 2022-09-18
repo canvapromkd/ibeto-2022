@@ -6,7 +6,7 @@ function WhyParticipateCard() {
   return (
     <div className='whyParticipateCard'>
         <div className='wpc__img'>
-            <img src={temp_svg} alt="" />
+            <img src={temp_svg} alt="wpcimg" />
         </div>
         <div className='wpc__content'>
           <p>  Carefully set project development structure that spans over 5-months. </p>

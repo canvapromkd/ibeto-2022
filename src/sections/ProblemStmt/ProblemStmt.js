@@ -14,7 +14,7 @@ const ProblemStmt = () => {
     <div className='problemStmt'>
       <div className='problemStmt__container'>
         <h1 className='ps__header'>Problem Statements</h1>
-        <img src={ps_mainVector} className="ps_main_vector" alt="" />
+        <img src={ps_mainVector} className="ps_main_vector" alt="ps_vector" />
         <div  className='problemStmt__cards'>
           {problemStatements.map((ps) => (
             <div data-aos='zoom-in'>

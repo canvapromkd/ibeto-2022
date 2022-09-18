@@ -42,11 +42,11 @@ const WhyParticipate = () => {
           <h2 className='wpc__header'>Why Participate?</h2>
           {mobileView &&
           <div className='wpc_mobile_animation'>
-          <img src="https://avatars.githubusercontent.com/u/43471295?v=4" alt="" />
+          <img src="https://avatars.githubusercontent.com/u/43471295?v=4" alt="image" />
           </div>}
-          <img className='ellipse el_1' src={ellipse1} alt=""/>
-          <img className='ellipse el_2' src={ellipse2} alt=""/>
-          <img className='ellipse el_3' src={ellipse2} alt=""/>
+          <img className='ellipse el_1' src={ellipse1} alt="vector"/>
+          <img className='ellipse el_2' src={ellipse2} alt="vector"/>
+          <img className='ellipse el_3' src={ellipse2} alt="vector"/>
           <div className='wpC_slider'>
           <IoIosArrowUp className='slider__arrow' onClick={gotoNext}/>
           <Slider {...settings} ref={sliderRef}>
@@ -79,7 +79,7 @@ const WhyParticipate = () => {
           </div>
         </div>
       {mobileView ||  <div className='wpC__right'>
-            <img src="https://avatars.githubusercontent.com/u/43471295?v=4" alt="" />
+            <img src="https://avatars.githubusercontent.com/u/43471295?v=4" alt="avatar" />
         </div>}
       </div>
     </div>
