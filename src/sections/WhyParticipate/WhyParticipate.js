@@ -32,7 +32,7 @@ const WhyParticipate = () => {
     sliderRef.current.slickPrev();
   }
   
-  const mobileView = useMediaQuery('(max-width:1000px)');
+  const mobileView = useMediaQuery('(max-width:1400px)');
  
 
   return (
@@ -49,7 +49,7 @@ const WhyParticipate = () => {
           <img className='ellipse el_3' src={ellipse2} alt="vector"/>
           <div className='wpC_slider'>
           <IoIosArrowUp className='slider__arrow' onClick={gotoNext}/>
-          <Slider {...settings} ref={sliderRef}>
+          <Slider {...settings} ref={sliderRef} className="wpcSlider">
             <div>
               <WhyParticipateCard />
             </div>
