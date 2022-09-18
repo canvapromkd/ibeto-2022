@@ -49,10 +49,10 @@ const Navbar = () => {
                 <a href="#FAQ">FAQ</a>
               </li>
             </ul>
-            <img
+            <img onClick={()=>{window.location.reload()}}
               src="https://ibeto.excelmec.org/static/media/ibetologo.89112a3a.svg"
               alt="ibeto-logo"
-              style={{ height: "50%", width: "50%" }}
+              style={{ height: "50%", width: "50%",cursor:'pointer' }}
             />
           </div>
         </div>
