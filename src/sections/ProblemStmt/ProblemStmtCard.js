@@ -37,7 +37,7 @@ function ProblemStmtCard({name, image, description, statements }) {
 
   return (
     <div data-aos="fade-up" className='problemStmtCard'>
-        <h2 >{name}</h2>
+        <h2 className='ps__card_title'>{name}</h2>
         <Lottie 
             animationData={fin_anim}
             loop={true}
@@ -62,8 +62,8 @@ function ProblemStmtCard({name, image, description, statements }) {
             style={{ padding: 0, borderRadius: 10 }}
           >
             <div className='psDialog'>
-              <img src={dialog_vector1} alt="" className='dialog_vector1' />
-              <img src={dialog_vector2} alt="" className='dialog_vector2' />
+              <img src={dialog_vector1} alt="dialogvect" className='dialog_vector1' />
+              <img src={dialog_vector2} alt="dialogvect" className='dialog_vector2' />
               <div className='psDialog__header'>
                 <h2>{name}</h2>
               </div>

@@ -3,6 +3,10 @@
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
+    margin-top: 2rem;
+}
+.ps__card_title{
+    font-size: 1.5rem;
 }
 .ps__header{
     color: #094C83;
@@ -95,6 +99,7 @@
 .ps_main_vector{
     position: absolute;
     width: 100%;
+    pointer-events: none;
 }
 
 .dialog_vector1 {

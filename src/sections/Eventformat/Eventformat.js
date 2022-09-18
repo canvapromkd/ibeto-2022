@@ -29,7 +29,7 @@ const Eventformat = () => {
                 Round 2: Submission of detailed abstract of the project
               </p>
             </div>
-            <img src={line1} alt="" className='line1'/>
+            <img src={line1} alt="linevect" className='line1'/>
             <div className='eventFormatCard'>
               <div className='efc_icon_div'>
                 <RiBallPenLine className='efc_icon'/>
@@ -39,7 +39,7 @@ const Eventformat = () => {
               The top 25 teams selected from the Ideate phase would build their project during this phase and will be continuously evaluated through project reports. 
               </p>
             </div>
-            <img src={line2} alt="" className='line2'/>
+            <img src={line2} alt="linevect" className='line2'/>
             <div className='eventFormatCard efc3'>
               <div className='efc_icon_div'>
                 <HiOutlineVideoCamera className='efc_icon'/>
