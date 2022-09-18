@@ -3,8 +3,11 @@
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    background: rgba(174, 226, 215, 0.51);
+    background: rgba(57, 205, 172, 0.51);
     /* padding-bottom: 4rem; */
+}
+.custom__time__line{
+    color:#08599b;
 }
 
 .timeline__container {
@@ -44,5 +47,5 @@
     margin-left: -8px;
     box-shadow: none;
     top: 23px;
-    background: aquamarine
+    background: #08599b
 }

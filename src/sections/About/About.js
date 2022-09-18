@@ -1,6 +1,6 @@
 import React from 'react'
 import  './About.css'
-
+import { Button } from '@mui/material'
 const About = () => {
 
 const handleClick=()=>{
@@ -15,9 +15,15 @@ const handleClick=()=>{
 <br />
 This year marks the 10th edition of IBeTo, and thus IBeTo 2021 in association with IEDC MEC, Pehia, and AVT & Co. Ltd, has an added vision of working towards fulfilling the United Nations Sustainable Development Goals (UN SDGs) along with providing an opportunity to develop and implement the projects on a large scale in areas where technology is yet to make strides.
         </div>
-        <div onClick={handleClick}  className="greenBar">
+        {/* <div onClick={handleClick}  className="greenBar">
           Register Now
-        </div>
+        </div> */}
+        <Button sx={{
+          marginTop:'2rem',
+          marginBottom:'2rem',
+        }} onClick={handleClick} variant="contained" disableElevation>
+        Register Now
+        </Button>
     </div>
        
   )

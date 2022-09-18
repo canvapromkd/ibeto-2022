@@ -12,6 +12,7 @@ import {
   ProblemStmt,
   WhyParticipate,
   WhatsNew,
+  Testimonials
 } from "../../sections";
 
 function MainPage() {
@@ -26,6 +27,7 @@ function MainPage() {
       <ProblemStmt />
       <WhyParticipate />
       <TimelineComponent />
+      <Testimonials/>
       <Faq />
       <Contact />
       <Footer />

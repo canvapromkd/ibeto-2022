@@ -1,6 +1,6 @@
 export const problemStatements = [
     {
-      id: 1,
+      id:1,
       name: 'TRANSFORMING FINANCE WITH TECHNOLOGY',
       image: '',
       description: 'In a rising industry that brings together finance and technology to enable financial companies to reach their consumers in an effective manner, the possibilities for sustainable solutions are endless, especially in the agricultural domain. Solutions can be created that enable consumers to match their decisions and actions to the same sustainability goals that they wish to achieve.',
@@ -10,7 +10,7 @@ export const problemStatements = [
       ]
     },
     {
-      id: 2,
+      id:2,
       name: 'REDUCING HUNGER AND FOOD INSECURITY',
       description: 'The problem, that has plagued this planet for centuries and claims more victims every year and every second, is one that is not just a vast space for solutions to arise but a troubling area of life where solutions are demanded.\nThe ongoing war in Ukraine has brought forth once again the perpetual issue of people dying of starvation in conflict-intense areas, helpless and stranded. Meanwhile, unprecedented situations arise around the globe, such as calamities caused by poor infrastructure as well as natural disasters that wreak havoc and trap unsuspecting individuals, separated from much-needed resources.',
       image: '',
@@ -21,7 +21,7 @@ export const problemStatements = [
       ]
     },
     {
-      id: 3,
+      id:3,
       name: 'RESTORING THE GREEN',
       image: '',
       description: 'The planet that we reside on, is depleted of its resources and its beautiful sustainable environment, day by day, moment by moment. Urgency is once again called to the forefront as the icebergs melt, species die out, the ozone layer protecting us grows thinner and patches of green that cover the blue globe are slowly replaced by dry urban regions that focus on lifting up the human race while turning a blind eye to the air they breathe.',
@@ -33,7 +33,7 @@ export const problemStatements = [
       ]
     },
     {
-      id: 4,
+      id:4,
       name: 'REDESIGNING OUR COMMUTES',
       image: '',
       description: 'As time goes by, more and more vehicles roll out onto the streets, creating more clutter on the roads. This leads to increasing difficulty in managing traffic and ensuring that drivers and passengers follow proper rules and regulations.\nDeveloping solutions to aid the officials in stricter enforcement of road traffic rules would reduce the risks posed by drivers, passengers, and pedestrians. Efficiently and effectively identifying defects in road infrastructure and mapping them out can help authorities to come up with recommendations.',
@@ -44,7 +44,7 @@ export const problemStatements = [
       ]
     },
     {
-      id: 5,
+      id:5,
       name: 'ENHANCING SEAMLESS COMMUNICATION',
       image: '',
       description: 'Communication via technology has connected people together for the past few decades with the advent of the internet and its facilities. At the same time, there is room for much improvement in technologies such as geolocation and GPS that have made the world seem smaller, closer, and more navigable.\nBetter translation technology can also help bridge the gap between people from different cultures around the world and better understand one another. A very high percentage of casualties and death occurs due to improper traffic monitoring and management, slow and inefficient response during accidents and vehicle impacts, and delayed warnings during floods and other natural disasters.',
@@ -54,7 +54,7 @@ export const problemStatements = [
       ]
     },
     {
-      id: 6,
+      id:6,
       name: 'REDEFINING OUR HEALTHCARE SYSTEM',
       image: '',
       description: 'Healthcare technology has never been more relevant than it has been after the COVID-19 pandemic.  One of the rising concerns today is the disposal of personal COVID protection equipment in an effective way without placing additional strain on the city authorities, already struggling with the single-use plastic menace. Another issue that has come to the surface, is the delivery of medicines to patients living in remote areas. The pandemic also put a big question mark on offline education and medical students were among those whose education was severely affected.',
@@ -65,7 +65,7 @@ export const problemStatements = [
       ]
     },
     {
-      id: 7,
+      id:7,
       name: 'IMPLEMENTING EFFICIENT WASTE MANAGEMENT',
       image: '',
       description: 'Garbage-strewn plots and landfills are a common sight in this era. Poorly managed waste contaminates the world’s oceans, clogs drains and causes floods to damage our day-to-day life and harm the ecosystem. Diseases spread like wildfire, economic development takes hard blows and the ecosystem suffers tremendously, all as a consequence of the destruction of our environment.',
@@ -76,7 +76,7 @@ export const problemStatements = [
       ]
     },
     {
-      id: 8,
+      id:8,
       name: 'OPEN INNOVATION',
       image: '',
       description: 'This is the problem statement for all free thinkers who do not wish to be tied to a single issue of social relevance and innovation, inviting you to carve your solution and make an impact in essential sectors that govern our day-to-day life.',

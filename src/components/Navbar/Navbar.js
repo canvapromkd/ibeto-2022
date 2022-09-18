@@ -43,6 +43,9 @@ const Navbar = () => {
                 <a href="#Contact">Contact Us</a>
               </li>
               <li onClick={handleClick}>
+                <a href="#FAQ">Testimonials</a>
+              </li>
+              <li onClick={handleClick}>
                 <a href="#FAQ">FAQ</a>
               </li>
             </ul>

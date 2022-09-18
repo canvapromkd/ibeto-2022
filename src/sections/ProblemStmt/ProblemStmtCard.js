@@ -12,7 +12,7 @@ const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
-function ProblemStmtCard({ name, image, description, statements }) {
+function ProblemStmtCard({name, image, description, statements }) {
   useEffect(()=>{
     Aos.init({duration:1100})
   })
@@ -57,7 +57,7 @@ function ProblemStmtCard({ name, image, description, statements }) {
               <div className='psDialog__content'>
                 <h4>Description</h4>
                 <p>{description}</p>
-                <h4>Statements</h4>
+                {statements.length===0 ?null:<h4>Statements</h4>}
                 <ul>
                   {statements.map((st, id) => (
                     <li>{st}</li>
@@ -65,7 +65,7 @@ function ProblemStmtCard({ name, image, description, statements }) {
                 </ul>
                 
               </div>
-              <Button variant="outlined" onClick={handleClose}>Close</Button>
+              <Button style={{marginBottom:'2rem'}} variant="outlined" onClick={handleClose}>Close</Button>
             </div>
             
           </DialogContent>

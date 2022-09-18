@@ -19,7 +19,7 @@ const ProblemStmt = () => {
           {problemStatements.map((ps) => (
             <div data-aos='zoom-in'>
             <ProblemStmtCard 
-              key={ps.id} 
+              idvalue={ps.id} 
               name={ps.name}
               description={ps.description}
               image={ps.name}
