@@ -1,10 +1,9 @@
 import React from 'react'
-import Aos from 'aos'
+
 import ContactCard from './ContactCard'
 import { contactsData } from '../../data/contact'
 
 import './Contact.css'
-import { useEffect } from 'react'
 
 const Contact = () => {
   
