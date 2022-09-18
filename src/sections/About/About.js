@@ -10,7 +10,7 @@ const handleClick=()=>{
   return (
     <div className="main_div">
     <div className='about__logotitle'>
-    <img src='https://ibeto.excelmec.org/static/media/ibetologo.89112a3a.svg'></img>
+      <img src='https://ibeto.excelmec.org/static/media/ibetologo.89112a3a.svg'></img>
       <p className="ps__header">About</p>
       <img src='https://ibeto.excelmec.org/static/media/ibetologo.89112a3a.svg'></img>
 </div>        
