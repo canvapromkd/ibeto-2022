@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import ibeto_logo from '../../assets/logos/ibetoLogo.svg'
 const Navbar = () => {
   const [checked, setChecked] = useState(false);
   const handleClick = () => setChecked(!checked);
@@ -50,7 +51,7 @@ const Navbar = () => {
               </li>
             </ul>
             <img onClick={()=>{window.location.reload()}}
-              src="https://ibeto.excelmec.org/static/media/ibetologo.89112a3a.svg"
+              src={ibeto_logo}
               alt="ibeto-logo"
               style={{ height: "50%", width: "50%",cursor:'pointer' }}
             />

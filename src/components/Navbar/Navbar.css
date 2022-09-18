@@ -6,6 +6,13 @@
   left: 2%;
   z-index: 18;
 }
+.nav__full_wrapper{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
 
 .menu-wrap .toggler {
   position: absolute;

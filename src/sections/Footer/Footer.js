@@ -9,10 +9,10 @@ const Footer = () => {
       <div className="footer__logos">
         <div ><a href='https://www.mec.ac.in/'>< img src={mec_logo} className="mec__logo"  alt="mec_logo" /></a></div>
         <div className='footer_contact_social'>
-        <a href={`facebook.com`} target="_blank" rel="noreferrer">
+        <a href={`https://www.facebook.com/excelmec`} target="_blank" rel="noreferrer">
           <FiFacebook style={{border:'none'}} className='contact_social_icon'/>
         </a>
-        <a href={`instagram.com`} target="_blank" rel="noreferrer">
+        <a href={`https://www.instagram.com/excelmec/`} target="_blank" rel="noreferrer">
           <FiInstagram className='contact_social_icon'/>
         </a>
         <a href="achyuthmohan.me" target="_blank" rel="noreferrer">

@@ -48,8 +48,8 @@
 }
 
 .wnc_icon {
-    width: 125px;
-    height: 125px;
+    width: 123px;
+    height: 123px;
     background: rgba(39, 138, 140, 0.8);
     border-radius: 5px;
     transform: translate(-50%, 50%) rotate(-45deg);
@@ -97,20 +97,51 @@
 }
 
 @media only screen and (max-width:1300px){
-
+    .whatsNew__cards{
+        flex-direction: row;
+    align-items: center;
+    padding-left: 5rem;
+    /* margin-top: 1rem; */
+    }
+    .whatsNewCard{
+        margin-top: 1rem;
+    }
+    
 }
 @media only screen and (max-width:1200px){
     
 }
 @media only screen and (max-width:1100px){
-    
+    .whatsNew__cards{
+        flex-direction: column;
+    }
+    .ty{
+        transform: translate(1%);
+    }
 }
 @media only screen and (max-width:992px){
-    
+    .whatsNew__cards{
+        flex-direction: column;
+        margin-top: 20%;
+    }
+    .ty{
+        transform: translate(1%);
+    }
 }
 @media only screen and (max-width:800px){
-    
+    .whatsNewCard{
+        font-size: 0.75rem;
+    }
 }
 @media only screen and (max-width:600px){
     
+}
+@media screen and (max-width: 400px) {
+    .whatsNewCard{
+        width: 225px;
+    }
+    .wnc_icon{
+        width: 100px;
+        height: 100px;
+    }
 }
