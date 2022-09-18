@@ -124,6 +124,7 @@
     .eventFormatCard{
         width: 80vw;
         margin-top: 2rem;
+        transform: translateY(-25%);
     }
     
 }
