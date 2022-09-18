@@ -9,8 +9,8 @@ const Landing = () => {
   },[])
   return (
     <div className='landing_main'>
-      <div data-aos="zoom-in" className="video_container">
-        <video autoPlay loop muted playsInline>
+      <div data-aos="zoom-in">
+        <video className='video_container' autoPlay loop muted playsInline>
           <source src={ibeto_21} type='video/Mp4'/>
         </video>
       </div>
