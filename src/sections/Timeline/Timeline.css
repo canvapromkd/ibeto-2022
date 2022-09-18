@@ -3,13 +3,30 @@
     flex-direction: column;
     width: 100%;
     min-height: 100vh;
-    background: rgba(57, 205, 172, 0.51);
+    
+   /* background: rgba(57, 205, 172, 0.51); */
     /* padding-bottom: 4rem; */
+}
+.timeline__para{
+    color: #FFF;
 }
 .custom__time__line{
     color:#08599b;
 }
+.vertical-timeline::before{
+    background:  radial-gradient(#224646,#182828)
+}
+.vertical-timeline-element-date{
+    color: #FFF;
+}
+.vertical-timeline-element-title{
+    font-size: 1.5rem;
+    color: #FFF;
+}
+.vertical-timeline-element-content{
+    box-shadow: 0 0.25em 0.5em 0 rgba(0,0,0,0.25),0 0.4em 1.25em 0 rgba(0,0,0,0.15) !important
 
+}
 .timeline__container {
     width: 80%;
     margin: auto;
@@ -36,9 +53,7 @@
     font-family: var(--secondary-font);
 }
 
-.timeline_content {
-    
-}
+
 
 
 .vertical-timeline--two-columns .vertical-timeline-element-icon {
