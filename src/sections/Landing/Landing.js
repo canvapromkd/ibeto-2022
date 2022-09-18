@@ -1,23 +1,14 @@
 import React from 'react'
 import './Landing.css'
-import Lottie from 'react-lottie'
-import landanim from '../../animations/Sunflowers.json'
+import ibeto_21 from '../../assets/video/ibeto 21.mp4'
 const Landing = () => {
-  const landAnimation = {
-    loop: true,
-    autoplay: true,
-    animationData: landanim,
-    rendererSettings: { preserveAspectRatio: "xMidYMid slice" },
-  };
-
   return (
-    <div className='landing'>
-      <Lottie 
-            animationData={landanim}
-            loop={true}
-            autoPlay={true}
-            options={landAnimation} 
-          /> 
+    <div className='landing_main'>
+      <div className="video_container">
+        <video autoPlay loop muted playsInline>
+          <source src={ibeto_21} type='video/Mp4'/>
+        </video>
+      </div>
     </div>
   )
 }
