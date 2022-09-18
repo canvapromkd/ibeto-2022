@@ -1,11 +1,10 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import { FiPhoneCall, FiLinkedin, FiMail } from "react-icons/fi";
-
 
 
 function ContactCard({ name, designation, image, email, phone, linkedIn }) {
   return (
-    <div className='contactCard'>
+    <div data-aos="zoom-in" data-aos-delay='150' className='contactCard'>
       <div className='contact_img'>
         <img src={image} alt="" />
       </div>
