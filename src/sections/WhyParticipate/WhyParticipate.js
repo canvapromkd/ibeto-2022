@@ -5,7 +5,6 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import WhyParticipateCard from './WhyParticipateCard';
 import ellipse1 from "../../assets/svg/Ellipse\ 8.svg"
 import ellipse2 from "../../assets/svg/Ellipse\ 10.svg"
-import ellipse3 from "../../assets/svg/Ellipse\ 9.svg"
 import './WhyParticipate.css'
 
 const WhyParticipate = () => {
@@ -47,7 +46,7 @@ const WhyParticipate = () => {
           </div>}
           <img className='ellipse el_1' src={ellipse1}/>
           <img className='ellipse el_2' src={ellipse2}/>
-          <img className='ellipse el_3' src={ellipse3}/>
+          <img className='ellipse el_3' src={ellipse2}/>
           <div className='wpC_slider'>
           <IoIosArrowUp className='slider__arrow' onClick={gotoNext}/>
           <Slider {...settings} ref={sliderRef}>
