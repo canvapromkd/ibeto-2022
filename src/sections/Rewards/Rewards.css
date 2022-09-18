@@ -39,7 +39,6 @@
 }
 .reward_list_item{
     margin-top: 1rem;
-    font-size: 1rem;
 }
 
 @media (min-device-width: 20px) and (max-device-width: 500px){
@@ -50,13 +49,6 @@
     .reward_price_box{
         padding: 0.5rem;
         width: 96%;
-    }
-}
-
-@media only screen and (max-width:1300px){
-    .rewards_container{
-        /* width: 20vw;
-        padding: 0.5rem; */
     }
 }
 @media only screen and (max-width:1200px){
@@ -79,26 +71,26 @@
 }
 @media only screen and (max-width:800px){
     .rewards_container{
-        width: 60vw;
-        padding: 0.5rem;
+        /* width: fit-content;
+        padding: 0.5rem; */
     }
     .reward_price_box{
-        padding: 0.2rem;
+        /* padding: 0.2rem; */
     }
 }
 @media only screen and (max-width:600px){
     .rewards_container{
-        width: 80vw;
-        padding: 0.5rem;
+        /* width: fit-content;
+        padding: 0.5rem; */
     }
     .reward_price_box{
-        padding: 0.2rem;
-        width: 90%;
+        /* padding: 0.2rem;
+        width:90%; */
     }
 }
 @media screen and (max-width: 400px) {
     .rewards_container{
-        width: 80vw;
+        width: fit-content;
         padding: 0.2rem;
     }
 }

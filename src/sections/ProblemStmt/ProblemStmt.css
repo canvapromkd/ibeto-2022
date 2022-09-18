@@ -99,6 +99,7 @@
 .ps_main_vector{
     position: absolute;
     width: 100%;
+    pointer-events: none;
 }
 
 .dialog_vector1 {
