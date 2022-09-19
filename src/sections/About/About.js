@@ -1,20 +1,20 @@
 import React from 'react'
 import  './About.css'
 import { Button } from '@mui/material'
-import Aos from 'aos'
+// import Aos from 'aos'
 import ibeto_logo from '../../assets/svg/ibeto22_no_text.svg'
-import { useEffect } from 'react'
+// import { useEffect } from 'react'
 const About = () => {
-  useEffect(()=>{
-    Aos.init({duration:1100})
-  },[])
+  // useEffect(()=>{
+  //   Aos.init({duration:1100})
+  // },[])
 
 const handleClick=()=>{
   window.location.assign("")
 }
   return (
     <div className="main_div">
-    <div className='about__logotitle' data-aos='fade-right'>
+    <div className='about__logotitle'>
       <img className='about__logo__title' src={ibeto_logo} alt="ibeto_logo" />
       <p className="ps__header">About</p>
       <img className='about__logo__title' src={ibeto_logo} alt="ibeto_logo" />
