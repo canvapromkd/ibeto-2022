@@ -27,16 +27,16 @@ const Navbar = () => {
           <div>
             <ul style={{ padding: "0" }} className="overlay-content pt-2">
               <li onClick={handleClick}>
-                <a href="#Home">Home</a>
+                <a href="#Landing">Home</a>
               </li>
               <li onClick={handleClick}>
                 <a href="#About">About</a>
               </li>
               <li onClick={handleClick}>
-                <a href="#EventFormat">Event Format</a>
+                <a href="#Eventformat">Event Format</a>
               </li>
               <li onClick={handleClick}>
-                <a href="#ProblemStatement">Problem Statements</a>
+                <a href="#ProblemStmt">Problem Statements</a>
               </li>
               <li onClick={handleClick}>
                 <a href="#Rewards">Rewards</a>
@@ -48,10 +48,10 @@ const Navbar = () => {
                 <a href="#Contact">Contact Us</a>
               </li>
               <li onClick={handleClick}>
-                <a href="#FAQ">Testimonials</a>
+                <a href="#Testimonials">Testimonials</a>
               </li>
               <li onClick={handleClick}>
-                <a href="#FAQ">FAQ</a>
+                <a href="#Faq">FAQ</a>
               </li>
             </ul>
             <img onClick={()=>{window.location.reload()}}

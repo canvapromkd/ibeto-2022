@@ -61,7 +61,7 @@ function ProblemStmtCard({name, ps_image, description, statements }) {
                 {statements.length===0 ?null:<h4>Statements</h4>}
                 <ul>
                   {statements.map((st, id) => (
-                    <li>{st}</li>
+                    <li key={id}>{st}</li>
                   ))}
                 </ul>
                 

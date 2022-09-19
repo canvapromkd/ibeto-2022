@@ -8,7 +8,7 @@ import './Contact.css'
 const Contact = () => {
   
   return (
-    <div className='contact'>
+    <div className='contact' id="Contact">
       <div className='contact__container'>
         <h1 className='ps__header'>Contact us</h1>
 

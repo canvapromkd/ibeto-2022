@@ -32,7 +32,7 @@ function WhatsNew() {
         Aos.init({duration:1100})
     })
   return (
-    <div className='whatsNew'>
+    <div className='whatsNew' id="WhatsNew">
         
         <div className='whatsNew__comntainer' >
             <h1 className='ps__header'>What's New</h1>
