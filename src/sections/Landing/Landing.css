@@ -5,7 +5,9 @@
    align-items: center;
    /* padding: 1rem; */
 }
-
+.video_container{
+    margin-top: -7rem;
+}
 @media (min-device-width: 20px) and (max-device-width: 500px){
     .landing_main{
         padding-top: 5rem;
