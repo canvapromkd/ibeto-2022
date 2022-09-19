@@ -88,26 +88,25 @@ useEffect(()=>{
             contentArrowStyle={{ borderRight: '7px solid  #2c3e50' }}
             date="25 October"
           >
-            <h3 className="vertical-timeline-element-title">IBeTo Launch - Registration Opens</h3>
+            <h3 className="vertical-timeline-element-title">Announcement of shortlisted teams</h3>
            
             <div  className='timeline_content'>
               
             </div>
             <p className='timeline__para'>
-              Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-            </p>
+            30 teams are shortlisted with 15 from each track. Teams are assigned mentors.             </p>
           </VerticalTimelineElement>
           
           <VerticalTimelineElement
           className="vertical-timeline-element--work"
          contentStyle={{background:'linear-gradient(to right,#66A5A0,#8FCCAD,#B1D89F,#9ACE7C'}}
          contentArrowStyle={{borderRight:'7px solid #11774b'}}
-          date="2010 - 2011"
+          date="26 October"
         >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
+          <h3 className="vertical-timeline-element-title">Project Development begins</h3>
           
           <p className='timeline__para' >
-            Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+          Create Phase begins. Teams are encouraged to start working on their projects.
           </p>
         </VerticalTimelineElement>
 
@@ -117,29 +116,27 @@ useEffect(()=>{
             
             contentStyle={{color:'#ffff', background: 'linear-gradient(to right,#1BABC3,#61C5D4 ,#22B7CB, #2394B4)'}}
             contentArrowStyle={{ borderRight: '7px solid  #2c3e50' }}
-            date="2011 - present"
+            date="5-6 November"
           >
-            <h3 className="vertical-timeline-element-title">IBeTo Launch - Registration Opens</h3>
+            <h3 className="vertical-timeline-element-title">Meet the mentor session</h3>
            
             <div  className='timeline_content'>
               
             </div>
             <p className='timeline__para'>
-            IBeTo registration opens. Students can register by submitting their ideas by filling the form in the website.
-            </p>
+            The teams are given an opportunity to interact with their mentors and obtain advice on how to further develop their project.            </p>
           </VerticalTimelineElement>
           
           <VerticalTimelineElement
           className="vertical-timeline-element--work"
          contentStyle={{background:'linear-gradient(to right,#66A5A0,#8FCCAD,#B1D89F,#9ACE7C'}}
          contentArrowStyle={{borderRight:'7px solid #11774b'}}
-          date="2010 - 2011"
+          date="12 November"
         >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
+          <h3 className="vertical-timeline-element-title">Project plan</h3>
           
           <p className='timeline__para' >
-            Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-          </p>
+          The teams are required to submit their project plan - detailing their project creation process.          </p>
         </VerticalTimelineElement>
 
           <VerticalTimelineElement 
@@ -148,7 +145,7 @@ useEffect(()=>{
             
             contentStyle={{color:'#ffff', background: 'linear-gradient(to right,#1BABC3,#61C5D4 ,#22B7CB, #2394B4)'}}
             contentArrowStyle={{ borderRight: '7px solid  #2c3e50' }}
-            date="2011 - present"
+            date="16"
           >
             <h3 className="vertical-timeline-element-title">IBeTo Launch - Registration Opens</h3>
            
