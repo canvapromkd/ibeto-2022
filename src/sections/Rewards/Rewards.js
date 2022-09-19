@@ -6,7 +6,7 @@ const Rewards = () => {
     Aos.init({duration:1100})
   },[])
   return (
-    <div className='rewards_main' id='Rewards'>
+    <div className='rewards_main' id='rewards'>
       <div data-aos="zoom-in" className="rewards_container">
         <div className="reward_title">Rewards</div>
         <div className="reward_price_box">

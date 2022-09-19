@@ -14,7 +14,7 @@ const Eventformat = () => {
     Aos.init({duration:1100})
   },[])
   return (
-    <div data-aos="zoom-out" className='eventformat'id="Eventformat">
+    <div data-aos="zoom-out" className='eventformat'id="eventformat">
       <div className='eventformat__container'>
         <h1 data-aos="zoom-in" className='ps__header'>Event  format</h1>
 
@@ -30,7 +30,8 @@ const Eventformat = () => {
                 of two rounds based on the following criteria <br />
 
                 Round 1: Idea Submission <br />
-                Round 2: Submission of detailed abstract of the project
+                Round 2: Submission of detailed abstract of the project<br/>
+              The top 30 scoring teams will advance to the next phase.
               </p>
             </div>
             <img src={line1} alt="linevect" className='line1'/>
@@ -40,7 +41,7 @@ const Eventformat = () => {
               </div>
               <h2>Create</h2>
               <p>
-              The top 25 teams selected from the Ideate phase would build their project during this phase and will be continuously evaluated through project reports. 
+              Throughout this phase, the top 30 teams will construct their projects and be continually assessed via project reports. Participants will be able to seek guidance from a panel of experts. 
               </p>
             </div>
             <img src={line2} alt="linevect" className='line2'/>
@@ -50,7 +51,7 @@ const Eventformat = () => {
               </div>
               <h2>Showcase</h2>
               <p>
-              The teams have to submit a video presentation of the project along with a demonstration of their working prototype in front of the judges on Day 0 of Excel 2021
+              On Day 0 of Excel 2022, which will serve as the event's final judgement day, the teams must submit a video presentation of their concept and demonstrate to the judges a functional prototype.
               </p>
             </div>
         </div>

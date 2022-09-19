@@ -16,7 +16,7 @@ useEffect(()=>{
     lineColor: 'blue',
   }
   return (
-    <div className="timeline" id="Timeline">
+    <div className="timeline" id="timeline">
       <div className="timeline__container">
         <h2 className='ps__header'>Timeline</h2>
 

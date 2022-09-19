@@ -14,7 +14,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     /* max-height: 13vh; */
     
 }
@@ -38,13 +38,12 @@
     display: flex;
     font-family: 'Inter';
     font-style: normal;
-    
     font-size: 1rem;
     line-height: 39px;
     position: relative;
     text-align: center;
     margin: 0 auto;
-    margin-top: 6%;
+    margin-top: 3%;
 }
 .greenBar{
     display: flex;
