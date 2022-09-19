@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    padding-top: 2rem;
     min-height: 100vh;
     background: linear-gradient(180deg, #ebf6ff 0%, rgb(1 196 203 / 54%) 100%), url('../../assets/images/eventbckg.png');
     background-size: 100%;

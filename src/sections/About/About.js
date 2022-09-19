@@ -27,6 +27,7 @@ This year marks the 10th edition of IBeTo, and thus IBeTo 2021 in association wi
         <Button sx={{
           marginTop:'2rem',
           marginBottom:'2rem',
+          backgroundColor:'#21B8CB'
         }} onClick={handleClick} variant="contained" disableElevation>
         Register Now
         </Button>
