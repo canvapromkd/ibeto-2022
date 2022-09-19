@@ -29,7 +29,7 @@ useEffect(()=>{
             
             contentStyle={{color:'#ffff', background: 'linear-gradient(to right,#1BABC3,#61C5D4 ,#22B7CB, #2394B4)'}}
             contentArrowStyle={{ borderRight: '7px solid  #2c3e50' }}
-            date="2011 - present"
+            date="23 September"
           >
             <h3 className="vertical-timeline-element-title">IBeTo Launch - Registration Opens</h3>
            
@@ -37,7 +37,7 @@ useEffect(()=>{
               
             </div>
             <p className='timeline__para'>
-              Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+            IBeTo registration opens. Students can register by submitting their ideas by filling the form in the website.
             </p>
           </VerticalTimelineElement>
           
@@ -45,13 +45,12 @@ useEffect(()=>{
             className="vertical-timeline-element--work"
            contentStyle={{background:'linear-gradient(to right,#66A5A0,#8FCCAD,#B1D89F,#9ACE7C'}}
            contentArrowStyle={{borderRight:'7px solid #11774b'}}
-            date="2010 - 2011"
+            date="October 4"
           >
-            <h3 className="vertical-timeline-element-title">Art Director</h3>
+            <h3 className="vertical-timeline-element-title">Detailed abstract submission open</h3>
             
             <p className='timeline__para' >
-              Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-            </p>
+            Detailed Abstract Submission opens for registered IBeTo participants. The registration is still open via the form in the website.            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement 
             
@@ -59,28 +58,26 @@ useEffect(()=>{
             
             contentStyle={{color:'#ffff', background: 'linear-gradient(to right,#1BABC3,#61C5D4 ,#22B7CB, #2394B4)'}}
             contentArrowStyle={{ borderRight: '7px solid  #2c3e50' }}
-            date="2011 - present"
+            date="10 October"
           >
-            <h3 className="vertical-timeline-element-title">IBeTo Launch - Registration Opens</h3>
+            <h3 className="vertical-timeline-element-title">IBeTo Registration closes</h3>
            
             <div  className='timeline_content'>
               
             </div>
             <p className='timeline__para'>
-              Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-            </p>
+            IBeTo registration closes. Teams selected for detailed abstract submission will be announced.            </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
           className="vertical-timeline-element--work"
          contentStyle={{background:'linear-gradient(to right,#66A5A0,#8FCCAD,#B1D89F,#9ACE7C'}}
          contentArrowStyle={{borderRight:'7px solid #11774b'}}
-          date="2010 - 2011"
+          date="17 October"
         >
-          <h3 className="vertical-timeline-element-title">Art Director</h3>
+          <h3 className="vertical-timeline-element-title">Abstract submission closes</h3>
           
           <p className='timeline__para' >
-            Creative Direction, User Experience, Visual Design, SEO, Online Marketing
-          </p>
+          Detailed Abstract Submission closes. This marks the end of the ideate phase.          </p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement 
@@ -89,7 +86,7 @@ useEffect(()=>{
             
             contentStyle={{color:'#ffff', background: 'linear-gradient(to right,#1BABC3,#61C5D4 ,#22B7CB, #2394B4)'}}
             contentArrowStyle={{ borderRight: '7px solid  #2c3e50' }}
-            date="2011 - present"
+            date="25 October"
           >
             <h3 className="vertical-timeline-element-title">IBeTo Launch - Registration Opens</h3>
            
@@ -128,7 +125,7 @@ useEffect(()=>{
               
             </div>
             <p className='timeline__para'>
-              Creative Direction, User Experience, Visual Design, Project Management, Team Leading
+            IBeTo registration opens. Students can register by submitting their ideas by filling the form in the website.
             </p>
           </VerticalTimelineElement>
           
