@@ -19,7 +19,7 @@ const TimelineComponent = () => {
             
             className="vertical-timeline-element--work "
             
-            contentStyle={{color:'#ffff', background: 'linear-gradient(to right, #2980b9, #2c3e50)'}}
+            contentStyle={{color:'#ffff', background: 'linear-gradient(to right,#1BABC3,#61C5D4 ,#22B7CB, #2394B4)'}}
             contentArrowStyle={{ borderRight: '7px solid  #2c3e50' }}
             date="2011 - present"
           >
