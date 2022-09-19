@@ -39,7 +39,7 @@
     font-family: 'Inter';
     font-style: normal;
     font-size: 1rem;
-    line-height: 39px;
+    line-height: 28px;
     position: relative;
     text-align: center;
     margin: 0 auto;
@@ -123,10 +123,7 @@
     }
 }
 @media only screen and (max-width:600px){
-    .about__logotitle{
-        flex-direction: column;
-
-    }
+    
     .about__logo__title{
         width: 8rem;
     }

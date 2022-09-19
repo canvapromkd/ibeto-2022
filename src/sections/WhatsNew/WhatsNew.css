@@ -122,7 +122,8 @@
 @media only screen and (max-width:992px){
     .whatsNew__cards{
         flex-direction: column;
-        margin-top: 20%;
+        justify-content: center;
+        margin-top: 7%;
     }
     .ty{
         transform: translate(1%);
@@ -132,9 +133,14 @@
     .whatsNewCard{
         font-size: 0.75rem;
     }
+    .whatsNew__cards{
+        justify-content: center;
+    }
 }
 @media only screen and (max-width:600px){
-    
+    .whatsNew__cards{
+        justify-content: center;
+    }
 }
 @media screen and (max-width: 400px) {
     .whatsNewCard{

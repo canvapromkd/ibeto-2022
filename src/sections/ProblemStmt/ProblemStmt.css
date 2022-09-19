@@ -57,6 +57,7 @@
 }
 .ps_image{
     height: 9rem;
+    pointer-events: none;
 }
 
 .problemStmtCard h2 {

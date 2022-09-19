@@ -2,10 +2,10 @@ import React, { useState } from 'react'
 import Dialog from '@mui/material/Dialog';
 import DialogContent from '@mui/material/DialogContent';
 import Slide from '@mui/material/Slide';
-import { Button } from '@mui/material';
 import dialog_vector1 from '../../assets/svg/dialog_vector1.svg'
 import dialog_vector2 from '../../assets/svg/dialog_vector2.svg'
 import Aos from 'aos';
+import CloseIcon from '@mui/icons-material/Close';
 import { useEffect } from 'react';
 
 const Transition = React.forwardRef(function Transition(props, ref) {
@@ -45,6 +45,11 @@ function ProblemStmtCard({name, ps_image, description, statements }) {
           disableScrollLock
           aria-describedby="alert-dialog-slide-description"
         >
+          <div style={{display:'flex',justifyContent:'flex-end',padding:'1rem'}}>
+          <CloseIcon onClick={handleClose} style={{cursor:'pointer'}} />
+          </div>
+         
+
           
           <DialogContent
             style={{ padding: 0, borderRadius: 10 }}
@@ -66,7 +71,6 @@ function ProblemStmtCard({name, ps_image, description, statements }) {
                 </ul>
                 
               </div>
-              <Button style={{marginBottom:'2rem'}} variant="outlined" onClick={handleClose}>Close</Button>
             </div>
             
           </DialogContent>

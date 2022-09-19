@@ -361,11 +361,18 @@
     
 }
 @media only screen and (max-width:992px){
-    
+    .faq__child__container{
+      flex-direction: column-reverse;
+    }
 }
 @media only screen and (max-width:800px){
     
 }
 @media only screen and (max-width:600px){
     
+}
+@media only screen and (max-width:600px){
+  .faq__answer__content{
+    overflow-y: scroll;
+  }
 }
