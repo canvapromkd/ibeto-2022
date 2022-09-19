@@ -145,16 +145,15 @@ useEffect(()=>{
             
             contentStyle={{color:'#ffff', background: 'linear-gradient(to right,#1BABC3,#61C5D4 ,#22B7CB, #2394B4)'}}
             contentArrowStyle={{ borderRight: '7px solid  #2c3e50' }}
-            date="16"
+            date="16 December"
           >
-            <h3 className="vertical-timeline-element-title">IBeTo Launch - Registration Opens</h3>
+            <h3 className="vertical-timeline-element-title">IBeTo Finale</h3>
            
             <div  className='timeline_content'>
               
             </div>
             <p className='timeline__para'>
-              Creative Direction, User Experience, Visual Design, Project Management, Team Leading
-            </p>
+            The teams should showcase and demonstrate their project in front of the expert judging panel of IBeTo on Day 0 of Excel, the annual technological symposium of MEC. The winners will be announced on the same day.            </p>
           </VerticalTimelineElement>
           
           
