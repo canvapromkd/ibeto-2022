@@ -6,21 +6,14 @@ import { Button } from '@mui/material';
 import dialog_vector1 from '../../assets/svg/dialog_vector1.svg'
 import dialog_vector2 from '../../assets/svg/dialog_vector2.svg'
 import Aos from 'aos';
-import Lottie from 'react-lottie';
 import { useEffect } from 'react';
-import fin_anim from '../../animations/finance.json'
 
 const Transition = React.forwardRef(function Transition(props, ref) {
   return <Slide direction="up" ref={ref} {...props} />;
 });
 
-function ProblemStmtCard({name, image, description, statements }) {
-  const fin_animation = {
-    loop: true,
-    autoplay: true,
-    animationData: fin_anim,
-    rendererSettings: { preserveAspectRatio: "xMidYMid slice" },
-  };
+function ProblemStmtCard({name, ps_image, description, statements }) {
+  
   useEffect(()=>{
     Aos.init({duration:1100})
   })
@@ -38,12 +31,7 @@ function ProblemStmtCard({name, image, description, statements }) {
   return (
     <div data-aos="fade-up" className='problemStmtCard'>
         <h2 className='ps__card_title'>{name}</h2>
-        <Lottie 
-            animationData={fin_anim}
-            loop={true}
-            autoPlay={true}
-            options={fin_animation} 
-          /> 
+        <img src={ps_image} className="ps_image" alt="image_ps" />
         <button onClick={handleClickOpen}>View Details</button>
 
         <Dialog

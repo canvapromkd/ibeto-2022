@@ -55,6 +55,9 @@
     border-radius: 8px;
     gap: 1rem;
 }
+.ps_image{
+    height: 9rem;
+}
 
 .problemStmtCard h2 {
     font-family: var(--primary-font);

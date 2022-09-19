@@ -22,7 +22,7 @@ const ProblemStmt = () => {
               idvalue={ps.id} 
               name={ps.name}
               description={ps.description}
-              image={ps.name}
+              ps_image={ps.image}
               statements={ps.statements}
             />
             </div>
