@@ -101,6 +101,18 @@ useEffect(()=>{
             </p>
           </VerticalTimelineElement>
           
+          <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+         contentStyle={{background:'linear-gradient(to right,#66A5A0,#8FCCAD,#B1D89F,#9ACE7C'}}
+         contentArrowStyle={{borderRight:'7px solid #11774b'}}
+          date="2010 - 2011"
+        >
+          <h3 className="vertical-timeline-element-title">Art Director</h3>
+          
+          <p className='timeline__para' >
+            Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+          </p>
+        </VerticalTimelineElement>
 
           <VerticalTimelineElement 
             
@@ -120,6 +132,18 @@ useEffect(()=>{
             </p>
           </VerticalTimelineElement>
           
+          <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+         contentStyle={{background:'linear-gradient(to right,#66A5A0,#8FCCAD,#B1D89F,#9ACE7C'}}
+         contentArrowStyle={{borderRight:'7px solid #11774b'}}
+          date="2010 - 2011"
+        >
+          <h3 className="vertical-timeline-element-title">Art Director</h3>
+          
+          <p className='timeline__para' >
+            Creative Direction, User Experience, Visual Design, SEO, Online Marketing
+          </p>
+        </VerticalTimelineElement>
 
           <VerticalTimelineElement 
             
