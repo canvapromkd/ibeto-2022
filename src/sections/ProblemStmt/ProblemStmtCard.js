@@ -33,7 +33,6 @@ function ProblemStmtCard({name, ps_image, description, statements }) {
         <h2 className='ps__card_title'>{name}</h2>
         <img src={ps_image} className="ps_image" alt="image_ps" />
         <button onClick={handleClickOpen}>View Details</button>
-
         <Dialog
           style={{ padding: 0, borderRadius: 10}}
           fullWidth={true}
@@ -46,6 +45,7 @@ function ProblemStmtCard({name, ps_image, description, statements }) {
           disableScrollLock
           aria-describedby="alert-dialog-slide-description"
         >
+          
           <DialogContent
             style={{ padding: 0, borderRadius: 10 }}
           >
