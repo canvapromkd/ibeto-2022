@@ -1,10 +1,17 @@
 import React from 'react'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-
+import Aos from 'aos'
 import './Timeline.css'
+import { useEffect } from 'react'
+
 
 const TimelineComponent = () => {
+  
+useEffect(()=>{
+  Aos.init({duration:1100})
+},[])
+
   const customTheme={
     lineColor: 'blue',
   }
@@ -13,9 +20,10 @@ const TimelineComponent = () => {
       <div className="timeline__container">
         <h2 className='ps__header'>Timeline</h2>
 
-        <div className='timeline__section'>
+        <div className='timeline__section' data-aos="zoom-in">
         <VerticalTimeline theme={customTheme}>
-          <VerticalTimelineElement
+    
+          <VerticalTimelineElement 
             
             className="vertical-timeline-element--work "
             
@@ -32,6 +40,7 @@ const TimelineComponent = () => {
               Creative Direction, User Experience, Visual Design, Project Management, Team Leading
             </p>
           </VerticalTimelineElement>
+          
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
            contentStyle={{background:'linear-gradient(to right,#66A5A0,#8FCCAD,#B1D89F,#9ACE7C'}}
