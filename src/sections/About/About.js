@@ -13,7 +13,7 @@ const handleClick=()=>{
   window.location.assign("")
 }
   return (
-    <div className="main_div">
+    <div className="main_div" id="About">
     <div className='about__logotitle'>
       <img className='about__logo__title' src={ibeto_logo} alt="ibeto_logo" />
       <p className="ps__header">About</p>

@@ -13,7 +13,7 @@ const Faq = () => {
   },[])
  
   return (
-    <>
+    <div id="Faq">
     
       <div className="faq__parent">
       <div className="ps__header">FAQs</div>
@@ -23,7 +23,7 @@ const Faq = () => {
             <div  className="faq__questions"  data-aos="zoom-in">
               {faqs.map((faq)=>{
                 return(
-                  <div className="faq__question " onClick={()=>{setCurrentAnswer(faq.answer)}}>{faq.question}</div>
+                  <div key={faq.id} className="faq__question " onClick={()=>{setCurrentAnswer(faq.answer)}}>{faq.question}</div>
                 )
               })}
               </div>
@@ -31,7 +31,7 @@ const Faq = () => {
         <AnswerBox currentAnswer={currentAnswer}/>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

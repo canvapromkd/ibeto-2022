@@ -8,7 +8,7 @@ const Landing = () => {
     Aos.init({duration:1100})
   },[])
   return (
-    <div className='landing_main'>
+    <div className='landing_main'id="Landing">
       <div data-aos="zoom-in">
         <video className='video_container' autoPlay loop muted playsInline>
           <source src={ibeto_22} type='video/Mp4'/>

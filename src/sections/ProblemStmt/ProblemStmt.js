@@ -11,15 +11,15 @@ const ProblemStmt = () => {
     Aos.init({duration:1100})
   },[])
   return (
-    <div className='problemStmt'>
+    <div className='problemStmt' id='ProblemStmt'>
       <div className='problemStmt__container'>
         <h1 className='ps__header'>Problem Statements</h1>
         <img src={ps_mainVector} className="ps_main_vector" alt="ps_vector" />
         <div  className='problemStmt__cards'>
           {problemStatements.map((ps) => (
-            <div data-aos='zoom-in'>
+            <div key={ps.id} data-aos='zoom-in'>
             <ProblemStmtCard 
-              idvalue={ps.id} 
+              key={ps.id} 
               name={ps.name}
               description={ps.description}
               ps_image={ps.image}
