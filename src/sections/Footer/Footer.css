@@ -1,25 +1,51 @@
 .footer__main{
-  margin-top: 3rem;
   display: flex;
   width: 100%;
   align-items: center;
   justify-content: center;
   padding: 1rem;
   flex-direction: column;
-  background-image:url('../../assets/images/footer\ bg.jpeg') ;
-  
+  background: #094C83;
+  position: relative;
+  overflow: hidden;
 }
+
+.footerBg {
+  position: absolute;
+  left: 0;
+  height: 192px;
+  pointer-events: none;
+}
+
 .footer__logos{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  
+  padding: 2.5rem 1.5rem;
+  padding-bottom: 0;
 }
+
+.footer__logos a {
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .mec__logo{
-  width: 14rem;
-  height: 6rem;
+  width: 10rem;
+  z-index: 9;
 }
+
+.footer_mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
 .footer_contact_social{
   display: flex;
   align-items: center;
@@ -38,31 +64,21 @@
     color: #ffff;
 }
 .footer_contact_social a:hover{
-  background: #1E1E1E;
-  color: #ffffff;
+  transform: scale(1.25);
 }
 
 .excel__logo{
-  width: 14rem;
-  height: 6rem;
+  width: 6rem;
 }
 .footer__made{
-  color: #ffff;
+  color: #ffffff;
   font-size: 1rem;
   font-family: 'Inter';
 }
+
+
 @media (min-device-width: 20px) and (max-device-width: 500px){
-  .footer__logos{
-    gap:2rem;
-  }
-  .mec__logo{
-    width: 5rem;
-    height: 2.5rem;
-  }
-  .excel__logo{
-    width: 4.3rem;
-    height: 3rem;
-  }
+
 }
 
 @media only screen and (max-width:1300px){
@@ -75,10 +91,21 @@
     
 }
 @media only screen and (max-width:992px){
-    
+  .footerBg {
+    display: none;
+  }
+  .footer__logos {
+    padding: 2rem 1rem;
+    padding-bottom: 0;
+  }
 }
 @media only screen and (max-width:800px){
-    
+  .footer__logos {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+  }
 }
 @media only screen and (max-width:600px){
     

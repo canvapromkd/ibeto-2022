@@ -2,9 +2,10 @@ import React, { useRef } from 'react'
 import Slider from "react-slick";
 import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 import useMediaQuery from '@mui/material/useMediaQuery';
+
 import WhyParticipateCard from './WhyParticipateCard';
-import ellipse1 from "../../assets/svg/Ellipse\ 8.svg"
-import ellipse2 from "../../assets/svg/Ellipse\ 10.svg"
+import ellipse1 from "../../assets/svg/Ellipse8.svg"
+import ellipse2 from "../../assets/svg/Ellipse10.svg"
 import './WhyParticipate.css'
 
 const WhyParticipate = () => {
@@ -42,44 +43,45 @@ const WhyParticipate = () => {
           <h2 className='wpc__header'>Why Participate?</h2>
           {mobileView &&
           <div className='wpc_mobile_animation'>
-          <img src="https://avatars.githubusercontent.com/u/43471295?v=4" alt="image" />
-          </div>}
+            <img src="https://avatars.githubusercontent.com/u/43471295?v=4" alt="" />
+          </div>
+          }
           <img className='ellipse el_1' src={ellipse1} alt="vector"/>
           <img className='ellipse el_2' src={ellipse2} alt="vector"/>
           <img className='ellipse el_3' src={ellipse2} alt="vector"/>
           <div className='wpC_slider'>
-          <IoIosArrowUp className='slider__arrow' onClick={gotoNext}/>
-          <Slider {...settings} ref={sliderRef} className="wpcSlider">
-            <div>
-              <WhyParticipateCard />
-            </div>
-            <div>
-              <WhyParticipateCard />
-            </div>
-            <div>
-              <WhyParticipateCard />
-            </div>
-            <div>
-              <WhyParticipateCard />
-            </div>
-            <div>
-              <WhyParticipateCard />
-            </div>
-            <div>
-              <WhyParticipateCard />
-            </div>
-            <div>
-              <WhyParticipateCard />
-            </div>
-            <div>
-              <WhyParticipateCard />
-            </div>
-          </Slider>
-          <IoIosArrowDown className='slider__arrow' onClick={gotoPrev}/>
+            <IoIosArrowUp className='slider__arrow' onClick={gotoNext}/>
+            <Slider {...settings} ref={sliderRef} className="wpcSlider">
+              <div>
+                <WhyParticipateCard />
+              </div>
+              <div>
+                <WhyParticipateCard />
+              </div>
+              <div>
+                <WhyParticipateCard />
+              </div>
+              <div>
+                <WhyParticipateCard />
+              </div>
+              <div>
+                <WhyParticipateCard />
+              </div>
+              <div>
+                <WhyParticipateCard />
+              </div>
+              <div>
+                <WhyParticipateCard />
+              </div>
+              <div>
+                <WhyParticipateCard />
+              </div>
+            </Slider>
+            <IoIosArrowDown className='slider__arrow' onClick={gotoPrev}/>
           </div>
         </div>
-      {mobileView ||  <div className='wpC__right'>
-            <img src="https://avatars.githubusercontent.com/u/43471295?v=4" alt="avatar" />
+        {mobileView ||  <div className='wpC__right'>
+          <img src="https://avatars.githubusercontent.com/u/43471295?v=4" alt="-" />
         </div>}
       </div>
     </div>
