@@ -35,7 +35,7 @@ const Footer = () => {
           <img src={excel_logo}className="excel__logo" alt="excel_logo" />
         </a>
       </div>
-      <div className="footer__made">Made with ❤️ Excel 2022</div>
+      <div className="footer__made">Made with ♥ Excel 2022</div>
     </div>
   )
 }
