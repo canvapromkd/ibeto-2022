@@ -6,6 +6,10 @@ const Navbar = () => {
   const handleClick = () => setChecked(!checked);
 
   return (
+    <div className="nav__main_container">
+       <img className="nav__outside_logo" src={ibeto_logo} onClick={()=>{
+        window.location.reload()
+       }} alt="ibeto_logo" /> 
     <div className="menu-wrap">
       {/* onChange={e => {}} is added to avoid an error msg in the console: ' You provided a `checked` prop to a form field without ........' */}
       <input
@@ -59,6 +63,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+     </div>
   );
 };
 
