@@ -13,7 +13,7 @@ const Faq = () => {
   },[])
  
   return (
-    <div id="Faq">
+    <div id="faq">
     
       <div className="faq__parent">
       <div className="ps__header">FAQs</div>

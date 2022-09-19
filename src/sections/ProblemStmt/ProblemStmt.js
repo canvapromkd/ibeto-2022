@@ -11,7 +11,7 @@ const ProblemStmt = () => {
     Aos.init({duration:1100})
   },[])
   return (
-    <div className='problemStmt' id='ProblemStmt'>
+    <div className='problemStmt' id='problemstmt'>
       <div className='problemStmt__container'>
         <h1 className='ps__header'>Problem Statements</h1>
         <img src={ps_mainVector} className="ps_main_vector" alt="ps_vector" />

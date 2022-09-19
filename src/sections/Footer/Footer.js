@@ -6,7 +6,7 @@ import footerBg from '../../assets/svg/footerBg.svg'
 import mec_logo from '../../assets/logos/mec_logo.a06dac18.png'
 const Footer = () => {
   return (
-    <div className='footer__main'id="Footer">
+    <div className='footer__main'id="footer">
       <img src={footerBg} alt="" className='footerBg' />
       <div className="footer__logos">
         <a href='https://www.mec.ac.in/' target="_blank" rel="noreferrer">
