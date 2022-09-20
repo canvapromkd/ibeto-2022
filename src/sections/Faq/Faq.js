@@ -6,7 +6,7 @@ import AnswerBox from './AnswerBox'
 import Aos from 'aos'
 const Faq = () => {
   const[faqs,setFaq]=useState([])
-  const[currentAnswer,setCurrentAnswer]=useState("IBeTo 2022")
+  const[currentAnswer,setCurrentAnswer]=useState("No. You can register for IBeTo 2022 free of cost.")
   useEffect(()=>{
     setFaq(faqs_data)
     Aos.init({ duration: 1100 });
@@ -21,7 +21,7 @@ const Faq = () => {
         <div className="faq__child1">
            
             <div  className="faq__questions"  data-aos="zoom-in">
-              {faqs.map((faq)=>{
+            {faqs.map((faq)=>{
                 return(
                   <div key={faq.id} className="faq__question " onClick={()=>{setCurrentAnswer(faq.answer)}}>{faq.question}</div>
                 )

@@ -7,22 +7,22 @@ import Aos from 'aos';
 const whatsNewData = [
     {
         id: 1,
-        text: 'Fellowships powered by corporate companies.',
+        text: 'Separate Tracks',
         icon: <RiLightbulbFlashLine className='wn__icon'/>
     },
     {
         id: 2,
-        text: 'An opportunity to avail pre-incubation facilities to nurture your business model.',
+        text: 'Aid to the contestants',
         icon: <RiLightbulbFlashLine className='wn__icon'/>
     },
     {
         id: 3,
-        text: 'A panel of experts to help you navigate if you’re stuck in your project journey.',
+        text: 'Incentives during project development',
         icon: <RiLightbulbFlashLine className='wn__icon'/>
     },
     {
         id: 4,
-        text: 'A unique chance to start with just an idea and grow it to fruition.',
+        text: 'Community representations',
         icon: <RiLightbulbFlashLine className='wn__icon'/>
     },
 ]

@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import Slider from "react-slick";
 import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 import useMediaQuery from "@mui/material/useMediaQuery";
-
+import {whyParticipateData} from '../../data/whyParticipateData'
 import WhyParticipateCard from "./WhyParticipateCard";
 import ellipse1 from "../../assets/svg/Ellipse8.svg";
 import ellipse2 from "../../assets/svg/Ellipse10.svg";
@@ -48,7 +48,7 @@ const WhyParticipate = () => {
           </div>
         )}
         <div className="wpC__right">
-          <h2 className="wpc__header">Why Participate?</h2>
+          <h2 className="ps__header">Why Participate?</h2>
           {mobileView && (
               <img src={whyParticipate} alt="" className="whyParticipate_img"/>
           )}
@@ -58,30 +58,16 @@ const WhyParticipate = () => {
           <div className="wpC_slider">
             <IoIosArrowUp className="slider__arrow" onClick={gotoNext} />
             <Slider {...settings} ref={sliderRef} className="wpcSlider">
-              <div>
-                <WhyParticipateCard />
-              </div>
-              <div>
-                <WhyParticipateCard />
-              </div>
-              <div>
-                <WhyParticipateCard />
-              </div>
-              <div>
-                <WhyParticipateCard />
-              </div>
-              <div>
-                <WhyParticipateCard />
-              </div>
-              <div>
-                <WhyParticipateCard />
-              </div>
-              <div>
-                <WhyParticipateCard />
-              </div>
-              <div>
-                <WhyParticipateCard />
-              </div>
+              {whyParticipateData.map((ypData)=>{
+                return(
+                  <div key={ypData.id}>
+                  <WhyParticipateCard content={ypData.content} />
+                </div>
+                )
+              })}
+              
+
+              
             </Slider>
             <IoIosArrowDown className="slider__arrow" onClick={gotoPrev} />
           </div>

@@ -20,7 +20,7 @@
 .nav__outside_logo{
   width: 10rem;
   cursor: pointer;
-  z-index: 999999;
+  z-index: 9;
 }
 
 .menu-wrap .toggler {

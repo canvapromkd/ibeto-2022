@@ -39,6 +39,12 @@ const Navbar = () => {
                 <a href="#problemstmt">Problem Statements</a>
               </li>
               <li onClick={handleClick}>
+                <a href="#whyParticipate">Why Participate</a>
+              </li>
+              <li onClick={handleClick}>
+                <a href="#whatsNew">Whats New</a>
+              </li>
+              <li onClick={handleClick}>
                 <a href="#rewards">Rewards</a>
               </li>
               <li onClick={handleClick}>
