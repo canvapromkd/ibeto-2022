@@ -5,6 +5,7 @@
     min-height: 100vh;
     margin-top: 2rem;
 }
+
 .ps__card_title{
     font-size: 1.5rem;
 }
@@ -57,6 +58,7 @@
 }
 .ps_image{
     height: 9rem;
+    pointer-events: none;
 }
 
 .problemStmtCard h2 {
@@ -98,7 +100,17 @@
     height: 100%;
     min-height: 70vh;
     font-family: var(--secondary-font);
+    position: relative;
 }
+.psDialog__close {
+    position: absolute;
+    font-size: 2rem;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    z-index: 9;
+}
+
 .ps_main_vector{
     position: absolute;
     width: 100%;
@@ -165,16 +177,31 @@
 
 }
 @media only screen and (max-width:1200px){
-    
+    .problemStmt__container {
+        width: 90%;
+    }
 }
 @media only screen and (max-width:1100px){
     
 }
 @media only screen and (max-width:992px){
-    
+    .problemStmt__container {
+        width: 100%;
+    }
+    .problemStmt__cards {
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
 }
 @media only screen and (max-width:800px){
-    
+    .psDialog__close {
+        font-size: 1.5rem;
+        top: 0.8rem;
+        right: 0.8rem;
+    }
 }
 @media only screen and (max-width:600px){
     

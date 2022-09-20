@@ -6,6 +6,8 @@ import useMediaQuery from "@mui/material/useMediaQuery";
 import WhyParticipateCard from "./WhyParticipateCard";
 import ellipse1 from "../../assets/svg/Ellipse8.svg";
 import ellipse2 from "../../assets/svg/Ellipse10.svg";
+
+import whyParticipate from '../../assets/svg/whyParticipate.svg'
 import "./WhyParticipate.css";
 import Aos from "aos";
 
@@ -42,25 +44,17 @@ const WhyParticipate = () => {
       <div className="whyParticipate__container" data-aos="zoom-in">
         {mobileView || (
           <div className="wpC__left">
-            <img
-              src="https://avatars.githubusercontent.com/u/43471295?v=4"
-              alt="-"
-            />
+            <img src={whyParticipate} alt="" className="whyParticipate_img"/>
           </div>
         )}
         <div className="wpC__right">
           <h2 className="wpc__header">Why Participate?</h2>
           {mobileView && (
-            <div className="wpc_mobile_animation">
-              <img
-                src="https://avatars.githubusercontent.com/u/43471295?v=4"
-                alt=""
-              />
-            </div>
+              <img src={whyParticipate} alt="" className="whyParticipate_img"/>
           )}
-          <img className="ellipse el_1" src={ellipse1} alt="vector" />
-          <img className="ellipse el_2" src={ellipse2} alt="vector" />
-          <img className="ellipse el_3" src={ellipse2} alt="vector" />
+          <img className="ellipse el_1" src={ellipse1} alt="" />
+          <img className="ellipse el_2" src={ellipse2} alt="" />
+          <img className="ellipse el_3" src={ellipse2} alt="" />
           <div className="wpC_slider">
             <IoIosArrowUp className="slider__arrow" onClick={gotoNext} />
             <Slider {...settings} ref={sliderRef} className="wpcSlider">
