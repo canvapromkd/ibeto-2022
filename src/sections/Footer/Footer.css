@@ -76,6 +76,13 @@
   font-family: 'Inter';
 }
 
+.footer_heart {
+  margin: 0 0.25rem;
+  position: relative;
+  top: 3px;
+  color: #21b8cb;
+}
+
 
 @media (min-device-width: 20px) and (max-device-width: 500px){
 
