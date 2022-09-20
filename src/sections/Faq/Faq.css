@@ -331,7 +331,7 @@
 }
 @media only screen and (max-width:992px){
     .faq__child__container{
-      flex-direction: column-reverse;
+      flex-direction: column;
     }
     .faq__parent {
       gap: 3rem;

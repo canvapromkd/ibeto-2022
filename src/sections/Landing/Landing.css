@@ -11,8 +11,9 @@
  }
  @media (min-device-width: 20px) and (max-device-width: 500px){
      .landing_main{
-         padding-top: 5rem;
+         padding-top: 3rem;
          background: linear-gradient(90deg,#00A19C,#4BDEA7,#97FCAE);
+         height: 90vh;
      }
      .video_container{
          height: 30vh;
