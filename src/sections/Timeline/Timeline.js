@@ -46,7 +46,7 @@ useEffect(()=>{
             className="vertical-timeline-element--work"
            contentStyle={{background:'linear-gradient(to right,#66A5A0,#8FCCAD,#B1D89F,#9ACE7C'}}
            contentArrowStyle={{borderRight:'7px solid #11774b'}}
-            date="October 4th"
+            date="4th October"
           >
             <h3 className="vertical-timeline-element-title">Detailed abstract submission open</h3>
             
