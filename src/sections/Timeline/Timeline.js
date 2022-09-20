@@ -30,7 +30,7 @@ useEffect(()=>{
             
             contentStyle={{color:'#ffff', background: 'linear-gradient(to right,#1BABC3,#61C5D4 ,#22B7CB, #2394B4)'}}
             contentArrowStyle={{ borderRight: '7px solid  #2c3e50' }}
-            date="23 September"
+            date="23rd September"
           >
             <h3 className="vertical-timeline-element-title">IBeTo Launch - Registration Opens</h3>
            
@@ -46,7 +46,7 @@ useEffect(()=>{
             className="vertical-timeline-element--work"
            contentStyle={{background:'linear-gradient(to right,#66A5A0,#8FCCAD,#B1D89F,#9ACE7C'}}
            contentArrowStyle={{borderRight:'7px solid #11774b'}}
-            date="October 4"
+            date="October 4th"
           >
             <h3 className="vertical-timeline-element-title">Detailed abstract submission open</h3>
             
@@ -59,7 +59,7 @@ useEffect(()=>{
             
             contentStyle={{color:'#ffff', background: 'linear-gradient(to right,#1BABC3,#61C5D4 ,#22B7CB, #2394B4)'}}
             contentArrowStyle={{ borderRight: '7px solid  #2c3e50' }}
-            date="10 October"
+            date="10th October"
           >
             <h3 className="vertical-timeline-element-title">IBeTo Registration closes</h3>
            
@@ -73,7 +73,7 @@ useEffect(()=>{
           className="vertical-timeline-element--work"
          contentStyle={{background:'linear-gradient(to right,#66A5A0,#8FCCAD,#B1D89F,#9ACE7C'}}
          contentArrowStyle={{borderRight:'7px solid #11774b'}}
-          date="17 October"
+          date="17th October"
         >
           <h3 className="vertical-timeline-element-title">Abstract submission closes</h3>
           
@@ -87,7 +87,7 @@ useEffect(()=>{
             
             contentStyle={{color:'#ffff', background: 'linear-gradient(to right,#1BABC3,#61C5D4 ,#22B7CB, #2394B4)'}}
             contentArrowStyle={{ borderRight: '7px solid  #2c3e50' }}
-            date="25 October"
+            date="25th October"
           >
             <h3 className="vertical-timeline-element-title">Announcement of shortlisted teams</h3>
            
@@ -102,7 +102,7 @@ useEffect(()=>{
           className="vertical-timeline-element--work"
          contentStyle={{background:'linear-gradient(to right,#66A5A0,#8FCCAD,#B1D89F,#9ACE7C'}}
          contentArrowStyle={{borderRight:'7px solid #11774b'}}
-          date="26 October"
+          date="26th October"
         >
           <h3 className="vertical-timeline-element-title">Project Development begins</h3>
           
@@ -117,7 +117,7 @@ useEffect(()=>{
             
             contentStyle={{color:'#ffff', background: 'linear-gradient(to right,#1BABC3,#61C5D4 ,#22B7CB, #2394B4)'}}
             contentArrowStyle={{ borderRight: '7px solid  #2c3e50' }}
-            date="5-6 November"
+            date="5th-6th November"
           >
             <h3 className="vertical-timeline-element-title">Meet the mentor session</h3>
            
@@ -132,7 +132,7 @@ useEffect(()=>{
           className="vertical-timeline-element--work"
          contentStyle={{background:'linear-gradient(to right,#66A5A0,#8FCCAD,#B1D89F,#9ACE7C'}}
          contentArrowStyle={{borderRight:'7px solid #11774b'}}
-          date="12 November"
+          date="12th November"
         >
           <h3 className="vertical-timeline-element-title">Project plan</h3>
           
@@ -146,7 +146,7 @@ useEffect(()=>{
             
             contentStyle={{color:'#ffff', background: 'linear-gradient(to right,#1BABC3,#61C5D4 ,#22B7CB, #2394B4)'}}
             contentArrowStyle={{ borderRight: '7px solid  #2c3e50' }}
-            date="16 December"
+            date="16th December"
           >
             <h3 className="vertical-timeline-element-title">IBeTo Finale</h3>
            
