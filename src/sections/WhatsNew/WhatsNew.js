@@ -1,5 +1,8 @@
 import React, { useEffect } from "react";
 import { RiLightbulbFlashLine } from "react-icons/ri";
+import { AiOutlineDollarCircle } from "react-icons/ai";
+import { FaIdBadge } from "react-icons/fa";
+import { IoIosPeople } from "react-icons/io";
 import WhatsNewCard from "./WhatsNewCard";
 import "./WhatsNew.css";
 import Aos from "aos";
@@ -13,17 +16,17 @@ const whatsNewData = [
   {
     id: 2,
     text: "Aid To The Contestants",
-    icon: <RiLightbulbFlashLine className="wn__icon" />,
+    icon: <FaIdBadge className="wn__icon" />,
   },
   {
     id: 3,
     text: "Incentives During Project Development",
-    icon: <RiLightbulbFlashLine className="wn__icon" />,
+    icon: <AiOutlineDollarCircle className="wn__icon" />,
   },
   {
     id: 4,
     text: "Community Representations",
-    icon: <RiLightbulbFlashLine className="wn__icon" />,
+    icon: <IoIosPeople className="wn__icon" />,
   },
 ];
 
