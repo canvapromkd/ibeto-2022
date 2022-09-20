@@ -1,16 +1,12 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Dialog from '@mui/material/Dialog';
 import DialogContent from '@mui/material/DialogContent';
-import Slide from '@mui/material/Slide';
 import dialog_vector1 from '../../assets/svg/dialog_vector1.svg'
 import dialog_vector2 from '../../assets/svg/dialog_vector2.svg'
 import Aos from 'aos';
-import CloseIcon from '@mui/icons-material/Close';
-import { useEffect } from 'react';
+import { IoClose } from "react-icons/io5";
 
-const Transition = React.forwardRef(function Transition(props, ref) {
-  return <Slide direction="up" ref={ref} {...props} />;
-});
+
 
 function ProblemStmtCard({name, ps_image, description, statements }) {
   
@@ -39,22 +35,16 @@ function ProblemStmtCard({name, ps_image, description, statements }) {
           maxWidth={"md"}
           PaperProps={{ sx: { width: "100%", borderRadius: 5, m: 2, minHeight: '70vh' } }}
           open={open}
-          TransitionComponent={Transition}
           keepMounted
           onClose={handleClose}
           disableScrollLock
           aria-describedby="alert-dialog-slide-description"
         >
-          <div style={{display:'flex',justifyContent:'flex-end',padding:'1rem'}}>
-          <CloseIcon onClick={handleClose} style={{cursor:'pointer'}} />
-          </div>
-         
-
-          
-          <DialogContent
+        <DialogContent
             style={{ padding: 0, borderRadius: 10 }}
           >
             <div className='psDialog'>
+              <IoClose className='psDialog__close' onClick={handleClose}/>
               <img src={dialog_vector1} alt="dialogvect" className='dialog_vector1' />
               <img src={dialog_vector2} alt="dialogvect" className='dialog_vector2' />
               <div className='psDialog__header'>

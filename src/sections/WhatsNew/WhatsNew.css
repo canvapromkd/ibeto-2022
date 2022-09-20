@@ -48,8 +48,8 @@
 }
 
 .wnc_icon {
-    width: 123px;
-    height: 123px;
+    width: 125px;
+    height: 125px;
     background: rgba(39, 138, 140, 0.8);
     border-radius: 5px;
     transform: translate(-50%, 50%) rotate(-45deg);
@@ -109,12 +109,15 @@
     
 }
 @media only screen and (max-width:1200px){
-    
+    .whatsNew__comntainer {
+        width: 90%;
+    }
 }
 @media only screen and (max-width:1100px){
     .whatsNew__cards{
         flex-direction: column;
     }
+
     .ty{
         transform: translate(1%);
     }
@@ -141,13 +144,18 @@
     .whatsNew__cards{
         justify-content: center;
     }
-}
-@media screen and (max-width: 400px) {
     .whatsNewCard{
-        width: 225px;
+        width: 220px;
+        height: 220px;
     }
     .wnc_icon{
-        width: 100px;
-        height: 100px;
+        width: 110px;
+        height: 110px;
     }
+    .wn__icon {
+        font-size: 2rem;
+        padding: 0.75rem;
+    }
+}
+@media screen and (max-width: 400px) {
 }

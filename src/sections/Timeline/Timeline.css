@@ -4,8 +4,6 @@
     width: 100%;
     min-height: 100vh;
     margin-top: 4rem;
-   /* background: rgba(57, 205, 172, 0.51); */
-    /* padding-bottom: 4rem; */
 }
 .timeline__para{
     color: #FFF;
@@ -70,6 +68,9 @@
 
 }
 @media only screen and (max-width:1200px){
+    .timeline__container {
+        width: 90%;
+    }
     .vertical-timeline-element-icon{
         margin-left: 1.5% !important
     } 
@@ -88,6 +89,9 @@
     }
     .vertical-timeline-element-date{
         color: #FFF 
+    }
+    .timeline__container {
+        width: 100%;
     }
 }
 @media only screen and (max-width:800px){

@@ -3,9 +3,7 @@
     flex-direction: column;
     width: 100%;
     z-index: 100;
-      
-    /* background: linear-gradient(90deg, rgba(92, 203, 1, 0.54) 0%, rgba(86, 206, 70, 0.52) 100%); */
-    /* padding-bottom: 4rem; */
+    min-height: 100vh;
 }
 
 .el_1{
@@ -33,7 +31,6 @@
     margin: auto;
     display: flex;
     align-items: center;
-    /*padding: 2rem 0;*/
 }
 
 .wpC__left {
@@ -43,6 +40,11 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
+}
+
+.whyParticipate_img {
+    pointer-events: none;
+    width: 80%;
 }
 
 .wpc__header {
@@ -63,19 +65,19 @@
     gap: 1rem;
 }
 
-
+/* 
 .slick-slider {
-    /* height: 100% !important; */
-}
+    height: 100% !important;
+} */
 
 
 .slick-initialized { 
     overflow: hidden; 
 }
 
-.slick-list {
-    /* height: 75vh !important; */
-}
+/* .slick-list {
+    height: 75vh !important;
+} */
 
 .slider__arrow {
     font-size: 1.55rem;
@@ -97,14 +99,13 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    transform: translateY(5rem);
 }
 
 .whyParticipateCard {
     background: #FFFFFF;
     box-shadow: 1px 2px 4px 2px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
-  /* //  margin: 1rem; */
+    margin: 1rem;
     height: 100px;
     display: flex;
     margin-bottom: 0.3rem;
@@ -213,15 +214,20 @@
 
 }
 @media only screen and (max-width:1200px){
-    
+    .whyParticipate__container {
+        width: 90%;
+    }
 }
 @media only screen and (max-width:1100px){
-    
+
 }
 @media only screen and (max-width:992px){
     .wpc_mobile_animation img{
         width: 80%;
         margin-left: 10%;
+    }
+    .whyParticipate__container {
+        width: 100%;
     }
 }
 @media only screen and (max-width:800px){

@@ -44,13 +44,13 @@ const WhyParticipate = () => {
       <div className="whyParticipate__container" data-aos="zoom-in">
         {mobileView || (
           <div className="wpC__left">
-            <img src={whyParticipate} alt="" />
+            <img src={whyParticipate} alt="" className="whyParticipate_img"/>
           </div>
         )}
         <div className="wpC__right">
           <h2 className="wpc__header">Why Participate?</h2>
           {mobileView && (
-              <img src={whyParticipate} alt="" />
+              <img src={whyParticipate} alt="" className="whyParticipate_img"/>
           )}
           <img className="ellipse el_1" src={ellipse1} alt="" />
           <img className="ellipse el_2" src={ellipse2} alt="" />

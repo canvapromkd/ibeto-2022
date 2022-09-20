@@ -1,6 +1,7 @@
 
 .faq__parent {
   display: flex;
+  align-items: center;
   flex-direction: column;
   min-height: 100vh;
   gap: 4rem;
@@ -26,7 +27,7 @@
 
 .faq__question{
     display: flex;
-    width: 50vw;
+    /* width: 50vw; */
     border: 1px solid rgba(23, 201, 172, 0.4);
     padding: 1rem;
     font-family: 'Inter';
@@ -42,29 +43,16 @@
   display: flex;
   flex-direction: column;
   gap: 1.25rem;
+  width: 100%;
 }
-/* .faq__child2{
-  background-image: url('../../assets/png/answerboxanim.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
 
-  
-    background: linear-gradient(180deg, rgba(23, 201, 172, 0.08) 29.92%, rgba(23, 201, 172, 0.31) 100%);
-    flex: 0.5;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    border-radius: 25px;
-    height: 59vh;
-   
-} */
 .faq__child2{
   background: linear-gradient(180deg, rgba(23, 201, 172, 0.08) 29.92%, rgba(23, 201, 172, 0.31) 100%);
   display: flex;
   flex-direction: column;
   padding: 2rem;
   height: 50vh;
-  width: 40vw;
+  flex: 0.5;
   border-radius: 2rem;
 }
 .faq__ansbox__container{
@@ -323,39 +311,15 @@
     }
   }
  
-
-
-  /* wave ends */
-
-  /*mobile view*/
-  @media (min-device-width: 20px) and (max-device-width: 500px){
-
-    .faq__child__container{
-      display: flex;
-      flex-direction: column-reverse;
-      
-      
-      width: 100%;
-      justify-content: flex-start;
-      
-    }
-    .faq__question{
-      width: 85vw;
-      padding: 0.5rem;
-    }
-    .faq__child2{
-      width: 90vw;
-      height: 33vh;
-      padding: 0.15rem;
-    }
-
-  }
   
 @media only screen and (max-width:1300px){
 
 }
 @media only screen and (max-width:1200px){
-    
+  .faq__parent {
+    gap: 3rem;
+    width: 90%;
+  }
 }
 @media only screen and (max-width:1100px){
     
@@ -363,6 +327,17 @@
 @media only screen and (max-width:992px){
     .faq__child__container{
       flex-direction: column-reverse;
+    }
+    .faq__parent {
+      gap: 3rem;
+      width: 100%;
+    }
+    .faq__child1 {
+      width: 80%;
+    }
+    .faq__child2{
+      width: 80%;
+      height: 30vh;
     }
 }
 @media only screen and (max-width:800px){
@@ -372,7 +347,5 @@
     
 }
 @media only screen and (max-width:600px){
-  .faq__answer__content{
-    overflow-y: scroll;
-  }
+
 }
