@@ -6,7 +6,6 @@ function WhyParticipateCard(props) {
     <div className='whyParticipateCard'>
         <div className='wpc__img'>
            {props.icon}
-            
         </div>
         <div className='wpc__content'>
           <p> {props.content} </p>

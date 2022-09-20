@@ -36,8 +36,7 @@
     cursor: pointer;
 }
 .faq__question:hover {
-    color: #ffff;
-    background-color:  #21B8CBCC;
+    background-color:  #c7edf392;
 }
 .faq__questions{
   display: flex;
@@ -296,7 +295,10 @@
 
   .isActive{
     color: #ffff;
-    background-color:  #21B8CBCC;
+    background-color:  #21B8CB;
+  }
+  .isActive:hover{
+    color: #333333;
   }
  
   @keyframes animate{

@@ -1,7 +1,8 @@
-import nasreen from '../assets/png/contact/nasreen.jpeg'
-import hemanth from '../assets/png/contact/hemanth.jpeg'
-import sebin from '../assets/png/contact/sebin.jpeg'
-import sania from '../assets/png/contact/sania.jpeg'
+import nasreen from '../assets/png/contact/nasreen.png'
+import hemanth from '../assets/png/contact/hemanth.png'
+import sebin from '../assets/png/contact/sebin.png'
+import sania from '../assets/png/contact/sania.png'
+
 export const contactsData = [
     {
         id: 1,
