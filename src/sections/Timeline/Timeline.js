@@ -16,20 +16,23 @@ useEffect(()=>{
     lineColor: 'blue',
     fontFamily:'Inter'
   }
+
+  const gradient1 = 'linear-gradient(0deg, rgba(33,184,203,1) 0%, rgba(9,76,131,1) 100%)'
+  const gradient2 = 'linear-gradient(0deg, rgba(9,76,131,1) 0%, rgba(33,184,203,1) 100%)'
+
   return (
     <div className="timeline" id="timeline">
       <div className="timeline__container">
         <h2 className='ps__header'>Timeline</h2>
 
         <div className='timeline__section' data-aos="zoom-in">
-        <VerticalTimeline theme={customTheme}>
-    
+        <VerticalTimeline theme={customTheme} lineColor="#21b8cb">
           <VerticalTimelineElement 
             
             className="vertical-timeline-element--work "
             
-            contentStyle={{color:'#ffff', background: 'linear-gradient(to right,#1BABC3,#61C5D4 ,#22B7CB, #2394B4)'}}
-            contentArrowStyle={{ borderRight: '7px solid  #2c3e50' }}
+            contentStyle={{color:'#ffff', background: gradient1}}
+            contentArrowStyle={{ borderRight: '7px solid  #094c83' }}
             date="23rd September"
           >
             <h3 className="vertical-timeline-element-title">IBeTo Launch - Registration Opens</h3>
@@ -44,8 +47,8 @@ useEffect(()=>{
           
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-           contentStyle={{background:'linear-gradient(to right,#66A5A0,#8FCCAD,#B1D89F,#9ACE7C'}}
-           contentArrowStyle={{borderRight:'7px solid #11774b'}}
+           contentStyle={{background:gradient2}}
+           contentArrowStyle={{borderRight:'7px solid #21b8cb'}}
             date="4th October"
           >
             <h3 className="vertical-timeline-element-title">Detailed abstract submission open</h3>
@@ -57,8 +60,8 @@ useEffect(()=>{
             
             className="vertical-timeline-element--work "
             
-            contentStyle={{color:'#ffff', background: 'linear-gradient(to right,#1BABC3,#61C5D4 ,#22B7CB, #2394B4)'}}
-            contentArrowStyle={{ borderRight: '7px solid  #2c3e50' }}
+            contentStyle={{color:'#ffff', background: gradient1}}
+            contentArrowStyle={{ borderRight: '7px solid  #094c83' }}
             date="10th October"
           >
             <h3 className="vertical-timeline-element-title">IBeTo Registration closes</h3>
@@ -71,8 +74,8 @@ useEffect(()=>{
           </VerticalTimelineElement>
           <VerticalTimelineElement
           className="vertical-timeline-element--work"
-         contentStyle={{background:'linear-gradient(to right,#66A5A0,#8FCCAD,#B1D89F,#9ACE7C'}}
-         contentArrowStyle={{borderRight:'7px solid #11774b'}}
+         contentStyle={{background:gradient2}}
+         contentArrowStyle={{borderRight:'7px solid #21b8cb'}}
           date="17th October"
         >
           <h3 className="vertical-timeline-element-title">Abstract submission closes</h3>
@@ -85,8 +88,8 @@ useEffect(()=>{
             
             className="vertical-timeline-element--work "
             
-            contentStyle={{color:'#ffff', background: 'linear-gradient(to right,#1BABC3,#61C5D4 ,#22B7CB, #2394B4)'}}
-            contentArrowStyle={{ borderRight: '7px solid  #2c3e50' }}
+            contentStyle={{color:'#ffff', background: gradient1}}
+            contentArrowStyle={{ borderRight: '7px solid  #094c83' }}
             date="25th October"
           >
             <h3 className="vertical-timeline-element-title">Announcement of shortlisted teams</h3>
@@ -100,8 +103,8 @@ useEffect(()=>{
           
           <VerticalTimelineElement
           className="vertical-timeline-element--work"
-         contentStyle={{background:'linear-gradient(to right,#66A5A0,#8FCCAD,#B1D89F,#9ACE7C'}}
-         contentArrowStyle={{borderRight:'7px solid #11774b'}}
+         contentStyle={{background:gradient2}}
+         contentArrowStyle={{borderRight:'7px solid #21b8cb'}}
           date="26th October"
         >
           <h3 className="vertical-timeline-element-title">Project Development begins</h3>
@@ -115,8 +118,8 @@ useEffect(()=>{
             
             className="vertical-timeline-element--work "
             
-            contentStyle={{color:'#ffff', background: 'linear-gradient(to right,#1BABC3,#61C5D4 ,#22B7CB, #2394B4)'}}
-            contentArrowStyle={{ borderRight: '7px solid  #2c3e50' }}
+            contentStyle={{color:'#ffff', background: gradient1}}
+            contentArrowStyle={{ borderRight: '7px solid  #094c83' }}
             date="5th-6th November"
           >
             <h3 className="vertical-timeline-element-title">Meet the mentor session</h3>
@@ -130,8 +133,8 @@ useEffect(()=>{
           
           <VerticalTimelineElement
           className="vertical-timeline-element--work"
-         contentStyle={{background:'linear-gradient(to right,#66A5A0,#8FCCAD,#B1D89F,#9ACE7C'}}
-         contentArrowStyle={{borderRight:'7px solid #11774b'}}
+         contentStyle={{background:gradient2}}
+         contentArrowStyle={{borderRight:'7px solid #21b8cb'}}
           date="12th November"
         >
           <h3 className="vertical-timeline-element-title">Project plan</h3>
@@ -144,8 +147,8 @@ useEffect(()=>{
             
             className="vertical-timeline-element--work "
             
-            contentStyle={{color:'#ffff', background: 'linear-gradient(to right,#1BABC3,#61C5D4 ,#22B7CB, #2394B4)'}}
-            contentArrowStyle={{ borderRight: '7px solid  #2c3e50' }}
+            contentStyle={{color:'#ffff', background: gradient1}}
+            contentArrowStyle={{ borderRight: '7px solid  #094c83' }}
             date="16th December"
           >
             <h3 className="vertical-timeline-element-title">IBeTo Finale</h3>
