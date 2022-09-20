@@ -49,6 +49,7 @@ function Testimonials() {
                                   name={test.name}
                                   text={test.text}
                                   designation={test.designation}
+                                  image={test.image}
                               />
                           ))}
                       </Slider>
