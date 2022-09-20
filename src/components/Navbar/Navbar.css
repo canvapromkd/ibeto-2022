@@ -118,8 +118,8 @@
 }
 
 .menu-wrap .menu>div {
-  /* background:linear-gradient(#91C3E8, white) ; */
-  background: linear-gradient(162deg, #91c3e8, #ffffff, #21b8cb);
+  /* background:#094C83 ;  */
+  background: linear-gradient(300deg, white, #9dcff5, #c5ddff);
   background-size: 180% 180%;
   animation: gradient-animation 3s ease infinite;
   border-radius: 50%;
@@ -130,7 +130,7 @@
   align-items: center;
   justify-content: center;
   transform: scale(0);
-  transition: all 0.4s ease;
+  transition: all 0.4s ease; 
 }
 
 .menu-wrap .menu>div>div {

@@ -4,6 +4,8 @@
     width: 100%;
     min-height: 100vh;
     margin-top: 4rem;
+    font-family: 'Inter';
+    font-style: normal;
 }
 .timeline__para{
     color: #FFF;
@@ -16,7 +18,9 @@
 }
 .vertical-timeline-element-date{
     color: black;
-    font-size:1.35rem !important
+    font-size:1.35rem !important;
+    font-family: 'Inter';
+    font-style: normal;
 }
 .vertical-timeline-element-title{
     font-size: 1.35rem;
