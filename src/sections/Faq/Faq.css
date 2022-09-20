@@ -293,6 +293,11 @@
     bottom: 10px;
 
   }
+
+  .isActive{
+    color: #ffff;
+    background-color:  #21B8CBCC;
+  }
  
   @keyframes animate{
     0%{
