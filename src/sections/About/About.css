@@ -14,8 +14,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    /* margin-top: 3rem; */
-    /* max-height: 13vh; */
 }
 
 .about__title{
@@ -94,9 +92,9 @@
         display: flex;
         padding: 3%;
         flex-direction: row;
-        justify-content: space-between;
-        
+        justify-content: center;
     }
+    
 }
 @media (min-device-width: 500px) and (max-device-width: 800px){
 
@@ -125,7 +123,7 @@
 @media only screen and (max-width:800px){
     .about__logo__title{
         width: 6rem;
-        visibility: hidden;
+        display: none;
     }
 }
 @media only screen and (max-width:600px){
