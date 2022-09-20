@@ -14,7 +14,7 @@
     color:#08599b;
 }
 .vertical-timeline::before{
-    background:  radial-gradient(#224646,#182828)
+    background:           /*radial-gradient(#224646,#182828)*/
 }
 .vertical-timeline-element-date{
     color: black;
