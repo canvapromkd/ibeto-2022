@@ -5,7 +5,7 @@ export const whyParticipateData=[
     {
         id:1,
         content:'Bring a brilliant idea and help it transform and make the difference it deserves.',
-        icon:<GiBrainstorm/>
+        icon:<GiBrainstorm style={{width:'3rem'}}/>
     },
     {
         id:2,
