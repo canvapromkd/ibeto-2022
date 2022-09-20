@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { RiLightbulbFlashLine } from "react-icons/ri";
 import Aos from "aos";
 import "./WhatsNew.css";
 function WhatsNewCard({ id, text, icon }) {

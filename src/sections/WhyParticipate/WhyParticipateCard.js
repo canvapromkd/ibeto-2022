@@ -1,6 +1,5 @@
 import React from 'react'
-import temp_svg from '../../assets/svg/temp_svg.svg'
-import {GiProgression} from 'react-icons/gi'
+
 function WhyParticipateCard(props) {
   return (
     <div className='whyParticipateCard'>
