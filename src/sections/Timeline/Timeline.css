@@ -16,10 +16,10 @@
 }
 .vertical-timeline-element-date{
     color: black;
-    font-size:1.2rem !important
+    font-size:1.3rem !important
 }
 .vertical-timeline-element-title{
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     color: #FFF;
 }
 .vertical-timeline-element-content{
@@ -127,6 +127,9 @@
     .vertical-timeline-element-date{
         color: #FFF;
     }
+    .vertical-timeline-element-content{
+         max-height: 33vh;
+      }
 }
 @media (min-device-width: 500px) and (max-device-width: 1000px)
 {
