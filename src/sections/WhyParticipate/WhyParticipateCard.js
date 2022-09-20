@@ -1,5 +1,4 @@
 import React from 'react'
-
 import temp_svg from '../../assets/svg/temp_svg.svg'
 
 function WhyParticipateCard(props) {

@@ -203,6 +203,14 @@
         right: 0.8rem;
     }
 }
-@media only screen and (max-width:600px){
-    
+@media only screen and (max-width:400px){
+    .problemStmtCard{
+        width: 236px;
+        height: 290px;
+    }
+}
+@media only screen and (max-width:300px){
+    .problemStmtCard{
+        width: 209px;
+    }
 }

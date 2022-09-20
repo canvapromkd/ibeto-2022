@@ -196,7 +196,14 @@
        
     }
 }
-
+@media  only screen and (max-width:800px){
+    /* .whyParticipateCard{
+        width: 60%;
+    }
+    .whyParticipate__container{
+        justify-content: center;
+    } */
+}
 
 @media  only screen and (max-width:450px) {
     .wpc__content p {
@@ -207,6 +214,9 @@
     .wpc__content{
         flex:1;
         
+    }
+    .whyParticipateCard{
+        width: 60%;
     }
 }
 
