@@ -152,6 +152,7 @@
     .wnc_icon{
         width: 110px;
         height: 110px;
+        transform: translate(-50%, 50%) rotate(-45deg) scale(0.8);
     }
     .wn__icon {
         font-size: 2rem;

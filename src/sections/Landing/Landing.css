@@ -4,21 +4,13 @@
     justify-content: center;
     height: 100vh;
     align-items: center;
-    /* background: linear-gradient(90deg,#00A19C,#4BDEA7,#97FCAE); */
-    /* padding: 1rem; */
+
  }
  .video_container{
-     margin-top: -7.5rem;
+     margin-top: -114px;
  }
  @media (min-device-width: 20px) and (max-device-width: 500px){
-     .landing_main{
-        height: 51vh;
-        background-color: #094C83;
-     }
-     .video_container{
-         height: 30vh;
-         width: 90vw;
-     }
+
  }
  
  @media only screen and (max-width:1300px){
@@ -31,10 +23,18 @@
      
  }
  @media only screen and (max-width:992px){
-     
+    .landing_main{
+        height: 51vh;
+        background-color: #094C83;
+     }
+     .video_container{
+        height: 30vh;
+        width: 90vw;
+        margin: auto;
+     }
  }
  @media only screen and (max-width:800px){
-     
+
  }
 
  @media only screen and (max-width:400px){
