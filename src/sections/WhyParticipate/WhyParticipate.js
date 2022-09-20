@@ -4,8 +4,7 @@ import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 import useMediaQuery from "@mui/material/useMediaQuery";
 import {whyParticipateData} from '../../data/whyParticipateData'
 import WhyParticipateCard from "./WhyParticipateCard";
-import ellipse1 from "../../assets/svg/Ellipse8.svg";
-import ellipse2 from "../../assets/svg/Ellipse10.svg";
+
 
 import whyParticipate from '../../assets/svg/whyParticipate.svg'
 import "./WhyParticipate.css";
@@ -52,16 +51,14 @@ const WhyParticipate = () => {
           {mobileView && (
               <img src={whyParticipate} alt="" className="whyParticipate_img"/>
           )}
-          <img className="ellipse el_1" src={ellipse1} alt="" />
-          <img className="ellipse el_2" src={ellipse2} alt="" />
-          <img className="ellipse el_3" src={ellipse2} alt="" />
+          
           <div className="wpC_slider">
             <IoIosArrowUp className="slider__arrow" onClick={gotoNext} />
             <Slider {...settings} ref={sliderRef} className="wpcSlider">
               {whyParticipateData.map((ypData)=>{
                 return(
                   <div key={ypData.id}>
-                  <WhyParticipateCard content={ypData.content} />
+                  <WhyParticipateCard icon={ypData.icon} content={ypData.content} />
                 </div>
                 )
               })}

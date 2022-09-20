@@ -40,6 +40,7 @@ function ProblemStmtCard({name, ps_image, description, statements }) {
           disableScrollLock
           aria-describedby="alert-dialog-slide-description"
         >
+          
         <DialogContent
             style={{ padding: 0, borderRadius: 10 }}
           >
@@ -61,9 +62,11 @@ function ProblemStmtCard({name, ps_image, description, statements }) {
                 </ul>
                 
               </div>
+              <div style={{minHeight:'1rem'}}></div>
             </div>
             
           </DialogContent>
+          
       </Dialog>
     </div>
   )

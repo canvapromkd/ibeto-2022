@@ -2,18 +2,18 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    height: 100vh;
     align-items: center;
     /* background: linear-gradient(90deg,#00A19C,#4BDEA7,#97FCAE); */
     /* padding: 1rem; */
  }
  .video_container{
-     margin-top: -7rem;
+     
  }
  @media (min-device-width: 20px) and (max-device-width: 500px){
      .landing_main{
-         padding-top: 3rem;
-         background: linear-gradient(90deg,#00A19C,#4BDEA7,#97FCAE);
-         height: 90vh;
+        height: 51vh;
+        background-color: #094C83;
      }
      .video_container{
          height: 30vh;
@@ -36,6 +36,10 @@
  @media only screen and (max-width:800px){
      
  }
- @media only screen and (max-width:600px){
-     
+
+ @media only screen and (max-width:400px){
+     .landing_main{
+        height: 55vh;
+        background-color: #094C83 !important;
+     }
  }

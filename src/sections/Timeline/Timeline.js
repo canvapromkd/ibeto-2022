@@ -14,6 +14,7 @@ useEffect(()=>{
 
   const customTheme={
     lineColor: 'blue',
+    fontFamily:'Inter'
   }
   return (
     <div className="timeline" id="timeline">
