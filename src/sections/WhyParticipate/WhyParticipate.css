@@ -161,7 +161,7 @@
     }
     .wpcSlider {
         align-self: center;
-        width:90vw;
+        width: 100%;
         position: relative;
         left:0;
         right:0;
@@ -193,9 +193,6 @@
     .wpc__content p {
         padding:0;
        
-    }
-    .whyParticipate__container {
-        width:100%
     }
 }
 
