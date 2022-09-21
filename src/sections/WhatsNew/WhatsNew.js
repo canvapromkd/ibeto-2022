@@ -11,21 +11,25 @@ const whatsNewData = [
   {
     id: 1,
     text: "Separate Tracks",
+    desc: 'Two tracks - one each for software and hardware, promoting both aspects of technology.',
     icon: <RiLightbulbFlashLine className="wn__icon" />,
   },
   {
     id: 2,
     text: "Aid To The Contestants",
+    desc: 'Top teams will have access to premium workshops and internship opportunities.',
     icon: <FaIdBadge className="wn__icon" />,
   },
   {
     id: 3,
     text: "Incentives During Project Development",
+    desc: 'Advancing teams will have the opportunity to seek individualised help and feedback from field experts.',
     icon: <AiOutlineDollarCircle className="wn__icon" />,
   },
   {
     id: 4,
     text: "Community Representations",
+    desc: 'Any organization/club in any college can compete by registering a team that represents them.',
     icon: <IoIosPeople className="wn__icon" />,
   },
 ];
@@ -46,6 +50,7 @@ function WhatsNew() {
               id={wn.id}
               text={wn.text}
               icon={wn.icon}
+              desc={wn.desc}
             />
           ))}
         </div>

@@ -39,7 +39,7 @@ const WhyParticipate = () => {
     Aos.init({ duration: 1100 });
   }, []);
   return (
-    <div className="whyParticipate" id="whyParticipate">
+    <div className="whyParticipate" id="participate">
       <div className="whyParticipate__container" data-aos="zoom-in">
         {mobileView || (
           <div className="wpC__left">

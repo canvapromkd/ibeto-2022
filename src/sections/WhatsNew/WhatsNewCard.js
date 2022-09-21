@@ -1,10 +1,13 @@
 import React, { useEffect, useState } from "react";
 import Aos from "aos";
 import "./WhatsNew.css";
-function WhatsNewCard({ id, text, icon }) {
+
+
+function WhatsNewCard({ id, text, icon, desc }) {
   useEffect(() => {
     Aos.init({ duration: 1100 });
   });
+
   const [bgColor, setBgColor] = useState("");
   useEffect(() => {
     if (id === 1) {
@@ -27,7 +30,10 @@ function WhatsNewCard({ id, text, icon }) {
         {/* <RiLightbulbFlashLine className='wn__icon'/> */}
         {icon}
       </div>
-      <div className="wnc_content">{text}</div>
+      <div className="wnc_content">
+        <h3>{text}</h3>
+        <p>{desc}</p>
+      </div>
     </div>
   );
 }

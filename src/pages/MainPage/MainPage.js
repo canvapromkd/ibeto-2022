@@ -22,14 +22,14 @@ function MainPage() {
       <Landing />
       <About />
       <Eventformat />
-      <WhatsNew />
-      <Rewards />
       <ProblemStmt />
       <WhyParticipate />
+      <WhatsNew />
+      <Rewards />
       <TimelineComponent />
       <Testimonials/>
-      <Faq />
       <Contact />
+      <Faq />
       <Footer />
     </div>
   );

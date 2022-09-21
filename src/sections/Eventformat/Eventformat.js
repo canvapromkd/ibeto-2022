@@ -14,7 +14,7 @@ const Eventformat = () => {
     Aos.init({duration:1100})
   },[])
   return (
-    <div data-aos="zoom-out" className='eventformat'id="eventformat">
+    <div data-aos="zoom-out" className='eventformat' id="format">
       <div className='eventformat__container'>
         <h1 data-aos="zoom-in" className='ps__header'>Event  format</h1>
 
