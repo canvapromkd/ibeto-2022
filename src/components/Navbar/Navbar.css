@@ -122,9 +122,8 @@
   background: linear-gradient(300deg, white, #9dcff5, #c5ddff);
   background-size: 180% 180%;
   animation: gradient-animation 3s ease infinite;
-  border-radius: 50%;
   width: 200vw;
-  height: 200vw;
+  height: 100vh;
   display: flex;
   flex: none;
   align-items: center;
