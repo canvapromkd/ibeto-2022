@@ -51,7 +51,7 @@ useEffect(()=>{
            contentArrowStyle={{borderRight:'7px solid #21b8cb'}}
             date="4th October"
           >
-            <h3 className="vertical-timeline-element-title">Detailed abstract submission open</h3>
+            <h3 className="vertical-timeline-element-title">Detailed Abstract Submission Open</h3>
             
             <p className='timeline__para' >
             Detailed Abstract Submission opens for registered IBeTo participants. The registration is still open via the form in the website.            </p>
@@ -64,7 +64,7 @@ useEffect(()=>{
             contentArrowStyle={{ borderRight: '7px solid  #094c83' }}
             date="10th October"
           >
-            <h3 className="vertical-timeline-element-title">IBeTo Registration closes</h3>
+            <h3 className="vertical-timeline-element-title">IBeTo Registration Closes</h3>
            
             <div  className='timeline_content'>
               
@@ -78,7 +78,7 @@ useEffect(()=>{
          contentArrowStyle={{borderRight:'7px solid #21b8cb'}}
           date="17th October"
         >
-          <h3 className="vertical-timeline-element-title">Abstract submission closes</h3>
+          <h3 className="vertical-timeline-element-title">Abstract Submission Closes</h3>
           
           <p className='timeline__para' >
           Detailed Abstract Submission closes. This marks the end of the ideate phase.          </p>
@@ -92,7 +92,7 @@ useEffect(()=>{
             contentArrowStyle={{ borderRight: '7px solid  #094c83' }}
             date="25th October"
           >
-            <h3 className="vertical-timeline-element-title">Announcement of shortlisted teams</h3>
+            <h3 className="vertical-timeline-element-title">Announcement Of Shortlisted Teams</h3>
            
             <div  className='timeline_content'>
               
@@ -107,7 +107,7 @@ useEffect(()=>{
          contentArrowStyle={{borderRight:'7px solid #21b8cb'}}
           date="26th October"
         >
-          <h3 className="vertical-timeline-element-title">Project Development begins</h3>
+          <h3 className="vertical-timeline-element-title">Project Development Begins</h3>
           
           <p className='timeline__para' >
           Create Phase begins. Teams are encouraged to start working on their projects.
@@ -122,7 +122,7 @@ useEffect(()=>{
             contentArrowStyle={{ borderRight: '7px solid  #094c83' }}
             date="5th-6th November"
           >
-            <h3 className="vertical-timeline-element-title">Meet the mentor session</h3>
+            <h3 className="vertical-timeline-element-title">Meet The Mentor Session</h3>
            
             <div  className='timeline_content'>
               
@@ -137,7 +137,7 @@ useEffect(()=>{
          contentArrowStyle={{borderRight:'7px solid #21b8cb'}}
           date="12th November"
         >
-          <h3 className="vertical-timeline-element-title">Project plan</h3>
+          <h3 className="vertical-timeline-element-title">Project Plan</h3>
           
           <p className='timeline__para' >
           The teams are required to submit their project plan - detailing their project creation process.          </p>

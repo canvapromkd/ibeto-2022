@@ -17,10 +17,10 @@ const Rewards = () => {
         </div>
         <div className="rewards_list">
           <ul>
-          <li className='reward_list_item'>Prize pool for IBeTo 2022 is ₹1,00,000</li>
-          <li className='reward_list_item'>As per KTU regulations, top socially relevant projects will be given 50 activity points</li>
-          <li className='reward_list_item'>Certificate of Participation will be awarded.</li>
-          <li className='reward_list_item'>Perks for all the 30 shortlisted teams.</li>
+            <li className='reward_list_item'>Prize pool for IBeTo 2022 is ₹1,00,000</li>
+            <li className='reward_list_item'>As per KTU regulations, top socially relevant projects will be given 50 activity points</li>
+            <li className='reward_list_item'>Certificate of Participation will be awarded</li>
+            <li className='reward_list_item'>Perks for all the 30 shortlisted teams</li>
           </ul>
         </div>
       </div>
