@@ -17,7 +17,10 @@ const About = () => {
       <br />IBeTo 2022 proudly stands as the 11th edition, with a passionate vision towards enriching the planet we are living on, eradicating hunger and poverty, and bringing people closer together through ideas that redefine the standard of living.
       </div>
 
-      <button className='about_btn'>Register</button>
+      <a href="https://forms.gle/6FeJmu85UctQ8rSF6" target="blank" rel="noreferrer">
+        <button className='about_btn'>Register</button>
+      </a>
+
 
 
     </div>

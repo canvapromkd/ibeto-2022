@@ -53,7 +53,7 @@ const WhyParticipate = () => {
           )}
           
           <div className="wpC_slider">
-            <IoIosArrowUp className="slider__arrow" onClick={gotoNext} />
+            <IoIosArrowUp className="slider__arrow" onClick={gotoPrev} />
             <Slider {...settings} ref={sliderRef} className="wpcSlider">
               {whyParticipateData.map((ypData)=>{
                 return(
@@ -66,7 +66,7 @@ const WhyParticipate = () => {
 
               
             </Slider>
-            <IoIosArrowDown className="slider__arrow" onClick={gotoPrev} />
+            <IoIosArrowDown className="slider__arrow" onClick={gotoNext} />
           </div>
         </div>
       </div>
