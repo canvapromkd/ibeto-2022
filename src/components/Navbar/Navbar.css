@@ -149,7 +149,6 @@
 }
 
 .menu-wrap .menu>div>div>ul>li>a {
-  /* color: white; */
   background: -webkit-linear-gradient(#094C83, #21B8CB);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
