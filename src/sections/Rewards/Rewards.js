@@ -11,16 +11,17 @@ const Rewards = () => {
         <div className="reward_title">Rewards</div>
         <div className="reward_price_box">
           
-          <p>Prizes Worth</p>
+        <p>Prizes Worth</p>
           <span className='reward_money'>₹1,00,000</span>
-          <div><p>for the first three teams</p></div>
+          {/* <div><p>for the first three teams</p></div> */}
+         
         </div>
         <div className="rewards_list">
           <ul>
-            <li className='reward_list_item'>Prize pool for IBeTo 2022 is ₹1,00,000</li>
-            <li className='reward_list_item'>As per KTU regulations, top socially relevant projects will be given 50 activity points</li>
-            <li className='reward_list_item'>Certificate of Participation will be awarded</li>
-            <li className='reward_list_item'>Perks for all the 30 shortlisted teams</li>
+            <li className='reward_list_item'>Internship opportunities for selected participants via TinkerHub Foundation.</li>
+            <li className='reward_list_item'>Certificate of Participation for all Teams upon submission of their detailed abstract.</li>
+            <li className='reward_list_item'>As per KTU regulations, socially relevant projects can avail upto 50 activity points.</li>
+            <li className='reward_list_item'>Exclusive perks for all the 30 shortlisted teams.</li>
           </ul>
         </div>
       </div>
