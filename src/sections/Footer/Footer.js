@@ -3,7 +3,7 @@ import { FiFacebook, FiLinkedin, FiInstagram, FiTwitter } from "react-icons/fi";
 import { FaHeart } from "react-icons/fa";
 
 import "./Footer.css";
-import excel_logo from "../../assets/logos/excel2022.svg";
+import excel_logo from "../../assets/png/logos/excellogowithtext.png";
 import footerBg from "../../assets/svg/footerBg.svg";
 import mec_logo from "../../assets/logos/mec_logo.a06dac18.png";
 const Footer = () => {

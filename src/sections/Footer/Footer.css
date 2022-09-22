@@ -36,6 +36,7 @@
 .mec__logo{
   width: 10rem;
   z-index: 9;
+  pointer-events: none;
 }
 
 .footer_mid {
@@ -68,7 +69,7 @@
 }
 
 .excel__logo{
-  width: 6rem;
+  width: 7rem;
 }
 .footer__made{
   color: #ffffff;
