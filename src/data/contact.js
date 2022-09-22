@@ -37,7 +37,7 @@ export const contactsData = [
         designation: 'Social Initiatives Manager',
         image: sania,
         phone: '7306928074',
-        email: 'email@gmail.com',
+        email: 'saniamariasabu.mec@gmail.com',
         linkedIn: 'https://www.linkedin.com/in/sania-maria-sabu-1b059a1b2/'
     },
 ]
