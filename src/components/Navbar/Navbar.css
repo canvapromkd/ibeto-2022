@@ -21,7 +21,6 @@
   width: 10rem;
   cursor: pointer;
   z-index: 9;
-  pointer-events: none;
 }
 
 .menu-wrap .toggler {
@@ -133,10 +132,9 @@
   transition: all 0.4s ease; 
 }
 .nav__inside_logo{
-  width: 9rem;
-  height: 6rem;
+  width: 10rem;
+  height: 7rem;
   cursor: pointer;
-  pointer-events: none;
 }
 
 .menu-wrap .menu>div>div {
