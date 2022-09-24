@@ -37,7 +37,7 @@ function RulesCard({handleClose,handleOpen,open }) {
               <IoClose className='psDialog__close' onClick={handleClose}/>
               <img src={wave_vector} alt="dialogvect" className='dialog_vector2' />
               <div >
-                <p className='rules__header'>Rules And Regulations</p>
+                <p className='rules__header'>Guidelines</p>
               </div>
               <div className='rules_Dialog__content'>
                <div className="rules__content">
