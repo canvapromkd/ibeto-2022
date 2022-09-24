@@ -1,0 +1,65 @@
+import React, {useEffect } from 'react'
+import Dialog from '@mui/material/Dialog';
+import DialogContent from '@mui/material/DialogContent';
+import Aos from 'aos';
+import wave_vector from '../../assets/svg/about/RulesWaveVector.svg'
+import { IoClose } from "react-icons/io5";
+import ibeto_logo from '../../assets/svg/ibeto22_no_text.svg'
+
+
+function RulesCard({handleClose,handleOpen,open }) {
+  
+  useEffect(()=>{
+    Aos.init({duration:1100})
+  })
+
+  
+
+  return (
+    <div data-aos="fade-up" className='rulesCard'>
+        
+        <Dialog
+          style={{ padding: 0, borderRadius: 10}}
+          fullWidth={true}
+          maxWidth={"md"}
+          PaperProps={{ sx: { width: "100%", borderRadius: 5, m: 2, minHeight: '70vh' } }}
+          open={open}
+          keepMounted
+          onClose={handleClose}
+          disableScrollLock
+          aria-describedby="alert-dialog-slide-description"
+        >
+          
+        <DialogContent
+            style={{ padding: 0, borderRadius: 10 }}
+          >
+            <div className='guide__Dialog'>
+              <IoClose className='psDialog__close' onClick={handleClose}/>
+              <img src={wave_vector} alt="dialogvect" className='dialog_vector2' />
+              <div >
+                <p className='rules__header'>Rules And Regulations</p>
+              </div>
+              <div className='rules_Dialog__content'>
+               <div className="rules__content">
+                    <ul className='list__container'>
+                        <li>Who can enter.</li>
+                        <li>Lorem Ipsum is simply dummy text of the printing</li>
+                        <li>Lorem Ipsum is simply dummy text of the printing</li>
+                        <li>Lorem Ipsum is simply dummy text of the printing</li>
+                        <li>Lorem Ipsum is simply dummy text of the printing</li>
+                    </ul>
+                    <img className='rules_logo' src={ibeto_logo} alt="ibeto_logo" />
+               </div>
+               
+              </div>
+              <div style={{minHeight:'1rem'}}></div>
+            </div>
+            
+          </DialogContent>
+          
+      </Dialog>
+    </div>
+  )
+}
+
+export default RulesCard
