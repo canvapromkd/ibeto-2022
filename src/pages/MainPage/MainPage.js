@@ -12,7 +12,8 @@ import {
   ProblemStmt,
   WhyParticipate,
   WhatsNew,
-  Testimonials
+  Testimonials,
+  Collaborators
 } from "../../sections";
 
 function MainPage() {
@@ -28,6 +29,7 @@ function MainPage() {
       <Rewards />
       <TimelineComponent />
       <Testimonials/>
+      <Collaborators/>
       <Contact />
       <Faq />
       <Footer />
