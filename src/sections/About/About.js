@@ -1,12 +1,22 @@
 import React from 'react'
 import  './About.css'
-
+import RulesCard from './RulesCard'
 import ibeto_logo from '../../assets/svg/ibeto22_no_text.svg'
+import { useState } from 'react'
 
 const About = () => {
+  const[open,setOpen]=useState(false)
+  const handleOpen=()=>{
+    setOpen(true)
+  }
+  const handleClose=()=>{
+    setOpen(false)
+  }
   
   return (
+
     <div className="main_div" id="about">
+      <RulesCard handleClose={handleClose} handleOpen={handleOpen} open={open}/>
     <div className='about__logotitle'>
       <img className='about__logo__title' src={ibeto_logo} alt="ibeto_logo" />
       <p  className="ps__header">About</p>
@@ -21,7 +31,7 @@ const About = () => {
         <button className='about_btn'>Register</button>
       </a>
       
-      <button className='about_btn'>Guidelines</button>
+      <button className='about_btn' onClick={handleOpen}>Guidelines</button>
       
       </div>
       
