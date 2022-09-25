@@ -171,6 +171,9 @@
     .ps_main_vector{
         visibility: hidden;
     }
+    .psDialog__header h2{
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width:1300px){
@@ -208,9 +211,25 @@
         width: 236px;
         height: 290px;
     }
+    .psDialog__header h2{
+        font-size: 1rem;
+    }
 }
 @media only screen and (max-width:300px){
     .problemStmtCard{
         width: 209px;
+    }
+    .psDialog__header h2{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:600px){
+    .psDialog__header h2{
+        font-size: 1rem;
+    }
+}
+@media only screen and (max-width:800px){
+    .psDialog__header h2{
+        font-size: 1.25rem;
     }
 }

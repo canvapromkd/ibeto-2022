@@ -3,7 +3,6 @@ import  './About.css'
 import RulesCard from './RulesCard'
 import ibeto_logo from '../../assets/svg/ibeto22_no_text.svg'
 import { useState } from 'react'
-
 const About = () => {
   const[open,setOpen]=useState(false)
   const handleOpen=()=>{
@@ -31,8 +30,7 @@ const About = () => {
         <button className='about_btn'>Register</button>
       </a>
       
-      <button className='about_btn' onClick={handleOpen}>Guidelines</button>
-      
+      <button className='about_btn'  onClick={handleOpen}>Guidelines</button>
       </div>
       
 
