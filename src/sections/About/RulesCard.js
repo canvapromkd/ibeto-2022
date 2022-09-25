@@ -43,7 +43,7 @@ function RulesCard({handleClose,handleOpen,open }) {
                     <ul className='list__container'>
                       {guidelinesData.map((data)=>{
                         return(
-                          <li>{data.content}</li>
+                          <li key={data.id}>{data.content}</li>
                         )
                       })}
                     </ul>
