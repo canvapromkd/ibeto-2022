@@ -5,14 +5,13 @@ import Aos from 'aos';
 import wave_vector from '../../assets/svg/about/RulesWaveVector.svg'
 import { IoClose } from "react-icons/io5";
 import ibeto_logo from '../../assets/svg/ibeto22_no_text.svg'
-
+import { guidelinesData } from '../../data/guidelines';
 
 function RulesCard({handleClose,handleOpen,open }) {
-  
   useEffect(()=>{
     Aos.init({duration:1100})
-  })
-
+  },[])
+  
   
 
   return (
@@ -42,11 +41,11 @@ function RulesCard({handleClose,handleOpen,open }) {
               <div className='rules_Dialog__content'>
                <div className="rules__content">
                     <ul className='list__container'>
-                        <li>Who can enter.</li>
-                        <li>Lorem Ipsum is simply dummy text of the printing</li>
-                        <li>Lorem Ipsum is simply dummy text of the printing</li>
-                        <li>Lorem Ipsum is simply dummy text of the printing</li>
-                        <li>Lorem Ipsum is simply dummy text of the printing</li>
+                      {guidelinesData.map((data)=>{
+                        return(
+                          <li>{data.content}</li>
+                        )
+                      })}
                     </ul>
                     <img className='rules_logo' src={ibeto_logo} alt="ibeto_logo" />
                </div>
