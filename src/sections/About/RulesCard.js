@@ -30,11 +30,12 @@ function RulesCard({handleClose,handleOpen,open }) {
         >
           
         <DialogContent
-            style={{ padding: 0, borderRadius: 10 }}
+            style={{ padding: 0, borderRadius: 10,scrollbarWidth: 'none'}}
+            
           >
             <div className='guide__Dialog'>
               <IoClose className='psDialog__close' onClick={handleClose}/>
-              <img src={wave_vector} alt="dialogvect" className='dialog_vector2' />
+              {/* <img src={wave_vector} alt="dialogvect" className='dialog_vector2' /> */}
               <div >
                 <p className='rules__header'>Guidelines</p>
               </div>
@@ -55,6 +56,7 @@ function RulesCard({handleClose,handleOpen,open }) {
             </div>
             
           </DialogContent>
+          <img src={wave_vector} alt="dialogvect" className='dialog_vector2' />
           
       </Dialog>
     </div>

@@ -6,7 +6,7 @@ import {whyParticipateData} from '../../data/whyParticipateData'
 import WhyParticipateCard from "./WhyParticipateCard";
 
 
-import whyParticipate from '../../assets/svg/whyParticipate.svg'
+import whyParticipate from '../../assets/svg/why_participate/whyppt.svg'
 import "./WhyParticipate.css";
 import Aos from "aos";
 
