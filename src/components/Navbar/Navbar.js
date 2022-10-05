@@ -54,10 +54,10 @@ const Navbar = () => {
                 <a href="#testimonials">Testimonials</a>
               </li>
               <li onClick={handleClick}>
-                <a href="#contact">Contact Us</a>
+                <a href="#faq">FAQ</a>
               </li>
               <li onClick={handleClick}>
-                <a href="#faq">FAQ</a>
+                <a href="#contact">Contact Us</a>
               </li>
             </ul>
             <img onClick={()=>{window.location.reload()}}

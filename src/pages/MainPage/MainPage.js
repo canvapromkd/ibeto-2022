@@ -30,8 +30,8 @@ function MainPage() {
       <TimelineComponent />
       <Testimonials/>
       <Collaborators/>
-      <Contact />
       <Faq />
+      <Contact />
       <Footer />
     </div>
   );
