@@ -1,20 +1,19 @@
-import React from 'react'
+import React from "react";
 
-import ContactCard from './ContactCard'
-import { contactsData } from '../../data/contact'
+import ContactCard from "./ContactCard";
+import { contactsData } from "../../data/contact";
 
-import './Contact.css'
+import "./Contact.css";
 
 const Contact = () => {
-  
   return (
-    <div className='contact' id="contact">
-      <div className='contact__container'>
-        <h1 className='ps__header'>Contact us</h1>
+    <div className="contact" id="contact">
+      <div className="contact__container">
+        <h1 className="ps__header">Contact us</h1>
 
-        <div  className='contact__cards'>
+        <div className="contact__cards">
           {contactsData.map((contact) => (
-            <ContactCard  
+            <ContactCard
               key={contact.id}
               name={contact.name}
               designation={contact.designation}
@@ -25,9 +24,9 @@ const Contact = () => {
             />
           ))}
         </div>
-      </div> 
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

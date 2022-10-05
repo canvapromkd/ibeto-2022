@@ -14,9 +14,9 @@ const Landing = () => {
           <source src={ibeto_22} type="video/Mp4" />
         </video>
       </div>
-      <div id='stars'></div>
-      <div id='stars2'></div>
-      <div id='stars3'></div>
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
     </div>
   );
 };

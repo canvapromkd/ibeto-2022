@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Aos from "aos";
 import "./WhatsNew.css";
 
-
 function WhatsNewCard({ id, text, icon, desc }) {
   useEffect(() => {
     Aos.init({ duration: 1100 });
