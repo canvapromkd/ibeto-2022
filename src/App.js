@@ -1,9 +1,9 @@
-import './App.css';
-import { Suspense } from 'react'
-import { BrowserRouter, Routes, Route} from "react-router-dom";
-import Loader from './components/Loader/Loader';
-import ScrollToTop from "./utils/ScrollToTop"
-import { MainPage } from './pages';
+import "./App.css";
+import { Suspense } from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Loader from "./components/Loader/Loader";
+import ScrollToTop from "./utils/ScrollToTop";
+import { MainPage } from "./pages";
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
           <Routes>
             <Route path="/" element={<MainPage />} />
           </Routes>
-        </BrowserRouter>      
+        </BrowserRouter>
       </Suspense>
     </div>
   );

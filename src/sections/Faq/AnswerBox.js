@@ -1,8 +1,7 @@
-import React from 'react'
-import './Faq.css'
+import React from "react";
+import "./Faq.css";
 
-const AnswerBox = ({currentAnswer}) => {
-    
+const AnswerBox = ({ currentAnswer }) => {
   return (
     <>
       <div className="faq__child2">
@@ -10,7 +9,7 @@ const AnswerBox = ({currentAnswer}) => {
         <div className="faq__answer__content">{currentAnswer}</div>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default AnswerBox
+export default AnswerBox;

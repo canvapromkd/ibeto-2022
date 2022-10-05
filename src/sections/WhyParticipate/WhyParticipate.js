@@ -2,11 +2,10 @@ import React, { useRef, useEffect } from "react";
 import Slider from "react-slick";
 import { IoIosArrowUp, IoIosArrowDown } from "react-icons/io";
 import useMediaQuery from "@mui/material/useMediaQuery";
-import {whyParticipateData} from '../../data/whyParticipateData'
+import { whyParticipateData } from "../../data/whyParticipateData";
 import WhyParticipateCard from "./WhyParticipateCard";
 
-
-import whyParticipate from '../../assets/svg/why_participate/whyppt.svg'
+import whyParticipate from "../../assets/svg/why_participate/whyppt.svg";
 import "./WhyParticipate.css";
 import Aos from "aos";
 
@@ -43,28 +42,28 @@ const WhyParticipate = () => {
       <div className="whyParticipate__container" data-aos="zoom-in">
         {mobileView || (
           <div className="wpC__left">
-            <img src={whyParticipate} alt="" className="whyParticipate_img"/>
+            <img src={whyParticipate} alt="" className="whyParticipate_img" />
           </div>
         )}
         <div className="wpC__right">
           <h2 className="ps__header">Why Participate?</h2>
           {mobileView && (
-              <img src={whyParticipate} alt="" className="whyParticipate_img"/>
+            <img src={whyParticipate} alt="" className="whyParticipate_img" />
           )}
-          
+
           <div className="wpC_slider">
             <IoIosArrowUp className="slider__arrow" onClick={gotoPrev} />
             <Slider {...settings} ref={sliderRef} className="wpcSlider">
-              {whyParticipateData.map((ypData)=>{
-                return(
+              {whyParticipateData.map((ypData) => {
+                return (
                   <div key={ypData.id}>
-                  <WhyParticipateCard icon={ypData.icon} content={ypData.content} />
-                </div>
-                )
+                    <WhyParticipateCard
+                      icon={ypData.icon}
+                      content={ypData.content}
+                    />
+                  </div>
+                );
               })}
-              
-
-              
             </Slider>
             <IoIosArrowDown className="slider__arrow" onClick={gotoNext} />
           </div>
