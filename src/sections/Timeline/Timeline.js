@@ -34,7 +34,7 @@ const TimelineComponent = () => {
               className="vertical-timeline-element--work "
               contentStyle={{ color: "#ffff", background: gradient1 }}
               contentArrowStyle={{ borderRight: "7px solid  #094c83" }}
-              date="23rd September"
+              date="7th October"
             >
               <h3 className="vertical-timeline-element-title">
                 IBeTo Launch - Registration Opens
@@ -42,8 +42,7 @@ const TimelineComponent = () => {
 
               <div className="timeline_content"></div>
               <p className="timeline__para">
-                IBeTo registration opens. Students can register by submitting
-                their ideas by filling the form in the website.
+              IBeTo registration opens. Students can register by submitting their ideas by filling the form in the website.
               </p>
             </VerticalTimelineElement>
 
@@ -51,47 +50,45 @@ const TimelineComponent = () => {
               className="vertical-timeline-element--work"
               contentStyle={{ background: gradient2 }}
               contentArrowStyle={{ borderRight: "7px solid #21b8cb" }}
-              date="4th October"
+              date="19th October"
             >
               <h3 className="vertical-timeline-element-title">
-                Detailed Abstract Submission Open
+              Detailed Abstract submission open
               </h3>
 
               <p className="timeline__para">
-                Detailed Abstract Submission opens for registered IBeTo
-                participants. The registration is still open via the form in the
-                website.{" "}
+              Detailed Abstract Submission opens for registered IBeTo participants. 
+              The registration is still open via the form in the website.{" "}
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work "
               contentStyle={{ color: "#ffff", background: gradient1 }}
               contentArrowStyle={{ borderRight: "7px solid  #094c83" }}
-              date="10th October"
+              date="22nd October"
             >
               <h3 className="vertical-timeline-element-title">
-                IBeTo Registration Closes
+              IBeTo Registration closes
               </h3>
 
               <div className="timeline_content"></div>
               <p className="timeline__para">
-                IBeTo registration closes. Teams selected for detailed abstract
-                submission will be announced.{" "}
+              IBeTo registration closes. Teams selected for detailed abstract submission will be announced.{" "}
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
               className="vertical-timeline-element--work"
               contentStyle={{ background: gradient2 }}
               contentArrowStyle={{ borderRight: "7px solid #21b8cb" }}
-              date="17th October"
+              date="29th October"
             >
               <h3 className="vertical-timeline-element-title">
-                Abstract Submission Closes
+              Detailed Abstract submission closes
               </h3>
 
               <p className="timeline__para">
-                Detailed Abstract Submission closes. This marks the end of the
-                ideate phase.{" "}
+              Detailed Abstract Submission closes. 
+              This marks the end of the ideate phase.{" "}
               </p>
             </VerticalTimelineElement>
 
@@ -99,16 +96,16 @@ const TimelineComponent = () => {
               className="vertical-timeline-element--work "
               contentStyle={{ color: "#ffff", background: gradient1 }}
               contentArrowStyle={{ borderRight: "7px solid  #094c83" }}
-              date="25th October"
+              date="3rd November"
             >
               <h3 className="vertical-timeline-element-title">
-                Announcement Of Shortlisted Teams
+              Announcement of shortlisted teams
               </h3>
 
               <div className="timeline_content"></div>
               <p className="timeline__para">
-                30 teams are shortlisted with 15 from each track. Teams are
-                assigned mentors.{" "}
+              30 teams are shortlisted with 15 from each track.
+              Teams are assigned mentors.{" "}
               </p>
             </VerticalTimelineElement>
 
@@ -116,15 +113,15 @@ const TimelineComponent = () => {
               className="vertical-timeline-element--work"
               contentStyle={{ background: gradient2 }}
               contentArrowStyle={{ borderRight: "7px solid #21b8cb" }}
-              date="26th October"
+              date="4th November "
             >
               <h3 className="vertical-timeline-element-title">
-                Project Development Begins
+              Project Development begins
               </h3>
 
               <p className="timeline__para">
-                Create Phase begins. Teams are encouraged to start working on
-                their projects.
+              Create Phase begins. Teams are encouraged to start working on 
+              their projects.
               </p>
             </VerticalTimelineElement>
 
