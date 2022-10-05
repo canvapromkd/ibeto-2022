@@ -13,6 +13,11 @@
 .custom__time__line{
     color:#08599b;
 }
+
+.vertical-timeline {
+    padding: 1rem 0 !important;
+}
+
 .vertical-timeline::before{
     background:    #08599b       /*radial-gradient(#224646,#182828)*/
 }
@@ -107,7 +112,17 @@
         margin-left: 2% !important
     }
     .vertical-timeline-element-date{
-        color: #FFF 
+        color: #FFF;
+        font-size: 1rem !important;
+        padding: 0 !important;
+        padding-top: 0.7rem !important;
+    }
+    .vertical-timeline-element-title{
+        font-size: 1.15rem;
+        color: #FFF;
+    }
+    .vertical-timeline-element-date {
+        font-size: 0.8rem;
     }
 }
 @media only screen and (max-width:600px){

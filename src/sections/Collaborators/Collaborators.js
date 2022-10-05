@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+
 import "./Collaborators.css";
 import collab_bg from "../../assets/svg/Collab_Bckg.svg";
 import tinkerHub from "../../assets/svg/TinkerHub.svg";
@@ -8,10 +9,14 @@ import INDBLogo from "../../assets/svg/INBDLogo.svg";
 import Aos from "aos";
 import club_fm from '../../assets/svg/collaborators/club_fm.svg'
 import mg from '../../assets/svg/collaborators/makergram.svg'
+
+
 const Collaborators = () => {
+
   useEffect(() => {
     Aos.init({ duration: 1100 });
   }, []);
+
   return (
     <div className="collaborators">
       <img src={collab_bg} alt="bckg" className="bckg"></img>
@@ -25,10 +30,10 @@ const Collaborators = () => {
           >
             <img
               src={UKExpress}
-              alt="UKExpress-Logo"
+              alt=""
               className="c-images"
             ></img>
-            <p>UK Express</p>
+            <p>UK Xpress</p>
           </div>
           <div
             data-aos="zoom-in"
@@ -37,7 +42,7 @@ const Collaborators = () => {
           >
             <img
               src={tinkerHub}
-              alt="UKExpress-Logo"
+              alt=""
               className="c-images"
             ></img>
             <p>TinkerHub</p>
@@ -47,7 +52,7 @@ const Collaborators = () => {
             data-aos-delay="250"
             className="collab-section"
           >
-            <img src={INDBLogo} alt="UKExpress-Logo" className="c-images"></img>
+            <img src={INDBLogo} alt="" className="c-images"></img>
             <p>Interview Buddy</p>
           </div>
           <div
@@ -55,7 +60,7 @@ const Collaborators = () => {
             data-aos-delay="300"
             className="collab-section"
           >
-            <img src={TMLogo} alt="UKExpress-Logo" className="c-images"></img>
+            <img src={TMLogo} alt="" className="c-images"></img>
             <p>Techmaghi</p>
           </div>
           <div
@@ -65,7 +70,7 @@ const Collaborators = () => {
           >
             <img
               src={club_fm}
-              alt="UKExpress-Logo"
+              alt=""
               className="c-images"
             ></img>
             <p>Club FM</p>
@@ -77,7 +82,7 @@ const Collaborators = () => {
           >
             <img
               src={mg}
-              alt="UKExpress-Logo"
+              alt=""
               className="c-images"
             ></img>
             <p>MakerGram</p>
