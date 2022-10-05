@@ -129,7 +129,7 @@ const TimelineComponent = () => {
               className="vertical-timeline-element--work "
               contentStyle={{ color: "#ffff", background: gradient1 }}
               contentArrowStyle={{ borderRight: "7px solid  #094c83" }}
-              date="5th-6th November"
+              date="12th - 13th November"
             >
               <h3 className="vertical-timeline-element-title">
                 Meet The Mentor Session
@@ -137,9 +137,8 @@ const TimelineComponent = () => {
 
               <div className="timeline_content"></div>
               <p className="timeline__para">
-                The teams are given an opportunity to interact with their
-                mentors and obtain advice on how to further develop their
-                project.{" "}
+              The teams are given an opportunity to interact with their mentors 
+              and obtain advice on how to further develop their project.{" "}
               </p>
             </VerticalTimelineElement>
 
@@ -147,13 +146,13 @@ const TimelineComponent = () => {
               className="vertical-timeline-element--work"
               contentStyle={{ background: gradient2 }}
               contentArrowStyle={{ borderRight: "7px solid #21b8cb" }}
-              date="12th November"
+              date="19th November"
             >
               <h3 className="vertical-timeline-element-title">Project Plan</h3>
 
               <p className="timeline__para">
-                The teams are required to submit their project plan - detailing
-                their project creation process.{" "}
+              The teams are required to submit their project plan - detailing
+              their project creation process.{" "}
               </p>
             </VerticalTimelineElement>
 
@@ -161,7 +160,7 @@ const TimelineComponent = () => {
               className="vertical-timeline-element--work "
               contentStyle={{ color: "#ffff", background: gradient1 }}
               contentArrowStyle={{ borderRight: "7px solid  #094c83" }}
-              date="16th December"
+              date="17th December"
             >
               <h3 className="vertical-timeline-element-title">IBeTo Finale</h3>
 
