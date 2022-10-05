@@ -6,6 +6,8 @@ import TMLogo from "../../assets/svg/TMLogo.svg";
 import UKExpress from "../../assets/svg/UKExpress.svg";
 import INDBLogo from "../../assets/svg/INBDLogo.svg";
 import Aos from "aos";
+import club_fm from '../../assets/svg/collaborators/club_fm.svg'
+import mg from '../../assets/svg/collaborators/makergram.svg'
 const Collaborators = () => {
   useEffect(() => {
     Aos.init({ duration: 1100 });
@@ -26,7 +28,7 @@ const Collaborators = () => {
               alt="UKExpress-Logo"
               className="c-images"
             ></img>
-            <p>Partner</p>
+            <p>UK Express</p>
           </div>
           <div
             data-aos="zoom-in"
@@ -38,7 +40,7 @@ const Collaborators = () => {
               alt="UKExpress-Logo"
               className="c-images"
             ></img>
-            <p>Partner</p>
+            <p>TinkerHub</p>
           </div>
           <div
             data-aos="zoom-in"
@@ -46,7 +48,7 @@ const Collaborators = () => {
             className="collab-section"
           >
             <img src={INDBLogo} alt="UKExpress-Logo" className="c-images"></img>
-            <p>Partner</p>
+            <p>Interview Buddy</p>
           </div>
           <div
             data-aos="zoom-in"
@@ -54,7 +56,31 @@ const Collaborators = () => {
             className="collab-section"
           >
             <img src={TMLogo} alt="UKExpress-Logo" className="c-images"></img>
-            <p>Partner</p>
+            <p>Techmaghi</p>
+          </div>
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="150"
+            className="collab-section"
+          >
+            <img
+              src={club_fm}
+              alt="UKExpress-Logo"
+              className="c-images"
+            ></img>
+            <p>Club FM</p>
+          </div>
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="150"
+            className="collab-section"
+          >
+            <img
+              src={mg}
+              alt="UKExpress-Logo"
+              className="c-images"
+            ></img>
+            <p>MakerGram</p>
           </div>
         </div>
       </div>

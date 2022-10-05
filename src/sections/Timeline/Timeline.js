@@ -53,7 +53,7 @@ const TimelineComponent = () => {
               date="19th October"
             >
               <h3 className="vertical-timeline-element-title">
-              Detailed Abstract submission open
+              Detailed Abstract Submission Open
               </h3>
 
               <p className="timeline__para">
@@ -68,7 +68,7 @@ const TimelineComponent = () => {
               date="22nd October"
             >
               <h3 className="vertical-timeline-element-title">
-              IBeTo Registration closes
+              IBeTo Registration Closes
               </h3>
 
               <div className="timeline_content"></div>
@@ -83,7 +83,7 @@ const TimelineComponent = () => {
               date="29th October"
             >
               <h3 className="vertical-timeline-element-title">
-              Detailed Abstract submission closes
+              Detailed Abstract Submission Closes
               </h3>
 
               <p className="timeline__para">
@@ -99,7 +99,7 @@ const TimelineComponent = () => {
               date="3rd November"
             >
               <h3 className="vertical-timeline-element-title">
-              Announcement of shortlisted teams
+              Announcement of Shortlisted Teams
               </h3>
 
               <div className="timeline_content"></div>
@@ -116,7 +116,7 @@ const TimelineComponent = () => {
               date="4th November "
             >
               <h3 className="vertical-timeline-element-title">
-              Project Development begins
+              Project Development Begins
               </h3>
 
               <p className="timeline__para">
