@@ -43,6 +43,7 @@ function ProblemStmtCard({name, ps_image, description, statements }) {
           
         <DialogContent
             style={{ padding: 0, borderRadius: 10 }}
+            sx={{'&::-webkit-scrollbar': {display: 'none'}}}
           >
             <div className='psDialog'>
               <IoClose className='psDialog__close' onClick={handleClose}/>

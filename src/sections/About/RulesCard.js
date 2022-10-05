@@ -30,8 +30,8 @@ function RulesCard({handleClose,handleOpen,open }) {
         >
           
         <DialogContent
-            style={{ padding: 0, borderRadius: 10,scrollbarWidth: 'none'}}
-            
+            style={{ padding: 0, borderRadius: 10, scrollbarWidth: 'none'}}
+            sx={{'&::-webkit-scrollbar': {display: 'none'}}}
           >
             <div className='guide__Dialog'>
               <IoClose className='psDialog__close' onClick={handleClose}/>
