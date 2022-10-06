@@ -2,12 +2,12 @@ import React, { useEffect } from "react";
 
 import "./Collaborators.css";
 import collab_bg from "../../assets/svg/Collab_Bckg.svg";
-import tinkerHub from "../../assets/svg/TinkerHub.svg";
 import TMLogo from "../../assets/svg/TMLogo.svg";
 import UKExpress from "../../assets/svg/UKExpress.svg";
 import INDBLogo from "../../assets/svg/INBDLogo.svg";
 import Aos from "aos";
 import club_fm from '../../assets/svg/collaborators/club_fm.svg'
+import tinkerhub from '../../assets/svg/collaborators/tinkerhub.svg'
 import mg from '../../assets/svg/collaborators/makergram.svg'
 
 
@@ -41,7 +41,7 @@ const Collaborators = () => {
             className="collab-section"
           >
             <img
-              src={tinkerHub}
+              src={tinkerhub}
               alt=""
               className="c-images"
             ></img>
