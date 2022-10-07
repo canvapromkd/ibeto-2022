@@ -14,7 +14,8 @@ const Landing = () => {
   useEffect(() => {
     Aos.init({ duration: 1100 });
     setMuted(false);
-
+    const interval = setInterval(()=> setMuted(false), 1000);
+    return () => clearInterval(interval)
   }, []);
 
   const handlePlay = () => {
@@ -28,13 +29,13 @@ const Landing = () => {
 
   return (
     <div className="landing_main" id="home">
-      {paused ? (
+      {/* {paused ? (
         <AiFillPlayCircle onClick={handlePlay} className="video_icon"/>
       ) : (
         <AiFillPauseCircle onClick={handlePause} className="video_icon"/>
-      )}
+      )} */}
       <div data-aos="zoom-in">
-        <video ref={vidRef} className="video_container" loop playsInline muted={muted}>
+        <video  className="video_container" autoPlay loop playsInline muted={muted}>
           <source src={ibeto_22} type="video/Mp4" />
         </video>
       </div>
