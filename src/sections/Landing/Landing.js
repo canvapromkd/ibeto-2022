@@ -8,7 +8,7 @@ const Landing = () => {
   const [muted, setMuted] = useState(true);
   useEffect(() => {
     Aos.init({ duration: 1100 });
-    setMuted(true);
+    setMuted(false);
   }, []);
   return (
     <div className="landing_main" id="home">
