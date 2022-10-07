@@ -37,7 +37,7 @@ export const whyParticipateData = [
   {
     id: 5,
     content:
-      "Take a shot at winning prizes worth up to 1 Lakh, which are open to the top 3 winning teams.",
+      "Take a shot at winning prizes worth up to 1 Lakh, which are open to the top teams.",
     icon: <GiTargetPrize className="wp__icon" />,
   },
   {

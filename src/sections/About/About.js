@@ -46,7 +46,7 @@ const About = () => {
       </div>
       <div className="about_buttons">
         <a
-          href="https://bit.ly/IBeTo2022_Registration"
+          href="https://forms.gle/kZxzNfgJDB8hxguf7"
           target="blank"
           rel="noreferrer"
         >

@@ -40,11 +40,17 @@ export const guidelinesData = [
   {
     id: 9,
     content:
-      "The shortlisted teams in each round will be intimated through the team leader's e-mail. Team Excel 2022 will not be held responsible for any case in which shortlisted teams are unavailable for contact or are unreachable at any point of time during the course of the event as well as after the announcement of the results.",
+      "The shortlisted teams in each round will be intimated through the team leader's email. Team Excel 2022 will not be held responsible for any case in which shortlisted teams are unavailable for contact or are unreachable at any point of time during the course of the event as well as after the announcement of the results.",
   },
   {
     id: 10,
     content:
       "Participants are expected to be courteous at all times during their interactions with their POCs, members of the expert panel and be responsive to them.",
   },
+  {
+    id: 11,
+    content:
+      "It is mandatory that students should accept the internship and incentives provided. Failure to do so will result in penalty.",
+  },
+  
 ];
