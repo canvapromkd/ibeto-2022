@@ -55,9 +55,8 @@ const Eventformat = () => {
             </div>
             <h2>Showcase</h2>
             <p>
-              On Day 0 of Excel 2022, which will serve as the event's final
-              judgement day, the teams must submit a video presentation of their
-              concept and demonstrate to the judges a functional prototype.
+              On the event's finale, the teams must submit a video presentation of their
+              concept and demonstrate a functional prototype to the judges.
             </p>
           </div>
         </div>

@@ -16,7 +16,7 @@ export const faqs_data = [
   {
     id: 3,
     question: "What is the team size limit?",
-    answer: "Participants can take part individually or form a team. The maximum number of members allowed in a team is 4.",
+    answer: "Participants can take part individually or form a team. The maximum number of members allowed in a team is 5.",
   },
   {
     id: 4,
