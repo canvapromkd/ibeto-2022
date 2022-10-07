@@ -20,7 +20,6 @@
 .faq__child1{
   display: flex;
   flex-direction: column;
-  /* background-color: #17C9AC; */
   align-items: center;
   justify-content: space-around;
   flex: 0.5;
@@ -52,13 +51,11 @@
   display: flex;
   flex-direction: column;
   padding: 2rem;
-  height: 50vh;
   flex: 0.5;
   border-radius: 2rem;
   font-family: 'Poppins';
 }
 .faq__ansbox__container{
-  /* background-image: url('../../assets/png/answerboxanim.png'); */
   background-color: #17C9AC;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -344,7 +341,6 @@
     }
     .faq__child2{
       width: 80%;
-      height: 30vh;
     }
 }
 @media only screen and (max-width:800px){

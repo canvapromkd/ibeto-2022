@@ -17,8 +17,7 @@ const Rewards = () => {
         <div className="rewards_list">
           <ul>
             <li className="reward_list_item">
-              Internship opportunities for selected participants via TinkerHub
-              Foundation.
+              Internship opportunities for selected participants.
             </li>
             <li className="reward_list_item">
               Certificate of Participation for all Teams upon submission of
