@@ -48,22 +48,33 @@
     outline: none;
     font-size: 1.05rem;
     font-family: 'Inter';
-    padding: 0.95rem;
     width: 170px;
-    background: rgb(9,76,131);
-    background: linear-gradient(0deg, rgba(9,76,131,1) 0%, rgba(33,184,203,1) 100%);
     cursor: pointer;
-    border-radius: 15px;
+    border-radius: 10px;
     margin: 2rem 0;
-    color: #ffffff;
     transition: ease-in 0.5s;
+    font-family: 'Inter';
 }
 .about_buttons{
     display: flex;
     flex-direction: row;
     gap: 3rem;
 }
-.about_btn:hover {
+
+.regBtn {
+    padding: 0.95rem;
+    color: #ffffff;
+    background: #094c83;
+    background: linear-gradient(0deg, rgba(9,76,131,1) 0%, rgba(33,184,203,1) 100%);
+}
+
+.guideBtn {
+    background: #ffffff;
+    border: 2px solid #094c83;
+    box-sizing: content-box;
+}
+
+.regBtn:hover {
     background: rgb(33,184,203);
     background: linear-gradient(0deg, rgba(33,184,203,1) 0%, rgba(9,76,131,1) 100%);
 }

@@ -160,15 +160,14 @@ const TimelineComponent = () => {
               className="vertical-timeline-element--work "
               contentStyle={{ color: "#ffff", background: gradient1 }}
               contentArrowStyle={{ borderRight: "7px solid  #094c83" }}
-              date="17th December"
+              date="Final Day"
             >
               <h3 className="vertical-timeline-element-title">IBeTo Finale</h3>
 
               <div className="timeline_content"></div>
               <p className="timeline__para">
-                The teams should showcase and demonstrate their project in front
-                of the expert judging panel of IBeTo on Day 0 of Excel, the
-                annual technological symposium of MEC. The winners will be
+              Teams should give a presentation on their project along with a demonstration of their working prototype 
+              in front of the judges on the finale of the event. The winners will be
                 announced on the same day.{" "}
               </p>
             </VerticalTimelineElement>

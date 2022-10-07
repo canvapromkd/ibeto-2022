@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+
 import "./About.css";
 import RulesCard from "./RulesCard";
 import ibeto_logo from "../../assets/svg/ibeto22_no_text.svg";
-import { useState } from "react";
+
+
 const About = () => {
   const [open, setOpen] = useState(false);
+
   const handleOpen = () => {
     setOpen(true);
   };
@@ -43,13 +46,13 @@ const About = () => {
       </div>
       <div className="about_buttons">
         <a
-          href="https://forms.gle/6FeJmu85UctQ8rSF6"
+          href="https://bit.ly/IBeTo2022_Registration"
           target="blank"
           rel="noreferrer"
         >
-          <button className="about_btn">Register</button>
+          <button className="about_btn regBtn">Register</button>
         </a>
-        <button className="about_btn" onClick={handleOpen}>
+        <button className="about_btn guideBtn" onClick={handleOpen}>
           Guidelines
         </button>
       </div>
