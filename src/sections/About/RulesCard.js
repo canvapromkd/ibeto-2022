@@ -39,14 +39,26 @@ function RulesCard({ handleClose, handleOpen, open }) {
             </div>
             <div className="rules_Dialog__content">
               <div className="rules__content">
+                <div className="guide_lines_dwnld">
                 <ul className="list__container">
                   {guidelinesData.map((data) => {
                     return <li key={data.id}>{data.content}</li>;
                   })}
+                  
                 </ul>
+                <a href="https://drive.google.com/file/d/1LCj-kh48mc1dCC__HxSyKcsof_qPelWd/view"> <button className="about_btn guideBtn" onClick={handleOpen}>
+                 Guidelines
+                </button></a>
+               
+                </div>
+                
+                
                 <img className="rules_logo" src={ibeto_logo} alt="ibeto_logo" />
+                
               </div>
+              
             </div>
+            
             <div style={{ minHeight: "1rem" }}></div>
           </div>
         </DialogContent>

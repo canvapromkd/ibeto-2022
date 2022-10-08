@@ -110,6 +110,13 @@
     flex-direction: column;
     gap: 0.75rem;
 }
+.guide_lines_dwnld{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 .rules__content{
     display: flex;
     flex-direction: row;
@@ -117,6 +124,9 @@
     width: 100%;
     justify-content: space-between;
     gap: 5rem;
+}
+.guidelines_dwnld_btn{
+    
 }
 .rules_logo{
     width: 10rem;
