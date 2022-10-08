@@ -50,7 +50,7 @@ function RulesCard({ handleClose, handleOpen, open }) {
             <div style={{ minHeight: "1rem" }}></div>
           </div>
         </DialogContent>
-        <img src={wave_vector} alt="dialogvect" className="dialog_vector2" />
+        <img src={wave_vector} alt="dialogvect" className="dialog_vector2 guideline__wave" />
       </Dialog>
     </div>
   );

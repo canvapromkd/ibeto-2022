@@ -73,6 +73,9 @@
     border: 2px solid #094c83;
     box-sizing: border-box;
 }
+.guideline__wave{
+    
+}
 
 .regBtn:hover {
     background: rgb(33,184,203);
@@ -91,7 +94,7 @@
     font-weight: 400;
 }
 .guide__Dialog{
-    padding: 2rem 2rem 8rem;
+    padding: 2rem 2rem 10rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -216,5 +219,14 @@
     .rules_logo{
         margin: auto;
         margin-top: 2rem;
+    }
+}
+@media only screen and (max-width:680px){
+    .rules__content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .guide__Dialog{
+        padding-bottom: 4rem;
     }
 }
