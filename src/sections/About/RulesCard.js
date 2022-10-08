@@ -46,7 +46,7 @@ function RulesCard({ handleClose, handleOpen, open }) {
                   })}
                   
                 </ul>
-                <a href="https://drive.google.com/file/d/1LCj-kh48mc1dCC__HxSyKcsof_qPelWd/view"> <button className="about_btn guideBtn" onClick={handleOpen}>
+                <a href="https://drive.google.com/file/d/1LCj-kh48mc1dCC__HxSyKcsof_qPelWd/view"> <button style={{height:'2.5rem'}} className="about_btn guideBtn" onClick={handleOpen}>
                  Guidelines
                 </button></a>
                

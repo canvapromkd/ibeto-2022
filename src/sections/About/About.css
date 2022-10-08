@@ -126,7 +126,9 @@
     gap: 5rem;
 }
 .guidelines_dwnld_btn{
-    
+    background: #ffffff;
+    border: 2px solid #094c83;
+    box-sizing: border-box;
 }
 .rules_logo{
     width: 10rem;
