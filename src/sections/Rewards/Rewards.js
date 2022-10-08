@@ -20,8 +20,8 @@ const Rewards = () => {
               Internship opportunities for selected participants.
             </li>
             <li className="reward_list_item">
-              Certificate of Participation for all Teams upon submission of
-              their detailed abstract.
+            Certificate of Partciaptaion for all teams upon 
+            reaching the Create phase.
             </li>
             <li className="reward_list_item">
               As per KTU regulations, socially relevant projects can avail upto
