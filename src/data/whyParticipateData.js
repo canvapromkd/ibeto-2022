@@ -19,7 +19,7 @@ export const whyParticipateData = [
   {
     id: 2,
     content:
-      "Be part of a detailed 3-month project development structure made to guide you every step of the way",
+      "Be part of a detailed 3-month project development structure made to guide you every step of the way.",
     icon: <GiProgression className="wp__icon" />,
   },
   {

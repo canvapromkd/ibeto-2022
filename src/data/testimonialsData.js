@@ -16,7 +16,7 @@ export const testimonialsData = [
     id: 1,
     name: "Anagha S Menon",
     text: 'From day 1 at college, IBeTo and Excel are something we hear everyone talk about. It was a dream come true when our team, CARBON 2.0, got selected into the top 15 teams from the 212 competing teams of innovators. The event was organized in a manner that provided us with creative freedom, motivation, inspiration, guidance and a healthy competitive spirit. I thank the organizers and mentors who were strong and reliable pillars of support and helping up push through challenges. It was a wonderful learning experience.',
-    designation: "Winner of IBeTo’21",
+    designation: "Runner up of IBeTo’21",
     image: Anagha,
   },
   {
