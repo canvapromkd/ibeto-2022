@@ -14,8 +14,6 @@ const Landing = () => {
   useEffect(() => {
     Aos.init({ duration: 1100 });
     setMuted(false);
-    // const interval = setInterval(()=> setMuted(false), 1000);
-    // return () => clearInterval(interval)
   }, []);
 
   const handlePlay = () => {
