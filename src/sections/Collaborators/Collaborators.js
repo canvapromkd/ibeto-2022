@@ -1,9 +1,8 @@
 import React, { useEffect } from "react";
-
 import "./Collaborators.css";
 import collab_bg from "../../assets/svg/Collab_Bckg.svg";
 import TMLogo from "../../assets/svg/TMLogo.svg";
-import UKExpress from "../../assets/svg/UKExpress.svg";
+import UKExpress from "../../assets/png/collaborators/ukxpress.jpg";
 import INDBLogo from "../../assets/svg/INBDLogo.svg";
 import Aos from "aos";
 import club_fm from '../../assets/svg/collaborators/club_fm.svg'
