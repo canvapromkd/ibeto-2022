@@ -28,9 +28,9 @@ const Landing = () => {
   return (
     <div className="landing_main" id="home">
       {paused ? (
-        <AiFillPlayCircle onClick={handlePlay} className="video_icon"/>
+        <AiFillPlayCircle size={70} onClick={handlePlay} className="video_icon"/>
       ) : (
-        <AiFillPauseCircle onClick={handlePause} className="video_icon"/>
+        <AiFillPauseCircle size={70} onClick={handlePause} className="video_icon"/>
       )}
       <div data-aos="zoom-in">
         <video ref={vidRef}  className="video_container" loop playsInline muted={muted}>
