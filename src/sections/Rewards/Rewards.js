@@ -20,7 +20,7 @@ const Rewards = () => {
               Internship opportunities for selected participants.
             </li>
             <li className="reward_list_item">
-            Certificate of Partcipation for all teams upon 
+            Certificate of Participation for all teams upon 
             reaching the Create phase.
             </li>
             <li className="reward_list_item">
