@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import Aos from "aos";
 import { AiFillPauseCircle, AiFillPlayCircle } from "react-icons/ai";
-
 import "./Landing.css";
 import ibeto_22 from "../../assets/video/Ibeto_Website_video-2.mp4";
 
