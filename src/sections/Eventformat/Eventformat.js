@@ -17,7 +17,7 @@ const Eventformat = () => {
     <div data-aos="zoom-out" className="eventformat" id="format">
       <div className="eventformat__container">
         <h1 data-aos="zoom-in" className="ps__header">
-          Event format
+          Event Format
         </h1>
 
         <div className="eventformat__cards">
