@@ -65,7 +65,7 @@ const TimelineComponent = () => {
               className="vertical-timeline-element--work "
               contentStyle={{ color: "#ffff", background: gradient1 }}
               contentArrowStyle={{ borderRight: "7px solid  #094c83" }}
-              date="22nd October"
+              date="24th October"
             >
               <h3 className="vertical-timeline-element-title">
               IBeTo Registration Closes
