@@ -8,7 +8,7 @@ import Aos from "aos";
 import club_fm from '../../assets/svg/collaborators/club_fm.svg'
 import tinkerhub from '../../assets/svg/collaborators/tinkerhub.svg'
 import mg from '../../assets/svg/collaborators/makergram.svg'
-
+import ksum from '../../assets/png/collaborators/ksumlogo.png'
 
 const Collaborators = () => {
 
@@ -85,6 +85,18 @@ const Collaborators = () => {
               className="c-images"
             ></img>
             <p>MakerGram</p>
+          </div>
+          <div
+            data-aos="zoom-in"
+            data-aos-delay="200"
+            className="collab-section"
+          >
+            <img
+              src={ksum}
+              alt=""
+              className="c-images"
+            ></img>
+            <p>KSUM</p>
           </div>
         </div>
       </div>
